@@ -12,7 +12,7 @@ If you use this resource, please cite our paper:
 
 ### BibTeX
 
-```
+```bibtex
 @inproceedings{labarbera2020crowdsourcing, 
    title={{Crowdsourcing Truthfulness: The Impact of Judgment Scale and Assessor Bias}},
    booktitle={Proceedings of ECIR'20},
