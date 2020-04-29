@@ -3,7 +3,7 @@
  - [SIGIR2020 paper](#can-the-crowd-identify-misinformation-objectively-the-effects-of-judgment-scale-and-assessors-background)
  - [ECIR2020 paper](#crowdsourcing-truthfulness-the-impact-of-judgment-scale-and-assessor-bias)
 
-
+<hr>
 
 # Can The Crowd Identify Misinformation Objectively? The Effects of Judgment Scale and Assessor's Background
 
