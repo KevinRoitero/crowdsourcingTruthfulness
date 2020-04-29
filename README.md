@@ -13,18 +13,28 @@ This repository contains the crowdsourced judgments used in the SIGIR'20 full pa
 
 If you use this resource, please cite our paper:
 
+*Kevin Roitero, Michael Soprano, Shaoyang Fan, Damiano Spina, Stefano Mizzaro, and Gianluca Demartini. 2020. Can The Crowd Identify Misinformation Objectively? The Effects of Judgment Scale and Assessor’s Background.In SIGIR ’20: The 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval, July 25–30, 2020, Xi’an, China. ACM.*
+
 
 ### BibTeX
 
 ```bibtex
-
+@InProceedings{roitero2020can,
+author = {Roitero, Kevin and Soprano, Michael and Fan, Shaoyang and Spina, Damiano
+          and Mizzaro, Stefano and Demartini, Gianluca},
+title = {Can The Crowd Identify Misinformation Objectively? 
+         The Effects of Judgment Scale and Assessor’s Background},
+booktitle = {Proceedings of SIGIR'20},
+year={2020}
+}
 ```
 
-## Links of Interest
- - Presentation: 
- - Paper: 
-
 ## Acknowledgements
+
+This work is partially supported by a Facebook Research award
+and by an Australian Research Council Discovery Project (DP190102141).
+We thank Devi Mallal from RMIT ABC Fact Check for facilitating access to the ABC dataset.
+
 
 
 
