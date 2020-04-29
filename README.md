@@ -1,4 +1,11 @@
-# Crowdsourcing Truthfulness: The Impact of Judgment Scale and Assessor Bias
+# Overview
+
+	- [SIGIR2020 paper](#can-the-crowd-identify-misinformation-objectively-the-effects-of-judgment-scale-and-assessors-background)
+	- [ECIR2020 paper](#crowdsourcing-truthfulness-the-impact-of-judgment-scale-and-assessor-bias)
+
+
+
+# Can The Crowd Identify Misinformation Objectively? The Effects of Judgment Scale and Assessor's Background
 
 This repository contains the crowdsourced judgments used in the SIGIR'20 full paper titled "Can The Crowd Identify Misinformation Objectively? The Effects of Judgment Scale and Assessor's Background"
 
