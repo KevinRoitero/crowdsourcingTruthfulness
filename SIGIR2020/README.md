@@ -20,7 +20,7 @@ data/liar_dataset.zip). The [Politifact.csv](./Politifact.csv) file contains the
  - `speaker`: The name and surname of whom said the statement.
  - `year`: The year in which the statement was made.
  - `party`: The party to which the speaker belongs to.
- - `label`: Verdict in a six-level scale {`pants-on-fire`,`false`,`barely-true`,`half-true`,`mostly-true`, `true`}
+ - `label`: Verdict in a six-level scale {`pants-on-fire`,`false`,`barely-true`,`half-true`,`mostly-true`, `true`}.
  
 
 
