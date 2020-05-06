@@ -77,7 +77,7 @@ If you use this resource, please cite our paper:
 author = {Roitero, Kevin and Soprano, Michael and Fan, Shaoyang and Spina, Damiano
           and Mizzaro, Stefano and Demartini, Gianluca},
 title = {Can The Crowd Identify Misinformation Objectively? The Effects of Judgment Scale and Assessor’s Background},
-booktitle = {Proceedings of SIGIR'20},
+booktitle = {Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)},
 year={2020}
 }
 ```
