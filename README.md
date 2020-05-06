@@ -29,6 +29,41 @@ year={2020}
 }
 ```
 
+## Dadaset Description
+the dataset contains the following data:
+
+* `unit_id`: unit number (one worker for each unit);
+* `S100_document_position`: position of the document in the task;
+* `S100_amount_try`: number of attempts left to finish the task (counting backwards from 10);
+* Answers to Questionnaire:
+  * `S100_age`
+  * `S100_degree`
+  * `S100_money` 
+  * `S100_consideration`
+  * `S100_political_views` 
+  * `S100_southern_border` 
+  * `S100_climate`
+* Answer to CRT Questions:
+  * `S100_cognitive_1` 
+  * `S100_cognitive_2` 
+  * `S100_cognitive_3`
+*`statement_id`: id of the statement;
+* `name_unique`: unique name for documents;
+* `statement` 
+* `speaker`
+* `job`: of the speaker;
+* `context`: of the statement;
+* `year`
+* `party`:of the speaker;
+* `source`: Politifact or ABC;
+* `S100_time_elapsed`: time spent by the worker on the document (cumulative for each document);
+* `S100_truth_level`: truthfulness value expressed by the worker (in the given scale);
+* `S100_binger_query`: query issued by the worker;
+* `S100_binger_url`: url selected by the worker; 
+* `politifact_label`: truth label express by Politifact experts;
+* `abc_label`: truth label express by ABC experts.
+
+
 ## Acknowledgements
 
 This work is partially supported by a Facebook Research award
