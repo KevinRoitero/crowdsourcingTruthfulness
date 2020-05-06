@@ -2,16 +2,26 @@
 
 This repository contains the crowdsourced judgments used in the SIGIR'20 full paper titled "Can The Crowd Identify Misinformation Objectively? The Effects of Judgment Scale and Assessor's Background"
 
-The ABC dataset consists of a total of 60 statements. The [ABC.csv](./SIGIR2020/ABC.csv) file contains the following information:
- - `statement.id`: The ID of the statement.
+The dataset referred as *ABC* in the paper consists of a total of 60 statements. The [ABC.csv](./ABC.csv) file contains the following information:
+ - `statement_id`: The ID of the statement.
  - `statement`: The statement.
  - `speaker`: The name and surname of whom said the statement.
  - `year`: The year in which the statement was made.
  - `party`: The party to which the speaker belongs to.
- - `label`: Verdict in a three-level scale {Positive, In-Between, Negative}.
+ - `label`: Verdict in a three-level scale {`Negative`, `In-Between`, `Positive`}.
  - `article_url`: URL of the article published by RMIT ABC Fact Check verifying the statement.
  - `verdict`: Verdict displayed in the article. This is the way RMIT ABC Fact Check originally delivered the verdicts.
 
+
+The dataset referred as *Politifact* in the paper consists of a sample of 120 statements (20 for each truth level) from the original Politifact dataset (available at https://www.cs.ucsb.edu/˜william/
+data/liar_dataset.zip). The [Politifact.csv](./Politifact.csv) file contains the following information:
+- `statement_id`: The ID of the statement.
+- `statement`: The statement.
+ - `speaker`: The name and surname of whom said the statement.
+ - `year`: The year in which the statement was made.
+ - `party`: The party to which the speaker belongs to.
+ - `label`: Verdict in a six-level scale {`pants-on-fire`,`false`,`barely-true`,`half-true`,`mostly-true`, `true`}
+ 
 
 
 
