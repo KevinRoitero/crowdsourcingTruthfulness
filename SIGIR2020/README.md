@@ -44,7 +44,7 @@ Each file contains the following information:
   * `S100_cognitive_1` 
   * `S100_cognitive_2` 
   * `S100_cognitive_3`
-*`statement_id`: id of the statement;
+* `statement_id`: id of the statement;
 * `name_unique`: unique name for documents;
 * `statement` 
 * `speaker`
