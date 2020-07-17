@@ -1,7 +1,22 @@
 # Overview
  
+ - [CIKM2020 paper](#the-covid-19-infodemic-can-the-crowd-judge-recent-misinformation-objectively?)
  - [SIGIR2020 paper](#can-the-crowd-identify-misinformation-objectively-the-effects-of-judgment-scale-and-assessors-background)
  - [ECIR2020 paper](#crowdsourcing-truthfulness-the-impact-of-judgment-scale-and-assessor-bias)
+
+
+<hr>
+
+# The COVID-19 Infodemic: Can the Crowd Judge Recent Misinformation Objectively?
+
+his repository contains the crowdsourced judgments used in the CIKM'20 full paper titled "The COVID-19 Infodemic: Can the Crowd Judge Recent Misinformation Objectively?"
+
+## Citation
+
+If you use this resource, please cite our paper:
+
+*Kevin Roitero, Michael Soprano, Beatrice Portelli, Damiano Spina, Vincenzo Della Mea, Giuseppe Serra, Stefano Mizzaro and Gianluca Demartini. 2020. The COVID-19 Infodemic: Can the Crowd Judge Recent Misinformation Objectively?. In CIKM ’20: 29th ACM International Conference on Information and Knowledge Management (CIKM2020), Online. October 19-23, 2020.*
+
 
 <hr>
 
