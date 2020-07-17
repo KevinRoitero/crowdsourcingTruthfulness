@@ -17,6 +17,17 @@ If you use this resource, please cite our paper:
 
 *Kevin Roitero, Michael Soprano, Beatrice Portelli, Damiano Spina, Vincenzo Della Mea, Giuseppe Serra, Stefano Mizzaro and Gianluca Demartini. 2020. The COVID-19 Infodemic: Can the Crowd Judge Recent Misinformation Objectively?. In CIKM ’20: 29th ACM International Conference on Information and Knowledge Management (CIKM2020), Online. October 19-23, 2020.*
 
+### BibTeX
+
+```bibtex
+@InProceedings{roitero2020infodemic,
+author = {Roitero, kevin and Soprano, Michael and  Portelli, Beatrice and  Spina, Damiano and
+  Della Mea, Vincenzo and   Serra, Giuseppe and   Mizzaro, Stefano and Demartini, Gianluca},
+title = {The COVID-19 Infodemic: Can the Crowd Judge Recent Misinformation Objectively?},
+booktitle = {Proceedings of CIKM'20},
+year={2020}
+}
+```
 
 <hr>
 
