@@ -9,7 +9,7 @@
 
 # The COVID-19 Infodemic: Can the Crowd Judge Recent Misinformation Objectively?
 
-his repository contains the crowdsourced judgments used in the CIKM'20 full paper titled "The COVID-19 Infodemic: Can the Crowd Judge Recent Misinformation Objectively?"
+This repository contains the crowdsourced judgments used in the CIKM'20 full paper titled "The COVID-19 Infodemic: Can the Crowd Judge Recent Misinformation Objectively?"
 
 ## Citation
 
