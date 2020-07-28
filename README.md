@@ -1,8 +1,9 @@
 # Overview
  
- - [CIKM2020 paper](#the-covid-19-infodemic-can-the-crowd-judge-recent-misinformation-objectively)
- - [SIGIR2020 paper](#can-the-crowd-identify-misinformation-objectively-the-effects-of-judgment-scale-and-assessors-background)
- - [ECIR2020 paper](#crowdsourcing-truthfulness-the-impact-of-judgment-scale-and-assessor-bias)
+* [CIKM2020 paper](#the-covid-19-infodemic-can-the-crowd-judge-recent-misinformation-objectively)
+* [SIGIR2020 paper](#can-the-crowd-identify-misinformation-objectively-the-effects-of-judgment-scale-and-assessors-background)
+    * [SIGIR 2020 Talk Video](#https://www.youtube.com/watch?v=D10EtrThvbc&fbclid=IwAR2ekfohAmvb5Gr8g4mtuoijIJudtA_lzyPIfw0z_0c9vUmeHlJgWmHUXrI)
+* [ECIR2020 paper](#crowdsourcing-truthfulness-the-impact-of-judgment-scale-and-assessor-bias)
 
 
 <hr>
