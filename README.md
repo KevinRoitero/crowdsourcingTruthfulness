@@ -36,6 +36,10 @@ year={2020}
 
 This repository contains the crowdsourced judgments used in the SIGIR'20 full paper titled "Can The Crowd Identify Misinformation Objectively? The Effects of Judgment Scale and Assessor's Background"
 
+## SIGIR 2020 Talk
+
+If you want to see our talk at SIGIR 2020 visit this link: [SIGIR 2020 Talk Video](https://www.youtube.com/watch?v=D10EtrThvbc&fbclid=IwAR2ekfohAmvb5Gr8g4mtuoijIJudtA_lzyPIfw0z_0c9vUmeHlJgWmHUXrI)
+
 ## Citation
 
 If you use this resource, please cite our paper:
