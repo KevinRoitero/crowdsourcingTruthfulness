@@ -17,7 +17,25 @@ To Appear.
 
 # Can the Crowd Judge Truthfulness? A Longitudinal Study on Recent Misinformation about COVID-19
 
-To Appear.
+This repository contains the crowdsourced judgments used in the PUC'21 paper titled "Can the Crowd Judge Truthfulness? A Longitudinal Study on Recent Misinformation about COVID-19"
+
+## Citation
+
+If you use this resource, please cite our paper:
+
+*Kevin Roitero, Michael Soprano, Beatrice Portelli, Massimiliano De Luise, Damiano Spina, Vincenzo Della Mea, Giuseppe Serra, Stefano Mizzaro, and Gianluca Demartini. Can the Crowd Judge Truthfulness? A Longitudinal Study on Recent Misinformation about COVID-19. In Personal and Ubiquitous Computing, 2021.*
+
+### BibTeX
+
+```bibtex
+@article{roitero2020infodemic,
+author = {Roitero, Kevin and Soprano, Michael and  Portelli, Beatrice and De Luise, Massimiliano and Spina, Damiano and
+  Della Mea, Vincenzo and Serra, Giuseppe and Mizzaro, Stefano and Demartini, Gianluca},
+title = {Can the Crowd Judge Truthfulness? A Longitudinal Study on Recent Misinformation about COVID-19},
+booktitle = {Personal and Ubiquitous Computing},
+year={2021}
+}
+```
 
 <hr>
 
@@ -34,8 +52,8 @@ If you use this resource, please cite our paper:
 ### BibTeX
 
 ```bibtex
-@InProceedings{roitero2020infodemic,
-author = {Roitero, kevin and Soprano, Michael and  Portelli, Beatrice and  Spina, Damiano and
+@InProceedings{roitero2021longitudinal,
+author = {Roitero, Kevin and Soprano, Michael and  Portelli, Beatrice and  Spina, Damiano and
   Della Mea, Vincenzo and   Serra, Giuseppe and   Mizzaro, Stefano and Demartini, Gianluca},
 title = {The COVID-19 Infodemic: Can the Crowd Judge Recent Misinformation Objectively?},
 booktitle = {Proceedings of CIKM'20},
