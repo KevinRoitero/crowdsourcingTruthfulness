@@ -1,7 +1,7 @@
 # Overview
 
 * [IPM2021 paper](#the-many-dimensions-of-truthfulness-crowdsourcing-misinformation-assessments-on-a-multidimensional-scale)
-* [PUC2021 paper](#can-the-crowd-judge-truthfulness-a-longitudinal-study-on-recent-misinformation-about-covid-19)
+* [PAUC2021 paper](#can-the-crowd-judge-truthfulness-a-longitudinal-study-on-recent-misinformation-about-covid-19)
 * [CIKM2020 paper](#the-covid-19-infodemic-can-the-crowd-judge-recent-misinformation-objectively)
 * [SIGIR2020 paper](#can-the-crowd-identify-misinformation-objectively-the-effects-of-judgment-scale-and-assessors-background)
     * [SIGIR 2020 Talk Video](https://www.youtube.com/watch?v=D10EtrThvbc&fbclid=IwAR2ekfohAmvb5Gr8g4mtuoijIJudtA_lzyPIfw0z_0c9vUmeHlJgWmHUXrI)
@@ -17,7 +17,7 @@ To Appear.
 
 # Can the Crowd Judge Truthfulness? A Longitudinal Study on Recent Misinformation about COVID-19
 
-This repository contains the crowdsourced judgments used in the PUC'21 paper titled "Can the Crowd Judge Truthfulness? A Longitudinal Study on Recent Misinformation about COVID-19"
+This repository contains the crowdsourced judgments used in the PAUC paper titled "Can the Crowd Judge Truthfulness? A Longitudinal Study on Recent Misinformation about COVID-19"
 
 ## Citation
 
