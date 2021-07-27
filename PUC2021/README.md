@@ -1,6 +1,6 @@
 # Can the Crowd Judge Truthfulness? A Longitudinal Study on Recent Misinformation about COVID-19
 
-This repository contains the crowdsourced judgments used in the PUC'21 paper titled "Can the Crowd Judge Truthfulness? A Longitudinal Study on Recent Misinformation about COVID-19"
+This repository contains the crowdsourced judgments used in the PAUC paper titled "Can the Crowd Judge Truthfulness? A Longitudinal Study on Recent Misinformation about COVID-19"
 
 
 
