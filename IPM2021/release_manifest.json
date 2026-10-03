@@ -1,0 +1,194 @@
+{
+  "schema_version": "1.0",
+  "release_id": "ipm2021_paper_extended",
+  "study_id": "ipm2021",
+  "title": "The Many Dimensions of Truthfulness: Crowdsourcing Misinformation Assessments on a Multidimensional Scale",
+  "release_version": "1.4",
+  "archive_name": "ipm2021_paper_extended_release_v1.4.zip",
+  "documentation_status": {
+    "historical_readme_in_source": true,
+    "curated_documentation_used": true,
+    "curated_package_paths": [
+      "CHANGELOG.md",
+      "CITATION.cff",
+      "LICENSE.md",
+      "README.md",
+      "RIGHTS.md"
+    ],
+    "curated_readme_used": true,
+    "extended_readme_created": false
+  },
+  "policy": {
+    "historical_content_modified": false,
+    "historical_content_modification_scope": "none",
+    "immutable_source_archives_modified": false,
+    "gold_and_training_records_preserved": true,
+    "byte_identical_duplicates_omitted": true,
+    "seamless_historical_integration": true,
+    "path_standardization_recorded": true,
+    "license_inferred_or_changed": false
+  },
+  "ground_truth_alignment": {
+    "expected_claims": 180,
+    "source_counts": {
+      "politifact": 120,
+      "rmit_abc": 60
+    },
+    "aligned": true
+  },
+  "historical_files": [
+    {
+      "package_path": "multidimensional.csv",
+      "archive_release_id": "ipm2021_paper",
+      "archive_name": "ipm2021_paper_git_snapshot_7fbe9e7b.zip",
+      "archive_sha256": "dcafba62d017b0a01dadd21da9abf17c73505dd4599a0cee06beb582ddde7b74",
+      "source_member_path": "IPM2021/multidimensional.csv",
+      "source_role": "historical_core",
+      "source_size_bytes": 3427048,
+      "source_sha256": "9d35af0c6252aa02ecf8a8c421bc10e4d316973cda0e086b2aea4312c3139ce6",
+      "path_standardized": false,
+      "packaging_note": "",
+      "content_modified": false,
+      "package_sha256": "9d35af0c6252aa02ecf8a8c421bc10e4d316973cda0e086b2aea4312c3139ce6",
+      "content_modification": null
+    }
+  ],
+  "historical_occurrences": [
+    {
+      "package_path": "Historical Source/README.md",
+      "archive_release_id": "ipm2021_paper",
+      "source_member_path": "IPM2021/README.md",
+      "source_role": "historical_core",
+      "source_sha256": "24992e7b056520326b64a531f9ca2bf0aa11b25992d45393edb9783aa1873340",
+      "selected_for_package": false,
+      "omission_reason": "release_specific_exclusion",
+      "path_standardized": true
+    },
+    {
+      "package_path": "multidimensional.csv",
+      "archive_release_id": "ipm2021_paper",
+      "source_member_path": "IPM2021/multidimensional.csv",
+      "source_role": "historical_core",
+      "source_sha256": "9d35af0c6252aa02ecf8a8c421bc10e4d316973cda0e086b2aea4312c3139ce6",
+      "selected_for_package": true,
+      "omission_reason": "",
+      "path_standardized": false
+    },
+    {
+      "package_path": "parameters/parameters.md",
+      "archive_release_id": "ipm2021_paper",
+      "source_member_path": "IPM2021/parameters/parameters.md",
+      "source_role": "historical_core",
+      "source_sha256": "3d70939dd870b7bf23e00d5937bedeadcbe05e40febda390f2ff3351e7892f95",
+      "selected_for_package": false,
+      "omission_reason": "release_specific_exclusion",
+      "path_standardized": false
+    }
+  ],
+  "historical_content_exclusions": [],
+  "historical_content_repairs": [],
+  "known_numerical_anomalies": null,
+  "summary_packaging_correction": null,
+  "added_files": [
+    {
+      "package_path": "PolitiFact-Ground_Truth.csv",
+      "file_role": "native_ground_truth",
+      "source_dataset_name": "ipm2021",
+      "source_dataset_artifact": "ground_truth/PolitiFact-Ground_Truth.csv",
+      "source_sha256": "542d7a45d0334d4c4c8f877fc365a6726e58c1a14b0c42212ff1f63d4b8d4b08",
+      "content_modified": false
+    },
+    {
+      "package_path": "RMIT_ABC_Fact_Check-Ground_Truth.csv",
+      "file_role": "native_ground_truth",
+      "source_dataset_name": "ipm2021",
+      "source_dataset_artifact": "ground_truth/RMIT_ABC_Fact_Check-Ground_Truth.csv",
+      "source_sha256": "6a7ba64fbc3fa3d72ee09c90a0506c5e0438c4f6354e66e41f23d098efab98ed",
+      "content_modified": false
+    },
+    {
+      "package_path": "README.md",
+      "file_role": "release_documentation",
+      "source_repository_artifact": "release_documentation/ipm2021_paper_extended/README.md",
+      "source_sha256": "689f16cd8930fe95250a6bb6b2262f91cac58b8abf687c31f4181d3e37c32d73",
+      "content_modified": false
+    },
+    {
+      "package_path": "CHANGELOG.md",
+      "file_role": "release_changelog",
+      "source_repository_artifact": "release_documentation/ipm2021_paper_extended/CHANGELOG.md",
+      "source_sha256": "c2527790b610fb35568809970fc643ceb2d95c02c4f9490ef62759fa36fc3039",
+      "content_modified": false
+    },
+    {
+      "package_path": "CITATION.cff",
+      "file_role": "release_citation",
+      "source_repository_artifact": "release_documentation/ipm2021_paper_extended/CITATION.cff",
+      "source_sha256": "361ffd6a51b4cef8b425edbe17910c5d438a2d2da610d5c8ed101c0bf68264cc",
+      "content_modified": false
+    },
+    {
+      "package_path": "LICENSE.md",
+      "file_role": "release_license",
+      "source_repository_artifact": "release_documentation/ipm2021_paper_extended/LICENSE.md",
+      "source_sha256": "9e8d4939287b2577dae8090d05c57ea502a1acc75c60dd9805f51b7734a08beb",
+      "content_modified": false
+    },
+    {
+      "package_path": "RIGHTS.md",
+      "file_role": "release_rights",
+      "source_repository_artifact": "release_documentation/ipm2021_paper_extended/RIGHTS.md",
+      "source_sha256": "bda2478d43906e104985cee434c2dfe4c8e30316d514b88b99c7ca5759857edc",
+      "content_modified": false
+    }
+  ],
+  "evidence": {
+    "corpus": {
+      "source_file_name": "evidence_corpus.jsonl.gz",
+      "output_file_name": "evidence_corpus.jsonl.gz",
+      "record_count": 57237,
+      "unique_fact_check_ids": 180,
+      "unique_doc_ids": 57237,
+      "redacted_local_paths": 0,
+      "sha256": "f4a6812d3bc4e85912a690915d705390e11b57f8e147c73f01aaadb1da010716",
+      "size_bytes": 568548126
+    },
+    "crawl_metadata": {
+      "source_file_name": "crawl_metadata.csv",
+      "output_file_name": "crawl_metadata.csv",
+      "row_count": 90597,
+      "redacted_local_paths": 0,
+      "sha256": "b6b7fb9a52e94be96d50626718bc250679fe14d52681857a14c8274dc83482af",
+      "size_bytes": 569418853
+    },
+    "source_summary": {
+      "source_file_name": "evidence_corpus.summary.json",
+      "output_file_name": "evidence_corpus.summary.json",
+      "redacted_local_paths": 3,
+      "sha256": "88d6f165d9b1e721bd5f2a84399f712bf4ed033dcedfc9372bcdebdf3e97fb81",
+      "size_bytes": 1900
+    },
+    "claim_crosswalk": {
+      "path": "Evidence Corpus/historical_claim_id_crosswalk.csv",
+      "rows": 180,
+      "source_counts": {
+        "politifact": 120,
+        "rmit_abc": 60
+      },
+      "sha256": "7610c0d3b39b33a651030a6daa136cf73f3dff9b04a62c80db31e95f47eef6e6",
+      "size_bytes": 60611
+    },
+    "truthfulness_evidence_urls": null
+  },
+  "checksums_csv": {
+    "path": "checksums.csv",
+    "self_checksum_omitted": true
+  },
+  "notes": [
+    "Version 1.4 is a documentation and layout successor to verified version 1.3; version 1.3 and the publication-era source archive remain unchanged.",
+    "The reported supervised learning parameters are consolidated into the root README, and parameters/parameters.md is omitted from the version 1.4 package.",
+    "The root README uses a concise text citation without the historical BibTeX block; machine-readable citation metadata are provided in CITATION.cff.",
+    "LICENSE.md and RIGHTS.md make the scoped mixed-rights reuse policy explicit.",
+    "No scientific data change is intended."
+  ]
+}

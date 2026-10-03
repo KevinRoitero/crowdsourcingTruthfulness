@@ -1,0 +1,70 @@
+{
+  "generated_at_utc": "2026-08-19T09:58:57.744991+00:00",
+  "schema_version": "1.1",
+  "dataset_name": "ipm2021",
+  "source_corpus_path": null,
+  "source_corpus_sha256": "32da5badb0ae772b97c916e0512056aaae63a0fe4b8b5cad8f0fd0e2ae88dc08",
+  "canonical_corpus_path": null,
+  "canonical_corpus_sha256": "f4a6812d3bc4e85912a690915d705390e11b57f8e147c73f01aaadb1da010716",
+  "canonical_corpus_action": "generated",
+  "records": 57237,
+  "unique_doc_ids": 57237,
+  "unique_fact_check_ids": 180,
+  "fact_check_source_counts": {
+    "politifact": 38741,
+    "rmit_abc": 18496
+  },
+  "truncated_records": 0,
+  "empty_text_records": 0,
+  "text_cleaning_schema_version": "1.0",
+  "text_cleaning_changed_records": 6,
+  "text_cleaning_html_records_before": 0,
+  "text_cleaning_html_records_after": 0,
+  "canonical_fields": [
+    "schema_version",
+    "dataset_name",
+    "doc_id",
+    "result_uuid",
+    "fact_check_id",
+    "fact_check_source",
+    "fact_check_ground_truth_label",
+    "statement_text",
+    "source_name",
+    "source_url",
+    "content_type",
+    "payload_format",
+    "source_payload_path",
+    "result_rank",
+    "original_text_chars",
+    "text_chars",
+    "text_truncated",
+    "max_text_chars",
+    "text"
+  ],
+  "nullable_fields": [
+    "source_name",
+    "content_type",
+    "payload_format",
+    "source_payload_path",
+    "result_rank",
+    "max_text_chars"
+  ],
+  "sample": {
+    "selection_method": "deterministic_source_stratified_one_document_per_claim",
+    "seed": "fact-check-dataset-collection-canonical-v1",
+    "requested_records": 100,
+    "records": 100,
+    "unique_fact_check_ids": 100,
+    "source_quotas": {
+      "politifact": 67,
+      "rmit_abc": 33
+    },
+    "source_counts": {
+      "politifact": 67,
+      "rmit_abc": 33
+    },
+    "path": null,
+    "sha256": "7d76d59569e5b7e87137654d60a9bfdd9e1b58de4bd581040dc700581c30afde",
+    "action": "generated"
+  }
+}

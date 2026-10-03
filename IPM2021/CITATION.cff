@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "Please cite the associated paper and this data release when using these materials."
+title: "The Many Dimensions of Truthfulness: Crowdsourcing Misinformation Assessments on a Multidimensional Scale"
+type: dataset
+version: "1.4"
+authors:
+  - family-names: "Soprano"
+    given-names: "Michael"
+  - family-names: "Roitero"
+    given-names: "Kevin"
+  - family-names: "La Barbera"
+    given-names: "David"
+  - family-names: "Ceolin"
+    given-names: "Davide"
+  - family-names: "Spina"
+    given-names: "Damiano"
+  - family-names: "Mizzaro"
+    given-names: "Stefano"
+  - family-names: "Demartini"
+    given-names: "Gianluca"
+preferred-citation:
+  type: article
+  title: "The Many Dimensions of Truthfulness: Crowdsourcing Misinformation Assessments on a Multidimensional Scale"
+  authors:
+    - family-names: "Soprano"
+      given-names: "Michael"
+    - family-names: "Roitero"
+      given-names: "Kevin"
+    - family-names: "La Barbera"
+      given-names: "David"
+    - family-names: "Ceolin"
+      given-names: "Davide"
+    - family-names: "Spina"
+      given-names: "Damiano"
+    - family-names: "Mizzaro"
+      given-names: "Stefano"
+    - family-names: "Demartini"
+      given-names: "Gianluca"
+  year: 2021
+  journal: "Information Processing & Management"
+  volume: 58
+  issue: 6
+  doi: "10.1016/j.ipm.2021.102710"
