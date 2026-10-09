@@ -23,11 +23,32 @@ Each worker assessed nine real statements and two GOLD items. The study therefor
 
 For each statement, workers assessed Overall Truthfulness and reported their Confidence. They then searched for evidence, submitted a supporting URL, and assessed seven additional dimensions: Correctness, Neutrality, Comprehensibility, Precision, Completeness, Speaker's Trustworthiness, and Informativeness.
 
-## Historical Data
-
-`multidimensional.csv` is the original wide dataset distributed with the paper. It contains the crowd judgments together with task, questionnaire, demographic, evidence, and technical fields.
-
 The historical file includes the GOLD items and is preserved unchanged.
+
+## Release Overview
+
+This release combines material from two official sources associated with the same study.
+
+### Original paper data
+
+`multidimensional.csv` is the original dataset distributed with the 2021 paper. It contains 2,200 judgments, including GOLD items, in a single table.
+
+### Detailed task and worker data
+
+The public v1.5 copy of `DataFrame/workers_mturk_data.csv` retains all 200 rows and its pseudonymous `worker_id` links, but omits the external Mechanical Turk `AssignmentId` and `HITId` fields. Those two fields do not occur elsewhere in the historical thesis source archive or in the original paper dataset. The immutable original source file is retained separately, with the release-only projection recorded in `release_manifest.json`.
+
+The later official study material adds:
+
+- `Crowdsourcing Task/`: eight files describing the task, its instructions, questionnaires, dimensions, assignments, and search interface
+- `DataFrame/`: six tables with the original worker answers, comments, dimension selections, task records, questionnaires, and search activity
+
+`DataFrame/workers_answers.csv` contains 2,200 rows from 200 workers. Its records match the 2,200 rows in `multidimensional.csv` using the combination of `unit_id`, `doc_index`, and `doc_name`. This combination identifies every row uniquely in both tables, without missing or extra keys. Of the 37 columns shared by the tables, only `doc_statement` and `doc_ground_truth_politifact_label` differ. Both fields differ in the same ten rows, all belonging to one statement. The other shared field values, including the workers' judgments, match. Both historical files are preserved unchanged.
+
+The task data contain 1,800 judgments on 180 real statements and 400 judgments on two GOLD items. Of the real statements, 174 have ten judgments, three have nine, and three have eleven. The search records cover 198 of the 200 workers; two workers have answer records but no search records.
+
+Use `multidimensional.csv` to work with the dataset distributed with the paper. Use `DataFrame/` and `Crowdsourcing Task/` to inspect the detailed task and worker activity. The two sources serve different purposes and should not be silently substituted for one another.
+
+## Historical Data
 
 The historical source is the `IPM2021/` directory from the public `crowdsourcingTruthfulness` repository at commit:
 
@@ -42,7 +63,9 @@ The package contains:
 - `PolitiFact-Ground_Truth.csv`
 - `RMIT_ABC_Fact_Check-Ground_Truth.csv`
 
-These files provide the current canonical statement metadata in the common dataset format.
+These files provide the corrected statement metadata in the common dataset format: 120 PolitiFact statements and 60 RMIT ABC Fact Check statements.
+
+The two older thesis ground truth files (121 PolitiFact rows and 59 RMIT ABC rows) are intentionally not duplicated in this package. They remain preserved in the immutable thesis source archive; the release uses the corrected root ground truths and historical identifier crosswalk.
 
 The native target semantics are preserved. PolitiFact keeps its six level scale and RMIT ABC keeps its three level scale.
 
@@ -190,7 +213,9 @@ Machine readable citation metadata are available in `CITATION.cff`.
 
 ## Privacy and Responsible Reuse
 
-The release contains human research data, including internal worker identifiers, demographic information, judgments, task records, search activity, and questionnaire responses.
+The release contains human research data, including internal worker identifiers, demographic information, judgments, task records, search activity, and questionnaire responses. Later official material also includes Mechanical Turk task identifiers, comments, and text from search results.
+
+Before distributing this expanded release, review the fields that contain task identifiers or free text. A preliminary screening found no email patterns in the comments, questionnaire answers, or search queries checked, but some search result titles and snippets contain email patterns. These may come from external web pages. The screening does not establish that the material is free of personal information.
 
 Do not attempt to identify or contact participants. Do not combine participant records with external information for the purpose of identifying participants.
 

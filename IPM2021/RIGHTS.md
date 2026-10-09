@@ -54,6 +54,8 @@ The release contains pseudonymous participant records.
 
 These records include demographic information, judgments, task data, search activity, and questionnaire responses.
 
+External Mechanical Turk assignment and task instance identifiers (`AssignmentId` and `HITId`) are excluded from the release v1.5 public copy of `DataFrame/workers_mturk_data.csv`. The historical source remains unchanged. The release manifest records this public-copy projection.
+
 Internal worker identifiers are retained because they connect records within the study.
 
 Do not attempt to identify or contact participants.

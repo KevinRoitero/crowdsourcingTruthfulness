@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite the associated paper and this data release when using these materials."
 title: "The Many Dimensions of Truthfulness: Crowdsourcing Misinformation Assessments on a Multidimensional Scale"
 type: dataset
-version: "1.4"
+version: "1.5"
 authors:
   - family-names: "Soprano"
     given-names: "Michael"

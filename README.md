@@ -24,9 +24,11 @@ Michael Soprano, Kevin Roitero, David La Barbera, Davide Ceolin, Damiano Spina, 
 
 Paper: https://doi.org/10.1016/j.ipm.2021.102710
 
-The current curated release is **version 1.4**. It contains:
+The current curated release is **version 1.5**. It combines the original paper data with later official task and worker records from Chapter 7 of the 2023 thesis. It contains:
 
 - the original crowd judgment dataset
+- eight official `Crowdsourcing Task/` files describing the experiment
+- six detailed `DataFrame/` tables of worker answers and research activity
 - canonical PolitiFact and RMIT ABC Fact Check ground truth
 - the reconstructed evidence corpus and crawl metadata
 - the historical identifier crosswalk
@@ -37,10 +39,12 @@ See the [IPM2021 README](./IPM2021/README.md) for the study description, file do
 
 Machine readable citation metadata are available in [IPM2021/CITATION.cff](./IPM2021/CITATION.cff).
 
-Two large evidence files are stored with Git LFS:
+Large data files are stored with Git LFS, including:
 
 - `IPM2021/Evidence Corpus/crawl_metadata.csv`
 - `IPM2021/Evidence Corpus/evidence_corpus.jsonl.gz`
+
+Additional large task or worker files may also use Git LFS, as declared in `.gitattributes`.
 
 Install [Git LFS](https://git-lfs.com/) before cloning the repository if you need these files locally.
 

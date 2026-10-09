@@ -3,8 +3,8 @@
   "release_id": "ipm2021_paper_extended",
   "study_id": "ipm2021",
   "title": "The Many Dimensions of Truthfulness: Crowdsourcing Misinformation Assessments on a Multidimensional Scale",
-  "release_version": "1.4",
-  "archive_name": "ipm2021_paper_extended_release_v1.4.zip",
+  "release_version": "1.5",
+  "archive_name": "ipm2021_paper_extended_release_v1.5.zip",
   "documentation_status": {
     "historical_readme_in_source": true,
     "curated_documentation_used": true,
@@ -19,8 +19,8 @@
     "extended_readme_created": false
   },
   "policy": {
-    "historical_content_modified": false,
-    "historical_content_modification_scope": "none",
+    "historical_content_modified": true,
+    "historical_content_modification_scope": "documented_exclusions_and_deterministic_repairs",
     "immutable_source_archives_modified": false,
     "gold_and_training_records_preserved": true,
     "byte_identical_duplicates_omitted": true,
@@ -37,6 +37,230 @@
     "aligned": true
   },
   "historical_files": [
+    {
+      "package_path": "Crowdsourcing Task/dimensions.json",
+      "archive_release_id": "ipm2021_thesis",
+      "archive_name": "thesis_release(1).zip",
+      "archive_sha256": "771a82a3211105342c8db0c4733a5507bb4f7815bbb2e4985df12eb6150f48bf",
+      "source_member_path": "Crowdsourcing Task/dimensions.json",
+      "source_role": "later_official_completion",
+      "source_size_bytes": 8236,
+      "source_sha256": "f067f2d29354f297516f6fc5249e673f39501f3a25dcb0d48c7358168146c4a7",
+      "path_standardized": false,
+      "packaging_note": "",
+      "content_modified": false,
+      "package_sha256": "f067f2d29354f297516f6fc5249e673f39501f3a25dcb0d48c7358168146c4a7",
+      "content_modification": null
+    },
+    {
+      "package_path": "Crowdsourcing Task/hits.json",
+      "archive_release_id": "ipm2021_thesis",
+      "archive_name": "thesis_release(1).zip",
+      "archive_sha256": "771a82a3211105342c8db0c4733a5507bb4f7815bbb2e4985df12eb6150f48bf",
+      "source_member_path": "Crowdsourcing Task/hits.json",
+      "source_role": "later_official_completion",
+      "source_size_bytes": 925112,
+      "source_sha256": "f7cb63347a686a547b34842e74b2f691d0aa351bec28f89b648a47a214296caf",
+      "path_standardized": false,
+      "packaging_note": "",
+      "content_modified": false,
+      "package_sha256": "f7cb63347a686a547b34842e74b2f691d0aa351bec28f89b648a47a214296caf",
+      "content_modification": null
+    },
+    {
+      "package_path": "Crowdsourcing Task/instructions.html",
+      "archive_release_id": "ipm2021_thesis",
+      "archive_name": "thesis_release(1).zip",
+      "archive_sha256": "771a82a3211105342c8db0c4733a5507bb4f7815bbb2e4985df12eb6150f48bf",
+      "source_member_path": "Crowdsourcing Task/instructions.html",
+      "source_role": "later_official_completion",
+      "source_size_bytes": 5486,
+      "source_sha256": "55e8a52cb5b400d699bcc57f8136c342e10422dbd16e9b886d9babfa3ef1cdc2",
+      "path_standardized": false,
+      "packaging_note": "",
+      "content_modified": false,
+      "package_sha256": "55e8a52cb5b400d699bcc57f8136c342e10422dbd16e9b886d9babfa3ef1cdc2",
+      "content_modification": null
+    },
+    {
+      "package_path": "Crowdsourcing Task/instructions.json",
+      "archive_release_id": "ipm2021_thesis",
+      "archive_name": "thesis_release(1).zip",
+      "archive_sha256": "771a82a3211105342c8db0c4733a5507bb4f7815bbb2e4985df12eb6150f48bf",
+      "source_member_path": "Crowdsourcing Task/instructions.json",
+      "source_role": "later_official_completion",
+      "source_size_bytes": 6,
+      "source_sha256": "48b5236cf51ad5ca57781cb275ea84bab2b7b120b33f8e9fcccd542394f3e7f4",
+      "path_standardized": false,
+      "packaging_note": "",
+      "content_modified": false,
+      "package_sha256": "48b5236cf51ad5ca57781cb275ea84bab2b7b120b33f8e9fcccd542394f3e7f4",
+      "content_modification": null
+    },
+    {
+      "package_path": "Crowdsourcing Task/questionnaires.json",
+      "archive_release_id": "ipm2021_thesis",
+      "archive_name": "thesis_release(1).zip",
+      "archive_sha256": "771a82a3211105342c8db0c4733a5507bb4f7815bbb2e4985df12eb6150f48bf",
+      "source_member_path": "Crowdsourcing Task/questionnaires.json",
+      "source_role": "later_official_completion",
+      "source_size_bytes": 3428,
+      "source_sha256": "69e3e3260f86e0b68f8a1d4b7078ff4d6157ec90e4f1155b48d630349e651542",
+      "path_standardized": false,
+      "packaging_note": "",
+      "content_modified": false,
+      "package_sha256": "69e3e3260f86e0b68f8a1d4b7078ff4d6157ec90e4f1155b48d630349e651542",
+      "content_modification": null
+    },
+    {
+      "package_path": "Crowdsourcing Task/search_engine.json",
+      "archive_release_id": "ipm2021_thesis",
+      "archive_name": "thesis_release(1).zip",
+      "archive_sha256": "771a82a3211105342c8db0c4733a5507bb4f7815bbb2e4985df12eb6150f48bf",
+      "source_member_path": "Crowdsourcing Task/search_engine.json",
+      "source_role": "later_official_completion",
+      "source_size_bytes": 97,
+      "source_sha256": "20f2c767e2148c54ca1d8a7999337f3080e67a43af244c74b0505d1a3f999242",
+      "path_standardized": false,
+      "packaging_note": "",
+      "content_modified": false,
+      "package_sha256": "20f2c767e2148c54ca1d8a7999337f3080e67a43af244c74b0505d1a3f999242",
+      "content_modification": null
+    },
+    {
+      "package_path": "Crowdsourcing Task/task.json",
+      "archive_release_id": "ipm2021_thesis",
+      "archive_name": "thesis_release(1).zip",
+      "archive_sha256": "771a82a3211105342c8db0c4733a5507bb4f7815bbb2e4985df12eb6150f48bf",
+      "source_member_path": "Crowdsourcing Task/task.json",
+      "source_role": "later_official_completion",
+      "source_size_bytes": 167,
+      "source_sha256": "8f6ad336a0d4cf035e35256085dd4998e6053b733e97971ff41d8271652e07b8",
+      "path_standardized": false,
+      "packaging_note": "",
+      "content_modified": false,
+      "package_sha256": "8f6ad336a0d4cf035e35256085dd4998e6053b733e97971ff41d8271652e07b8",
+      "content_modification": null
+    },
+    {
+      "package_path": "Crowdsourcing Task/workers.json",
+      "archive_release_id": "ipm2021_thesis",
+      "archive_name": "thesis_release(1).zip",
+      "archive_sha256": "771a82a3211105342c8db0c4733a5507bb4f7815bbb2e4985df12eb6150f48bf",
+      "source_member_path": "Crowdsourcing Task/workers.json",
+      "source_role": "later_official_completion",
+      "source_size_bytes": 38,
+      "source_sha256": "7f72e8eb257ad316a3d116a8f0c851c505e7db81fa2b6de4818a4d60c3dd362b",
+      "path_standardized": false,
+      "packaging_note": "",
+      "content_modified": false,
+      "package_sha256": "7f72e8eb257ad316a3d116a8f0c851c505e7db81fa2b6de4818a4d60c3dd362b",
+      "content_modification": null
+    },
+    {
+      "package_path": "DataFrame/workers_answers.csv",
+      "archive_release_id": "ipm2021_thesis",
+      "archive_name": "thesis_release(1).zip",
+      "archive_sha256": "771a82a3211105342c8db0c4733a5507bb4f7815bbb2e4985df12eb6150f48bf",
+      "source_member_path": "DataFrame/workers_answers.csv",
+      "source_role": "later_official_completion",
+      "source_size_bytes": 1132799,
+      "source_sha256": "c48cde2ad21753dc08fe57e25a6ccefc29cd79256d02bd8347e270f967532c41",
+      "path_standardized": false,
+      "packaging_note": "",
+      "content_modified": false,
+      "package_sha256": "c48cde2ad21753dc08fe57e25a6ccefc29cd79256d02bd8347e270f967532c41",
+      "content_modification": null
+    },
+    {
+      "package_path": "DataFrame/workers_comments.csv",
+      "archive_release_id": "ipm2021_thesis",
+      "archive_name": "thesis_release(1).zip",
+      "archive_sha256": "771a82a3211105342c8db0c4733a5507bb4f7815bbb2e4985df12eb6150f48bf",
+      "source_member_path": "DataFrame/workers_comments.csv",
+      "source_role": "later_official_completion",
+      "source_size_bytes": 6799,
+      "source_sha256": "ebf15e07333912fd2a0d726bcb2843f6a1c213daeddbe13c946f69d03345d739",
+      "path_standardized": false,
+      "packaging_note": "",
+      "content_modified": false,
+      "package_sha256": "ebf15e07333912fd2a0d726bcb2843f6a1c213daeddbe13c946f69d03345d739",
+      "content_modification": null
+    },
+    {
+      "package_path": "DataFrame/workers_dimensions_selection.csv",
+      "archive_release_id": "ipm2021_thesis",
+      "archive_name": "thesis_release(1).zip",
+      "archive_sha256": "771a82a3211105342c8db0c4733a5507bb4f7815bbb2e4985df12eb6150f48bf",
+      "source_member_path": "DataFrame/workers_dimensions_selection.csv",
+      "source_role": "later_official_completion",
+      "source_size_bytes": 2563828,
+      "source_sha256": "ebbd4ee1abfaa8bfedbd5295b8e9a59be0621eab151a4bb6e50aa6aa03193287",
+      "path_standardized": false,
+      "packaging_note": "",
+      "content_modified": false,
+      "package_sha256": "ebbd4ee1abfaa8bfedbd5295b8e9a59be0621eab151a4bb6e50aa6aa03193287",
+      "content_modification": null
+    },
+    {
+      "package_path": "DataFrame/workers_mturk_data.csv",
+      "archive_release_id": "ipm2021_thesis",
+      "archive_name": "thesis_release(1).zip",
+      "archive_sha256": "771a82a3211105342c8db0c4733a5507bb4f7815bbb2e4985df12eb6150f48bf",
+      "source_member_path": "DataFrame/workers_mturk_data.csv",
+      "source_role": "later_official_completion",
+      "source_size_bytes": 108221,
+      "source_sha256": "e5cb647694b7e11ddaec9487603ec5e3855fa4d2258529855856be7c2c05c527",
+      "path_standardized": false,
+      "packaging_note": "",
+      "content_modified": true,
+      "package_sha256": "5e603372306087a0c4880f82837fb9b64fb9d7571bb0f601969f2b66b400910a",
+      "content_modification": {
+        "package_path": "DataFrame/workers_mturk_data.csv",
+        "source_sha256": "e5cb647694b7e11ddaec9487603ec5e3855fa4d2258529855856be7c2c05c527",
+        "rows": 200,
+        "columns_before": 24,
+        "columns_after": 22,
+        "removed_columns": [
+          "AssignmentId",
+          "HITId"
+        ],
+        "rows_after": 200,
+        "package_sha256": "5e603372306087a0c4880f82837fb9b64fb9d7571bb0f601969f2b66b400910a",
+        "content_modified": true,
+        "modification_reason": "Removed external Mechanical Turk AssignmentId and HITId from the public copy, preserving worker_id, every row, and all other columns. Historical source bytes unchanged."
+      }
+    },
+    {
+      "package_path": "DataFrame/workers_questionnaires.csv",
+      "archive_release_id": "ipm2021_thesis",
+      "archive_name": "thesis_release(1).zip",
+      "archive_sha256": "771a82a3211105342c8db0c4733a5507bb4f7815bbb2e4985df12eb6150f48bf",
+      "source_member_path": "DataFrame/workers_questionnaires.csv",
+      "source_role": "later_official_completion",
+      "source_size_bytes": 612351,
+      "source_sha256": "d1a1882dec5cc968bbaf1ce1f887c4f954635398dae6b50a2df28906923814f2",
+      "path_standardized": false,
+      "packaging_note": "",
+      "content_modified": false,
+      "package_sha256": "d1a1882dec5cc968bbaf1ce1f887c4f954635398dae6b50a2df28906923814f2",
+      "content_modification": null
+    },
+    {
+      "package_path": "DataFrame/workers_urls.csv",
+      "archive_release_id": "ipm2021_thesis",
+      "archive_name": "thesis_release(1).zip",
+      "archive_sha256": "771a82a3211105342c8db0c4733a5507bb4f7815bbb2e4985df12eb6150f48bf",
+      "source_member_path": "DataFrame/workers_urls.csv",
+      "source_role": "later_official_completion",
+      "source_size_bytes": 70862438,
+      "source_sha256": "bdbce55d48484327871e4de2f05b535b96936b54dbbb87a74d6e07d26d094d11",
+      "path_standardized": false,
+      "packaging_note": "",
+      "content_modified": false,
+      "package_sha256": "bdbce55d48484327871e4de2f05b535b96936b54dbbb87a74d6e07d26d094d11",
+      "content_modification": null
+    },
     {
       "package_path": "multidimensional.csv",
       "archive_release_id": "ipm2021_paper",
@@ -83,10 +307,187 @@
       "selected_for_package": false,
       "omission_reason": "release_specific_exclusion",
       "path_standardized": false
+    },
+    {
+      "package_path": "Historical Thesis/PolitiFact-Ground_Truth.csv",
+      "archive_release_id": "ipm2021_thesis",
+      "source_member_path": "PolitiFact-Ground_Truth.csv",
+      "source_role": "later_official_completion",
+      "source_sha256": "c40dc3ded713655de28dbfafd0de7a6fd642254d40b3a572a6b53601563d5533",
+      "selected_for_package": false,
+      "omission_reason": "release_specific_exclusion",
+      "path_standardized": true
+    },
+    {
+      "package_path": "Historical Thesis/RMIT_ABC_Fact_Check-Ground_Truth.csv",
+      "archive_release_id": "ipm2021_thesis",
+      "source_member_path": "RMIT_ABC_Fact_Check-Ground_Truth.csv",
+      "source_role": "later_official_completion",
+      "source_sha256": "d3f2fbb39be177b19779db53f24f1cc84dcc7a0aa45cf9d8d69cd8e827879528",
+      "selected_for_package": false,
+      "omission_reason": "release_specific_exclusion",
+      "path_standardized": true
+    },
+    {
+      "package_path": "DataFrame/workers_comments.csv",
+      "archive_release_id": "ipm2021_thesis",
+      "source_member_path": "DataFrame/workers_comments.csv",
+      "source_role": "later_official_completion",
+      "source_sha256": "ebf15e07333912fd2a0d726bcb2843f6a1c213daeddbe13c946f69d03345d739",
+      "selected_for_package": true,
+      "omission_reason": "",
+      "path_standardized": false
+    },
+    {
+      "package_path": "DataFrame/workers_mturk_data.csv",
+      "archive_release_id": "ipm2021_thesis",
+      "source_member_path": "DataFrame/workers_mturk_data.csv",
+      "source_role": "later_official_completion",
+      "source_sha256": "e5cb647694b7e11ddaec9487603ec5e3855fa4d2258529855856be7c2c05c527",
+      "selected_for_package": true,
+      "omission_reason": "",
+      "path_standardized": false
+    },
+    {
+      "package_path": "DataFrame/workers_answers.csv",
+      "archive_release_id": "ipm2021_thesis",
+      "source_member_path": "DataFrame/workers_answers.csv",
+      "source_role": "later_official_completion",
+      "source_sha256": "c48cde2ad21753dc08fe57e25a6ccefc29cd79256d02bd8347e270f967532c41",
+      "selected_for_package": true,
+      "omission_reason": "",
+      "path_standardized": false
+    },
+    {
+      "package_path": "DataFrame/workers_dimensions_selection.csv",
+      "archive_release_id": "ipm2021_thesis",
+      "source_member_path": "DataFrame/workers_dimensions_selection.csv",
+      "source_role": "later_official_completion",
+      "source_sha256": "ebbd4ee1abfaa8bfedbd5295b8e9a59be0621eab151a4bb6e50aa6aa03193287",
+      "selected_for_package": true,
+      "omission_reason": "",
+      "path_standardized": false
+    },
+    {
+      "package_path": "DataFrame/workers_questionnaires.csv",
+      "archive_release_id": "ipm2021_thesis",
+      "source_member_path": "DataFrame/workers_questionnaires.csv",
+      "source_role": "later_official_completion",
+      "source_sha256": "d1a1882dec5cc968bbaf1ce1f887c4f954635398dae6b50a2df28906923814f2",
+      "selected_for_package": true,
+      "omission_reason": "",
+      "path_standardized": false
+    },
+    {
+      "package_path": "DataFrame/workers_urls.csv",
+      "archive_release_id": "ipm2021_thesis",
+      "source_member_path": "DataFrame/workers_urls.csv",
+      "source_role": "later_official_completion",
+      "source_sha256": "bdbce55d48484327871e4de2f05b535b96936b54dbbb87a74d6e07d26d094d11",
+      "selected_for_package": true,
+      "omission_reason": "",
+      "path_standardized": false
+    },
+    {
+      "package_path": "Crowdsourcing Task/instructions.html",
+      "archive_release_id": "ipm2021_thesis",
+      "source_member_path": "Crowdsourcing Task/instructions.html",
+      "source_role": "later_official_completion",
+      "source_sha256": "55e8a52cb5b400d699bcc57f8136c342e10422dbd16e9b886d9babfa3ef1cdc2",
+      "selected_for_package": true,
+      "omission_reason": "",
+      "path_standardized": false
+    },
+    {
+      "package_path": "Crowdsourcing Task/instructions.json",
+      "archive_release_id": "ipm2021_thesis",
+      "source_member_path": "Crowdsourcing Task/instructions.json",
+      "source_role": "later_official_completion",
+      "source_sha256": "48b5236cf51ad5ca57781cb275ea84bab2b7b120b33f8e9fcccd542394f3e7f4",
+      "selected_for_package": true,
+      "omission_reason": "",
+      "path_standardized": false
+    },
+    {
+      "package_path": "Crowdsourcing Task/hits.json",
+      "archive_release_id": "ipm2021_thesis",
+      "source_member_path": "Crowdsourcing Task/hits.json",
+      "source_role": "later_official_completion",
+      "source_sha256": "f7cb63347a686a547b34842e74b2f691d0aa351bec28f89b648a47a214296caf",
+      "selected_for_package": true,
+      "omission_reason": "",
+      "path_standardized": false
+    },
+    {
+      "package_path": "Crowdsourcing Task/dimensions.json",
+      "archive_release_id": "ipm2021_thesis",
+      "source_member_path": "Crowdsourcing Task/dimensions.json",
+      "source_role": "later_official_completion",
+      "source_sha256": "f067f2d29354f297516f6fc5249e673f39501f3a25dcb0d48c7358168146c4a7",
+      "selected_for_package": true,
+      "omission_reason": "",
+      "path_standardized": false
+    },
+    {
+      "package_path": "Crowdsourcing Task/questionnaires.json",
+      "archive_release_id": "ipm2021_thesis",
+      "source_member_path": "Crowdsourcing Task/questionnaires.json",
+      "source_role": "later_official_completion",
+      "source_sha256": "69e3e3260f86e0b68f8a1d4b7078ff4d6157ec90e4f1155b48d630349e651542",
+      "selected_for_package": true,
+      "omission_reason": "",
+      "path_standardized": false
+    },
+    {
+      "package_path": "Crowdsourcing Task/search_engine.json",
+      "archive_release_id": "ipm2021_thesis",
+      "source_member_path": "Crowdsourcing Task/search_engine.json",
+      "source_role": "later_official_completion",
+      "source_sha256": "20f2c767e2148c54ca1d8a7999337f3080e67a43af244c74b0505d1a3f999242",
+      "selected_for_package": true,
+      "omission_reason": "",
+      "path_standardized": false
+    },
+    {
+      "package_path": "Crowdsourcing Task/workers.json",
+      "archive_release_id": "ipm2021_thesis",
+      "source_member_path": "Crowdsourcing Task/workers.json",
+      "source_role": "later_official_completion",
+      "source_sha256": "7f72e8eb257ad316a3d116a8f0c851c505e7db81fa2b6de4818a4d60c3dd362b",
+      "selected_for_package": true,
+      "omission_reason": "",
+      "path_standardized": false
+    },
+    {
+      "package_path": "Crowdsourcing Task/task.json",
+      "archive_release_id": "ipm2021_thesis",
+      "source_member_path": "Crowdsourcing Task/task.json",
+      "source_role": "later_official_completion",
+      "source_sha256": "8f6ad336a0d4cf035e35256085dd4998e6053b733e97971ff41d8271652e07b8",
+      "selected_for_package": true,
+      "omission_reason": "",
+      "path_standardized": false
     }
   ],
   "historical_content_exclusions": [],
-  "historical_content_repairs": [],
+  "evidence_record_exclusions": null,
+  "historical_content_repairs": [
+    {
+      "package_path": "DataFrame/workers_mturk_data.csv",
+      "source_sha256": "e5cb647694b7e11ddaec9487603ec5e3855fa4d2258529855856be7c2c05c527",
+      "rows": 200,
+      "columns_before": 24,
+      "columns_after": 22,
+      "removed_columns": [
+        "AssignmentId",
+        "HITId"
+      ],
+      "rows_after": 200,
+      "package_sha256": "5e603372306087a0c4880f82837fb9b64fb9d7571bb0f601969f2b66b400910a",
+      "content_modified": true,
+      "modification_reason": "Removed external Mechanical Turk AssignmentId and HITId from the public copy, preserving worker_id, every row, and all other columns. Historical source bytes unchanged."
+    }
+  ],
   "known_numerical_anomalies": null,
   "summary_packaging_correction": null,
   "added_files": [
@@ -110,21 +511,21 @@
       "package_path": "README.md",
       "file_role": "release_documentation",
       "source_repository_artifact": "release_documentation/ipm2021_paper_extended/README.md",
-      "source_sha256": "689f16cd8930fe95250a6bb6b2262f91cac58b8abf687c31f4181d3e37c32d73",
+      "source_sha256": "92460c9f20c44ce570faaba40b512c7060753902b9abfa515e33198e57d41a3a",
       "content_modified": false
     },
     {
       "package_path": "CHANGELOG.md",
       "file_role": "release_changelog",
       "source_repository_artifact": "release_documentation/ipm2021_paper_extended/CHANGELOG.md",
-      "source_sha256": "c2527790b610fb35568809970fc643ceb2d95c02c4f9490ef62759fa36fc3039",
+      "source_sha256": "053cea4ed2577d2e329e02e9de28ed809bdce89c20cfec95e287a1628ad53898",
       "content_modified": false
     },
     {
       "package_path": "CITATION.cff",
       "file_role": "release_citation",
       "source_repository_artifact": "release_documentation/ipm2021_paper_extended/CITATION.cff",
-      "source_sha256": "361ffd6a51b4cef8b425edbe17910c5d438a2d2da610d5c8ed101c0bf68264cc",
+      "source_sha256": "6613589400f174d8152ad45de54f8f75d824464f71396ba7da083a506e69307c",
       "content_modified": false
     },
     {
@@ -138,7 +539,7 @@
       "package_path": "RIGHTS.md",
       "file_role": "release_rights",
       "source_repository_artifact": "release_documentation/ipm2021_paper_extended/RIGHTS.md",
-      "source_sha256": "bda2478d43906e104985cee434c2dfe4c8e30316d514b88b99c7ca5759857edc",
+      "source_sha256": "66c3d4bfa33e6d19f6186476575679fe19716c3479dedeb8783887498c642484",
       "content_modified": false
     }
   ],
@@ -185,10 +586,9 @@
     "self_checksum_omitted": true
   },
   "notes": [
-    "Version 1.4 is a documentation and layout successor to verified version 1.3; version 1.3 and the publication-era source archive remain unchanged.",
-    "The reported supervised learning parameters are consolidated into the root README, and parameters/parameters.md is omitted from the version 1.4 package.",
-    "The root README uses a concise text citation without the historical BibTeX block; machine-readable citation metadata are provided in CITATION.cff.",
-    "LICENSE.md and RIGHTS.md make the scoped mixed-rights reuse policy explicit.",
-    "No scientific data change is intended."
+    "Version 1.5 combines the publication-era multidimensional.csv with 14 later official Crowdsourcing Task and DataFrame files from the same IPM 2021 study; original sources and release 1.4 remain unchanged.",
+    "Later official thesis ground truth CSVs are intentionally excluded as redundant historical copies; immutable originals remain in the thesis source bundle. Corrected canonical ground truth is supplied at the package root, retaining the native PolitiFact six-level and RMIT ABC three-level target semantics.",
+    "Version 1.5 omits external Mechanical Turk AssignmentId and HITId from the distributed worker metadata while retaining all rows and internal worker linkage.",
+    "Privacy and full archive validation are required before public publication."
   ]
 }
