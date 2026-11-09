@@ -1,66 +1,54 @@
 # Crowdsourcing Truthfulness
 
-This repository collects datasets and supporting material for a series of studies on crowdsourced truthfulness assessment.
-
-Each directory corresponds to a paper or study. Detailed dataset documentation is available inside the corresponding directory.
+This repository collects datasets and supporting material for studies on crowdsourced truthfulness assessment. Each study has its own directory with documentation of the data, experimental setup, and relevant limitations.
 
 ## Studies
 
-| Data | Paper | Publication |
+| Dataset | Paper | Publication |
 | --- | --- | --- |
-| [IPM2021](./IPM2021/) | *The Many Dimensions of Truthfulness: Crowdsourcing Misinformation Assessments on a Multidimensional Scale* | Information Processing & Management, 58(6), 102710, 2021. [DOI](https://doi.org/10.1016/j.ipm.2021.102710) |
-| [PAUC2021](./PAUC2021/) | *Can the Crowd Judge Truthfulness? A Longitudinal Study on Recent Misinformation about COVID-19* | Personal and Ubiquitous Computing, 27, 59–89. [DOI](https://doi.org/10.1007/s00779-021-01604-6) |
+| [IPM2021](./IPM2021/) | *The Many Dimensions of Truthfulness: Crowdsourcing Misinformation Assessments on a Multidimensional Scale* | *Information Processing & Management*, 58(6), 102710 (2021). [DOI](https://doi.org/10.1016/j.ipm.2021.102710) |
+| [PAUC2021](./PAUC2021/) | *Can the Crowd Judge Truthfulness? A Longitudinal Study on Recent Misinformation about COVID-19* | *Personal and Ubiquitous Computing*, 27, 59–89 (2023; first published online in 2021). [DOI](https://doi.org/10.1007/s00779-021-01604-6) |
 | [CIKM2020](./CIKM2020/) | *The COVID-19 Infodemic: Can the Crowd Judge Recent Misinformation Objectively?* | CIKM 2020, 1305–1314. [DOI](https://doi.org/10.1145/3340531.3412048) |
 | [SIGIR2020](./SIGIR2020/) | *Can The Crowd Identify Misinformation Objectively? The Effects of Judgment Scale and Assessor's Background* | SIGIR 2020, 439–448. [DOI](https://doi.org/10.1145/3397271.3401112) |
 | [ECIR2020](./ECIR2020/) | *Crowdsourcing Truthfulness: The Impact of Judgment Scale and Assessor Bias* | ECIR 2020, 207–214. [DOI](https://doi.org/10.1007/978-3-030-45442-5_26) |
 
----
+## Datasets
 
-## The Many Dimensions of Truthfulness: Crowdsourcing Misinformation Assessments on a Multidimensional Scale
+### IPM2021
 
-The [IPM2021](./IPM2021/) directory contains the data and supporting material for the paper:
+[IPM2021](./IPM2021/) contains the original multidimensional truthfulness judgments and the expanded **version 1.5** release. It includes the original paper dataset, eight crowdsourcing task files, six detailed tables of worker judgments and activity, PolitiFact and RMIT ABC Fact Check ground truth, and a reconstructed evidence corpus.
 
-Michael Soprano, Kevin Roitero, David La Barbera, Davide Ceolin, Damiano Spina, Stefano Mizzaro, and Gianluca Demartini. 2021. *The Many Dimensions of Truthfulness: Crowdsourcing Misinformation Assessments on a Multidimensional Scale*. Information Processing & Management, 58(6), 102710.
+The study covers **180 real statements** (120 PolitiFact and 60 RMIT ABC Fact Check) and preserves the native truthfulness scales. The original study data and historical source materials remain preserved.
 
-Paper: https://doi.org/10.1016/j.ipm.2021.102710
+See the [IPM2021 README](./IPM2021/README.md) for file descriptions, provenance, corrections, privacy and reuse information. Machine-readable citation metadata are available in [CITATION.cff](./IPM2021/CITATION.cff).
 
-The current curated release is **version 1.5**. It combines the original paper data with later official task and worker records from Chapter 7 of the 2023 thesis. It contains:
+### BibTeX
 
-- the original crowd judgment dataset
-- eight official `Crowdsourcing Task/` files describing the experiment
-- six detailed `DataFrame/` tables of worker answers and research activity
-- canonical PolitiFact and RMIT ABC Fact Check ground truth
-- the reconstructed evidence corpus and crawl metadata
-- the historical identifier crosswalk
-- integrity metadata and checksums
-- citation, license, and rights documentation
+```bibtex
+@article{soprano2021many,
+  title = {The Many Dimensions of Truthfulness: Crowdsourcing Misinformation Assessments on a Multidimensional Scale},
+  author = {Soprano, Michael and Roitero, Kevin and {La Barbera}, David and Ceolin, Davide and Spina, Damiano and Mizzaro, Stefano and Demartini, Gianluca},
+  journal = {Information Processing & Management},
+  volume = {58},
+  number = {6},
+  pages = {102710},
+  year = {2021},
+  doi = {10.1016/j.ipm.2021.102710}
+}
+```
 
-See the [IPM2021 README](./IPM2021/README.md) for the study description, file documentation, provenance, historical corrections, supervised learning parameters, privacy guidance, and citation information.
+### PAUC2021
 
-Machine readable citation metadata are available in [IPM2021/CITATION.cff](./IPM2021/CITATION.cff).
+[PAUC2021](./PAUC2021/) contains the longitudinal COVID-19 truthfulness study data. The study used **60 PolitiFact statements**, with ten statements per truthfulness level, and collected judgments across four monthly rounds between May and August 2020.
 
-Large data files are stored with Git LFS, including:
+The directory provides two complementary resources:
 
-- `IPM2021/Evidence Corpus/crawl_metadata.csv`
-- `IPM2021/Evidence Corpus/evidence_corpus.jsonl.gz`
+- The **12 original batch CSVs**, preserved unchanged, including the study's historical tasks and returning-worker subsets.
+- The [**extended dataset, version 1.1**](./PAUC2021/pauc2021_paper_extended_release_v1.1.zip), containing five curated tables of judgments and worker activity, the 60-statement ground truth, and release documentation and checksums.
 
-Additional large task or worker files may also use Git LFS, as declared in `.gitattributes`.
+The extended tables contain **3,606 judgments** on real statements by **410 pseudonymous workers**, along with dimension selections, questionnaires, comments, and search activity. The original batch files are not duplicated in the ZIP; they remain available separately in the same directory.
 
-Install [Git LFS](https://git-lfs.com/) before cloning the repository if you need these files locally.
-
-For rights and reuse information, see [IPM2021/LICENSE.md](./IPM2021/LICENSE.md) and [IPM2021/RIGHTS.md](./IPM2021/RIGHTS.md).
-
----
-
-## Can the Crowd Judge Truthfulness? A Longitudinal Study on Recent Misinformation about COVID-19
-
-The [PAUC2021](./PAUC2021/) directory contains the crowdsourced judgments used in the paper:
-
-Kevin Roitero, Michael Soprano, Beatrice Portelli, Massimiliano De Luise, Damiano Spina, Vincenzo Della Mea, Giuseppe Serra, Stefano Mizzaro, and Gianluca Demartini. *Can the Crowd Judge Truthfulness? A Longitudinal Study on Recent Misinformation about COVID-19*. Personal and Ubiquitous Computing, 27, 59–89.
-
-Paper: https://doi.org/10.1007/s00779-021-01604-6
-
-Detailed information about the longitudinal crowdsourcing batches and dataset fields is available in the [PAUC2021 README](./PAUC2021/README.md).
+See the [PAUC2021 README](./PAUC2021/README.md) for the original and extended data, known irregularities, provenance, and reuse conditions.
 
 ### BibTeX
 
@@ -71,21 +59,14 @@ Detailed information about the longitudinal crowdsourcing batches and dataset fi
   journal = {Personal and Ubiquitous Computing},
   volume = {27},
   pages = {59--89},
+  year = {2023},
   doi = {10.1007/s00779-021-01604-6}
 }
 ```
 
----
+### CIKM2020
 
-## The COVID-19 Infodemic: Can the Crowd Judge Recent Misinformation Objectively?
-
-The [CIKM2020](./CIKM2020/) directory contains the crowdsourced judgments used in the CIKM 2020 full paper:
-
-Kevin Roitero, Michael Soprano, Beatrice Portelli, Damiano Spina, Vincenzo Della Mea, Giuseppe Serra, Stefano Mizzaro, and Gianluca Demartini. 2020. *The COVID-19 Infodemic: Can the Crowd Judge Recent Misinformation Objectively?* Proceedings of the 29th ACM International Conference on Information and Knowledge Management, 1305–1314.
-
-Paper: https://doi.org/10.1145/3340531.3412048
-
-Detailed dataset documentation is available in the [CIKM2020 README](./CIKM2020/README.md).
+[CIKM2020](./CIKM2020/) contains the crowd judgments for *The COVID-19 Infodemic: Can the Crowd Judge Recent Misinformation Objectively?*. See the [CIKM2020 README](./CIKM2020/README.md) for the dataset and its assessment fields.
 
 ### BibTeX
 
@@ -100,21 +81,11 @@ Detailed dataset documentation is available in the [CIKM2020 README](./CIKM2020/
 }
 ```
 
----
+### SIGIR2020
 
-## Can The Crowd Identify Misinformation Objectively? The Effects of Judgment Scale and Assessor's Background
+[SIGIR2020](./SIGIR2020/) contains PolitiFact and RMIT ABC Fact Check statements and crowd judgments collected using different truthfulness scales. See the [SIGIR2020 README](./SIGIR2020/README.md) for the datasets and field definitions.
 
-The [SIGIR2020](./SIGIR2020/) directory contains the data used in the SIGIR 2020 full paper:
-
-Kevin Roitero, Michael Soprano, Shaoyang Fan, Damiano Spina, Stefano Mizzaro, and Gianluca Demartini. 2020. *Can The Crowd Identify Misinformation Objectively? The Effects of Judgment Scale and Assessor's Background*. Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval, 439–448.
-
-Paper: https://doi.org/10.1145/3397271.3401112
-
-The study includes RMIT ABC Fact Check and PolitiFact statements together with crowdsourced judgments collected using different judgment scales. Detailed file and field documentation is available in the [SIGIR2020 README](./SIGIR2020/README.md).
-
-### Talk
-
-[Watch the SIGIR 2020 talk](https://www.youtube.com/watch?v=D10EtrThvbc)
+[Watch the SIGIR 2020 talk](https://www.youtube.com/watch?v=D10EtrThvbc).
 
 ### BibTeX
 
@@ -135,22 +106,11 @@ This work was partially supported by a Facebook Research award and by an Austral
 
 We thank Devi Mallal from RMIT ABC Fact Check for facilitating access to the ABC dataset.
 
----
+### ECIR2020
 
-## Crowdsourcing Truthfulness: The Impact of Judgment Scale and Assessor Bias
+[ECIR2020](./ECIR2020/) contains crowd assessments collected using [six-level](./ECIR2020/S6_Data.csv) and [100-level](./ECIR2020/S100_Data.csv) judgment scales, including assessor background information.
 
-The [ECIR2020](./ECIR2020/) directory contains the data used in the ECIR 2020 short paper for two different judgment scales:
-
-- [S6](./ECIR2020/S6_Data.csv)
-- [S100](./ECIR2020/S100_Data.csv)
-
-The files also contain information about assessors' background used to analyze assessment bias.
-
-David La Barbera, Kevin Roitero, Gianluca Demartini, Stefano Mizzaro, and Damiano Spina. 2020. *Crowdsourcing Truthfulness: The Impact of Judgment Scale and Assessor Bias*. Advances in Information Retrieval, ECIR 2020, Lecture Notes in Computer Science 12036, 207–214.
-
-Paper: https://doi.org/10.1007/978-3-030-45442-5_26
-
-**Best Short Paper Award, ECIR 2020.**
+The paper received the **Best Short Paper Award at ECIR 2020**. [Watch the presentation](https://www.youtube.com/watch?v=9wFFMcplvjk).
 
 ### BibTeX
 
@@ -165,19 +125,12 @@ Paper: https://doi.org/10.1007/978-3-030-45442-5_26
 }
 ```
 
-### Links
-
-- Presentation: http://www.youtube.com/watch?v=9wFFMcplvjk
-- Paper: https://doi.org/10.1007/978-3-030-45442-5_26
-
 ### Acknowledgements
 
 This work was partially supported by an Australian Research Council Discovery Project (DP190102141) and a Facebook Research award.
 
----
+## Access and reuse
 
-## Research Use
+Some large IPM2021 files are managed with [Git LFS](https://git-lfs.com/), as specified in [`.gitattributes`](./.gitattributes). Install Git LFS before cloning the repository if you need those files.
 
-The study directories were created at different times and may follow different documentation and release conventions.
-
-Please consult the documentation associated with the specific dataset you use. The current IPM 2021 release includes explicit citation, license, rights, privacy, provenance, and integrity documentation.
+Please cite the corresponding paper when using a dataset. Consult the README and, where available, the license and rights documentation in each study directory for provenance, limitations, and reuse conditions.
