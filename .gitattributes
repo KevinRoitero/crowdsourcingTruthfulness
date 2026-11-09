@@ -2,3 +2,8 @@ IPM2021/Evidence[[:space:]]Corpus/crawl_metadata.csv filter=lfs diff=lfs merge=l
 IPM2021/Evidence[[:space:]]Corpus/evidence_corpus.jsonl.gz filter=lfs diff=lfs merge=lfs -text
 IPM2021/DataFrame/workers_urls.csv filter=lfs diff=lfs merge=lfs -text
 PAUC2021/DataFrame/workers_urls.csv filter=lfs diff=lfs merge=lfs -text
+PAUC2021/README.md -text
+PAUC2021/CHANGELOG.md -text
+PAUC2021/CITATION.cff -text
+PAUC2021/LICENSE.md -text
+PAUC2021/RIGHTS.md -text
