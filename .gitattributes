@@ -7,3 +7,11 @@ PAUC2021/CHANGELOG.md -text
 PAUC2021/CITATION.cff -text
 PAUC2021/LICENSE.md -text
 PAUC2021/RIGHTS.md -text
+PAUC2021/Crowdsourcing[[:space:]]Task/dimensions.json -text
+PAUC2021/Crowdsourcing[[:space:]]Task/hits.json -text
+PAUC2021/Crowdsourcing[[:space:]]Task/instructions.html -text
+PAUC2021/Crowdsourcing[[:space:]]Task/instructions.json -text
+PAUC2021/Crowdsourcing[[:space:]]Task/questionnaires.json -text
+PAUC2021/Crowdsourcing[[:space:]]Task/search_engine.json -text
+PAUC2021/Crowdsourcing[[:space:]]Task/task.json -text
+PAUC2021/Crowdsourcing[[:space:]]Task/workers.json -text

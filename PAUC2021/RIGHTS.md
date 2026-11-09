@@ -18,6 +18,12 @@ These records are included to support research and reproducibility. Participant 
 
 The original study data are preserved without modification.
 
+## Crowdsourcing Task Configuration
+
+`Crowdsourcing Task/` contains study-authored instructions, configuration files, questionnaire wording, and historical task assignments. Some statement text and source details originated with third parties and retain their original rights.
+
+The public `workers.json` is a derived file with empty `blacklist` and `whitelist` arrays. It does not reproduce the 572 original Mechanical Turk blacklist identifiers present in the thesis's historical task snapshot. This is a privacy-related release projection and should not be interpreted as evidence that the original task had no participation restrictions.
+
 ## PolitiFact Material
 
 `PolitiFact-Ground_Truth.csv` contains statements, truthfulness labels, URLs, and other information from PolitiFact.
