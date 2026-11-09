@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite the associated PAUC paper."
+type: dataset
+version: 1.1
+title: "Can the Crowd Judge Truthfulness? A Longitudinal Study on Recent Misinformation about COVID-19 — curated dataset"
+authors:
+  - family-names: Roitero
+    given-names: Kevin
+  - family-names: Soprano
+    given-names: Michael
+  - family-names: Portelli
+    given-names: Beatrice
+  - family-names: De Luise
+    given-names: Massimiliano
+  - family-names: Spina
+    given-names: Damiano
+  - family-names: Della Mea
+    given-names: Vincenzo
+  - family-names: Serra
+    given-names: Giuseppe
+  - family-names: Mizzaro
+    given-names: Stefano
+  - family-names: Demartini
+    given-names: Gianluca
+preferred-citation:
+  type: article
+  title: "Can the Crowd Judge Truthfulness? A Longitudinal Study on Recent Misinformation about COVID-19"
+  authors:
+    - family-names: Roitero
+      given-names: Kevin
+    - family-names: Soprano
+      given-names: Michael
+    - family-names: Portelli
+      given-names: Beatrice
+    - family-names: De Luise
+      given-names: Massimiliano
+    - family-names: Spina
+      given-names: Damiano
+    - family-names: Della Mea
+      given-names: Vincenzo
+    - family-names: Serra
+      given-names: Giuseppe
+    - family-names: Mizzaro
+      given-names: Stefano
+    - family-names: Demartini
+      given-names: Gianluca
+  journal: Personal and Ubiquitous Computing
+  volume: 27
+  start: 59
+  end: 89
+  year: 2023
+  doi: 10.1007/s00779-021-01604-6

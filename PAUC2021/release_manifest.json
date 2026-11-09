@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "release_id": "pauc2021_paper_extended_derived",
+  "study_id": "pauc2021",
+  "title": "Can the Crowd Judge Truthfulness? A Longitudinal Study on Recent Misinformation about COVID-19",
+  "release_name": "pauc2021_paper_extended_release_v1.1",
+  "archive_name": "pauc2021_paper_extended_release_v1.1.zip",
+  "version": "1.1",
+  "historical_reference_repository": "KevinRoitero/crowdsourcingTruthfulness/PAUC2021",
+  "historical_reference_commit": "b2c2102a0dcaa240edc3f51a382eac63e1acf278",
+  "historical_git_blob_sha1": {
+    "batch-1.csv": "e2119d7e1d255cf8026c538945101a8df63fc2ed",
+    "batch-2.csv": "88f507c4095f9bca066c4c315663444ee79b80b9",
+    "batch-2F1.csv": "3e183f8806cc5de5dda894b6d6ff66887a1a88a6",
+    "batch-3.csv": "70dd9630ae1ffe4a9c42ba6c6e4aecd99a793829",
+    "batch-3F1.csv": "2f64eca8029aa5286c7e54c3f1a8ae1a6878e01d",
+    "batch-3F2.csv": "17378bf57d0d3c0c54eca39ec42ba1eeea3705f3",
+    "batch-3F1OR2.csv": "03c8ff1bdd84c752b490d07ca23c3d0b73df55de",
+    "batch-4.csv": "010a5ef532f4930266877ca95fa1acced42db665",
+    "batch-4F1.csv": "373ca1430f3ecd7bbd5d8c10bbdf69cf68b2731a",
+    "batch-4F2.csv": "5265ed00128a875ec1f8322645e10b843c86e53a",
+    "batch-4F3.csv": "112c913cbd503a3abffb5cf6f892adec042260b7",
+    "batch-4F1OR2OR3.csv": "6d05c9331e7a6f810149c880ba13826240b54755"
+  },
+  "historical_files_in_archive": 0,
+  "claims": 60,
+  "class_balance": {
+    "pants-on-fire": 10,
+    "false": 10,
+    "mostly-false": 10,
+    "half-true": 10,
+    "mostly-true": 10,
+    "true": 10
+  },
+  "curated_records": {
+    "workers_answers.csv": 3606,
+    "workers_comments.csv": 276,
+    "workers_dim_sel.csv": 5511,
+    "workers_questionnaires.csv": 5990,
+    "workers_urls.csv": 254867
+  },
+  "exact_historical_duplicate_rows_preserved": 12,
+  "dimension_selection_rows_unlinked_preserved": 149
+}

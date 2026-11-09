@@ -1,0 +1,277 @@
+worker_id,paid,task_name,batch_name,unit_id,time_submit,time_submit_parsed,try_current,text
+worker_1,True,Roitero et al,MedicalTask-Set-1,unit_0,"Fri, 01 May 2020 16:48:24 GMT",2020-05-01 16:48:24.239000082+00:00,1,very interesting survey
+worker_4,True,Roitero et al,MedicalTask-Set-1,unit_6,"Fri, 01 May 2020 17:26:27 GMT",2020-05-01 17:26:27.036999941+00:00,1,Everything was clear
+worker_8,True,Roitero et al,MedicalTask-Set-1,unit_35,"Fri, 01 May 2020 15:05:30 GMT",2020-05-01 15:05:30.134000063+00:00,2,good
+worker_10,True,Roitero et al,MedicalTask-Set-1,unit_38,"Fri, 01 May 2020 17:18:19 GMT",2020-05-01 17:18:19.661999941+00:00,1,good
+worker_15,True,Roitero et al,MedicalTask-Set-1,unit_52,"Fri, 01 May 2020 14:12:25 GMT",2020-05-01 14:12:25.868999958+00:00,1,good
+worker_16,True,Roitero et al,MedicalTask-Set-1,unit_58,"Fri, 01 May 2020 14:17:27 GMT",2020-05-01 14:17:27.423000097+00:00,1,Good
+worker_18,True,Roitero et al,MedicalTask-Set-1,unit_69,"Fri, 01 May 2020 16:46:12 GMT",2020-05-01 16:46:12.779999971+00:00,1,The search for the facebook user who posted there is no COVID19 virus S6 I believe had NO applicable results no matter what mixture of search terms I used I spent 10 minutes looking and could not find one Since I was very meticulous and dedicated in completing this survey I hope this does not cause you to reject my efforts Thank you
+worker_21,True,Roitero et al,MedicalTask-Set-1,unit_77,"Fri, 01 May 2020 18:23:18 GMT",2020-05-01 18:23:18.586999893+00:00,1,I really liked it a lot it was fun to look up the stuff
+worker_23,True,Roitero et al,MedicalTask-Set-1,unit_79,"Fri, 01 May 2020 14:30:58 GMT",2020-05-01 14:30:58.477999926+00:00,1,It was nice to complete this informative and educative survey
+worker_24,True,Roitero et al,MedicalTask-Set-1,unit_83,"Fri, 01 May 2020 18:32:14 GMT",2020-05-01 18:32:14.382999897+00:00,1,this would go along way helping people get enlightened about the covid19 pandemic and ways to live well around it
+worker_25,True,Roitero et al,MedicalTask-Set-1,unit_84,"Fri, 01 May 2020 16:23:20 GMT",2020-05-01 16:23:20.832000017+00:00,1,thank you o
+worker_29,True,Roitero et al,MedicalTask-Set-1,unit_8,"Sat, 02 May 2020 13:45:06 GMT",2020-05-02 13:45:06.122999907+00:00,1,Thanks
+worker_32,True,Roitero et al,MedicalTask-Set-1,unit_1,"Sat, 02 May 2020 19:16:11 GMT",2020-05-02 19:16:11.793999910+00:00,1,an intresting one
+worker_36,True,Roitero et al,MedicalTask-Set-1,unit_11,"Sat, 02 May 2020 20:58:18 GMT",2020-05-02 20:58:18.651000023+00:00,1,Fun survey but kind of long Also wasnt sure how to fact check Yes we can What were you intending Was it just a barometer because a blind partisan would rate it totally true or totally false without any real justification for their rating
+worker_39,True,Roitero et al,MedicalTask-Set-1,unit_14,"Sat, 02 May 2020 18:32:10 GMT",2020-05-02 18:32:10.717000008+00:00,1,thank you
+worker_40,True,Roitero et al,MedicalTask-Set-1,unit_15,"Sun, 03 May 2020 00:04:07 GMT",2020-05-03 00:04:07.809000015+00:00,1,None at this time thank you
+worker_41,True,Roitero et al,MedicalTask-Set-1,unit_17,"Sat, 02 May 2020 18:05:44 GMT",2020-05-02 18:05:44.910000086+00:00,1,Thank you hard to find some things good exercise to sniff out fake news
+worker_43,True,Roitero et al,MedicalTask-Set-1,unit_20,"Sun, 03 May 2020 04:56:23 GMT",2020-05-03 04:56:23.618999958+00:00,1,Interesting assignment
+worker_46,True,Roitero et al,MedicalTask-Set-1,unit_25,"Sun, 03 May 2020 05:49:14 GMT",2020-05-03 05:49:14.653000116+00:00,1,Very interesting study thanks for the chance to participate in it
+worker_47,True,Roitero et al,MedicalTask-Set-1,unit_26,"Sat, 02 May 2020 18:12:39 GMT",2020-05-02 18:12:39.872999907+00:00,2,nice survey
+worker_53,True,Roitero et al,MedicalTask-Set-1,unit_32,"Sat, 02 May 2020 19:08:04 GMT",2020-05-02 19:08:04.276000023+00:00,1,So I got an Obama quote that said Yes we can which really isnt a statement that can be proved or disproved as its more of a slogan than anything else I approached it from the standpoint of him encouraging his supporters that he CAN run for president
+worker_54,True,Roitero et al,MedicalTask-Set-1,unit_33,"Sat, 02 May 2020 21:52:15 GMT",2020-05-02 21:52:15.039999962+00:00,1,a lot of work for little reward
+worker_55,True,Roitero et al,MedicalTask-Set-1,unit_34,"Sun, 03 May 2020 07:26:28 GMT",2020-05-03 07:26:28.799999952+00:00,1,At first I thought you were asking us to confirm whether the quote had really been said by that person Could be made clearer
+worker_61,True,Roitero et al,MedicalTask-Set-1,unit_46,"Sun, 03 May 2020 01:46:37 GMT",2020-05-03 01:46:37.786000013+00:00,1,this was great thank you
+worker_64,True,Roitero et al,MedicalTask-Set-1,unit_50,"Sun, 03 May 2020 08:12:18 GMT",2020-05-03 08:12:18.917000055+00:00,1,Horrible search engine It got more biased towards conservatives as the test when on Besides no one should ever make a decision on truthiness which by the way is subjective on one internet search no one SHOULD but it seems they do less than that
+worker_68,True,Roitero et al,MedicalTask-Set-1,unit_56,"Sat, 02 May 2020 17:42:52 GMT",2020-05-02 17:42:52.029999971+00:00,1,This was a very interesting well constructed timelyimportant survey Thanksgood luck w your researchgood health to you
+worker_70,True,Roitero et al,MedicalTask-Set-1,unit_59,"Sun, 03 May 2020 00:40:51 GMT",2020-05-03 00:40:51.181999922+00:00,1,I greatly appreciated my participation in this project
+worker_71,True,Roitero et al,MedicalTask-Set-1,unit_61,"Sun, 03 May 2020 05:57:06 GMT",2020-05-03 05:57:06.138000011+00:00,1,No comments
+worker_72,True,Roitero et al,MedicalTask-Set-1,unit_62,"Sat, 02 May 2020 20:18:09 GMT",2020-05-02 20:18:09.503999949+00:00,1,no
+worker_74,True,Roitero et al,MedicalTask-Set-1,unit_64,"Sat, 02 May 2020 16:39:00 GMT",2020-05-02 16:39:00.361000061+00:00,1,So Good and intresting
+worker_78,True,Roitero et al,MedicalTask-Set-1,unit_72,"Sat, 02 May 2020 19:52:31 GMT",2020-05-02 19:52:31.483000040+00:00,1,No
+worker_83,True,Roitero et al,MedicalTask-Set-1,unit_80,"Sun, 03 May 2020 00:31:56 GMT",2020-05-03 00:31:56.571000099+00:00,1,execelent
+worker_87,True,Roitero et al,MedicalTask-Set-1,unit_87,"Sun, 03 May 2020 06:34:13 GMT",2020-05-03 06:34:13.555999994+00:00,1,Interesting research but I really hope there are not a lot of people who think it is perfectly professional to proclaim that viruses are ALIVE Anyway it would be nice if at the end of the survey the purpose or intent of this questionnaire was further elaborated
+worker_91,True,Roitero et al,MedicalTask-Set-1,unit_91,"Sat, 02 May 2020 21:30:35 GMT",2020-05-02 21:30:35.687999964+00:00,1,Thank you for having me
+worker_104,True,Roitero et al,MedicalTask-Set-2,unit_3,"Mon, 01 Jun 2020 11:46:11 GMT",2020-06-01 11:46:11.038000107+00:00,1,no comments
+worker_109,True,Roitero et al,MedicalTask-Set-2,unit_9,"Mon, 01 Jun 2020 11:45:05 GMT",2020-06-01 11:45:05.713999987+00:00,1,My Associates degree was not just some college I worked very very hard for it while working full time and performing as a single parent
+worker_111,True,Roitero et al,MedicalTask-Set-2,unit_11,"Mon, 01 Jun 2020 11:44:17 GMT",2020-06-01 11:44:17.697999954+00:00,1,there should be more specific and absolute information about the world pandemic issues and ways or opinion on how to stay safe
+worker_112,True,Roitero et al,MedicalTask-Set-2,unit_12,"Mon, 01 Jun 2020 12:22:01 GMT",2020-06-01 12:22:01.168999910+00:00,1,good
+worker_114,True,Roitero et al,MedicalTask-Set-2,unit_14,"Mon, 01 Jun 2020 14:18:44 GMT",2020-06-01 14:18:44.661000013+00:00,1,good
+worker_115,True,Roitero et al,MedicalTask-Set-2,unit_15,"Mon, 01 Jun 2020 18:47:09 GMT",2020-06-01 18:47:09.111000061+00:00,1,Are yall really trusting us to accurately do this These fact checks require experts not preliminary searches Best of luck though
+worker_117,True,Roitero et al,MedicalTask-Set-2,unit_17,"Mon, 01 Jun 2020 12:13:41 GMT",2020-06-01 12:13:41.200000048+00:00,1,nice
+worker_120,True,Roitero et al,MedicalTask-Set-2,unit_20,"Mon, 01 Jun 2020 12:56:11 GMT",2020-06-01 12:56:11.829999924+00:00,1,Interesting topics
+worker_123,True,Roitero et al,MedicalTask-Set-2,unit_23,"Mon, 01 Jun 2020 15:52:33 GMT",2020-06-01 15:52:33.663000107+00:00,1,No comment but this was fun
+worker_128,True,Roitero et al,MedicalTask-Set-2,unit_28,"Mon, 01 Jun 2020 20:29:28 GMT",2020-06-01 20:29:28.726999998+00:00,2,Thanks for a task it is great to train your brain a bit to see how easily you can misinterpret information
+worker_135,True,Roitero et al,MedicalTask-Set-2,unit_35,"Mon, 01 Jun 2020 12:42:46 GMT",2020-06-01 12:42:46.703000069+00:00,2,good
+worker_136,True,Roitero et al,MedicalTask-Set-2,unit_36,"Mon, 01 Jun 2020 19:08:09 GMT",2020-06-01 19:08:09.776999950+00:00,1,No
+worker_142,True,Roitero et al,MedicalTask-Set-2,unit_42,"Mon, 01 Jun 2020 18:17:38 GMT",2020-06-01 18:17:38.698999882+00:00,1,I enjoyed this task and it was wellorganized
+worker_144,True,Roitero et al,MedicalTask-Set-2,unit_44,"Mon, 01 Jun 2020 12:01:06 GMT",2020-06-01 12:01:06.904999971+00:00,1,good survery very difficult to answer
+worker_147,True,Roitero et al,MedicalTask-Set-2,unit_47,"Mon, 01 Jun 2020 12:19:31 GMT",2020-06-01 12:19:31.094000101+00:00,1,GoodToday is new dayBecause i will learn something newIn this study gives more experience for meI will gather more informationThank you so much
+worker_148,True,Roitero et al,MedicalTask-Set-2,unit_48,"Mon, 01 Jun 2020 15:44:03 GMT",2020-06-01 15:44:03.144000053+00:00,1,none at this time
+worker_149,True,Roitero et al,MedicalTask-Set-2,unit_49,"Mon, 01 Jun 2020 14:05:21 GMT",2020-06-01 14:05:21.555999994+00:00,1,Thanks Hope I did this the way you wanted it Interesting to look at all the claims
+worker_152,True,Roitero et al,MedicalTask-Set-2,unit_52,"Mon, 01 Jun 2020 19:16:07 GMT",2020-06-01 19:16:07.407000065+00:00,1,This survey was very fun to take part in Thanks
+worker_155,True,Roitero et al,MedicalTask-Set-2,unit_55,"Mon, 01 Jun 2020 19:21:46 GMT",2020-06-01 19:21:46.549000025+00:00,1,Nice and easy but needs to be a bit shorter
+worker_156,True,Roitero et al,MedicalTask-Set-2,unit_56,"Mon, 01 Jun 2020 17:45:10 GMT",2020-06-01 17:45:10.108000040+00:00,1,That took a lot of work But so necessary to do
+worker_157,True,Roitero et al,MedicalTask-Set-2,unit_57,"Mon, 01 Jun 2020 18:02:17 GMT",2020-06-01 18:02:17.494999886+00:00,1,reality survey
+worker_159,True,Roitero et al,MedicalTask-Set-2,unit_59,"Mon, 01 Jun 2020 17:23:22 GMT",2020-06-01 17:23:22.088000059+00:00,1,I kinda feel like this survey is trying to make trump look better and make other people look worse So i answered as honestly as I could to defend those who have been in the right Prosecute trump for his willful endangerment of the american populace
+worker_162,True,Roitero et al,MedicalTask-Set-2,unit_62,"Tue, 02 Jun 2020 03:01:05 GMT",2020-06-02 03:01:05.697000027+00:00,1,Really enjoyed this survey and finding out how much news is really false Thanks
+worker_166,True,Roitero et al,MedicalTask-Set-2,unit_67,"Mon, 01 Jun 2020 11:54:28 GMT",2020-06-01 11:54:28.226000071+00:00,1,nothing
+worker_167,True,Roitero et al,MedicalTask-Set-2,unit_68,"Mon, 01 Jun 2020 13:22:59 GMT",2020-06-01 13:22:59.696000099+00:00,1,GOOD
+worker_169,True,Roitero et al,MedicalTask-Set-2,unit_70,"Mon, 01 Jun 2020 15:48:12 GMT",2020-06-01 15:48:12.740000010+00:00,1,This was a lot of fun I love independent fact checking everything I read Thats why Im a conservative I value the truth above all
+worker_170,True,Roitero et al,MedicalTask-Set-2,unit_71,"Mon, 01 Jun 2020 15:59:33 GMT",2020-06-01 15:59:33.332999945+00:00,1,That was actually really enjoyable Thank you Have a wonderful day
+worker_171,True,Roitero et al,MedicalTask-Set-2,unit_73,"Mon, 01 Jun 2020 12:56:44 GMT",2020-06-01 12:56:44.826999903+00:00,1,interesting
+worker_173,True,Roitero et al,MedicalTask-Set-2,unit_75,"Mon, 01 Jun 2020 13:52:05 GMT",2020-06-01 13:52:05.038000107+00:00,1,Needable one for present scenario
+worker_174,True,Roitero et al,MedicalTask-Set-2,unit_76,"Mon, 01 Jun 2020 12:23:31 GMT",2020-06-01 12:23:31.042000055+00:00,1,its more interesting and intent to do more Thank you
+worker_176,True,Roitero et al,MedicalTask-Set-2,unit_78,"Mon, 01 Jun 2020 22:32:12 GMT",2020-06-01 22:32:12.927000046+00:00,1,I didnt understand the last statement The statement was Obama saying Yes we can in 2008 I didnt understand how that could be a true or false statement But I put that it was true because that is what Obama said
+worker_180,True,Roitero et al,MedicalTask-Set-2,unit_82,"Mon, 01 Jun 2020 19:30:02 GMT",2020-06-01 19:30:02.467999935+00:00,1,The questions at the beginning were kind of challenging and Im not too sure I got them right Good luck with your study nonetheless
+worker_183,True,Roitero et al,MedicalTask-Set-2,unit_86,"Mon, 01 Jun 2020 18:26:02 GMT",2020-06-01 18:26:02.760999918+00:00,1,very interesting and different from tasks I normally complete Would love to participate in a similar task in the future
+worker_184,True,Roitero et al,MedicalTask-Set-2,unit_87,"Mon, 01 Jun 2020 14:20:39 GMT",2020-06-01 14:20:39.489000082+00:00,1,Thank you for the survey
+worker_188,True,Roitero et al,MedicalTask-Set-2,unit_91,"Mon, 01 Jun 2020 20:51:37 GMT",2020-06-01 20:51:37.674000025+00:00,1,Thank you for the opportunity
+worker_191,True,Roitero et al,MedicalTask-Set-2,unit_94,"Mon, 01 Jun 2020 12:03:39 GMT",2020-06-01 12:03:39.187000036+00:00,2,good
+worker_192,True,Roitero et al,MedicalTask-Set-2,unit_95,"Mon, 01 Jun 2020 13:53:15 GMT",2020-06-01 13:53:15.885999918+00:00,1,ALOT of misinformation and misinformed people in society Some what shocking on what people believe
+worker_194,True,Roitero et al,MedicalTask-Set-2,unit_97,"Mon, 01 Jun 2020 17:59:33 GMT",2020-06-01 17:59:33.999000072+00:00,1,mo
+worker_196,True,Roitero et al,MedicalTask-Set-2,unit_99,"Mon, 01 Jun 2020 12:27:01 GMT",2020-06-01 12:27:01.348000050+00:00,1,no
+worker_198,True,Roitero et al,MedicalTask-Set-2,unit_65,"Thu, 18 Jun 2020 16:01:06 GMT",2020-06-18 16:01:06.835000038+00:00,1,no
+worker_200,True,Roitero et al,MedicalTask-Set-2,unit_83,"Fri, 19 Jun 2020 04:46:35 GMT",2020-06-19 04:46:35.538000107+00:00,1,Thats the Good and Motivational Survery of Me Thanking u
+worker_18,True,Roitero et al,MedicalTask-Set-2-From-1,unit_16,"Mon, 01 Jun 2020 16:34:58 GMT",2020-06-01 16:34:58.023000002+00:00,2,I worked really hard on this so if there are any mistakes I sincerely apologize
+worker_4,True,Roitero et al,MedicalTask-Set-2-From-1,unit_17,"Mon, 01 Jun 2020 15:37:43 GMT",2020-06-01 15:37:43.174000025+00:00,1,Thank you
+worker_201,True,Roitero et al,MedicalTask-Set-2-From-1,unit_21,"Wed, 03 Jun 2020 19:30:41 GMT",2020-06-03 19:30:41.779000044+00:00,1,good survey
+worker_65,True,Roitero et al,MedicalTask-Set-2-From-1,unit_33,"Mon, 01 Jun 2020 18:10:08 GMT",2020-06-01 18:10:08.493999958+00:00,1,Do more of these tasks theyre fun
+worker_15,True,Roitero et al,MedicalTask-Set-2-From-1,unit_39,"Tue, 02 Jun 2020 05:37:51 GMT",2020-06-02 05:37:51.017999887+00:00,1,good survey about people statement
+worker_40,True,Roitero et al,MedicalTask-Set-2-From-1,unit_44,"Tue, 02 Jun 2020 23:09:34 GMT",2020-06-02 23:09:34.270999908+00:00,1,none at this time
+worker_36,True,Roitero et al,MedicalTask-Set-2-From-1,unit_16,"Fri, 05 Jun 2020 22:48:22 GMT",2020-06-05 22:48:22.144999981+00:00,1,I remembered my earlier responses pretty well Maybe it would have been better to wait a bit longer to follow up Also my browser remembered which links I clicked last time Maybe ask people to clear their histories or use an incognito browser
+worker_202,True,Roitero et al,MedicalTask-Set-2-From-1,unit_22,"Sat, 06 Jun 2020 10:29:25 GMT",2020-06-06 10:29:25.539999962+00:00,1,good
+worker_203,True,Roitero et al,MedicalTask-Set-2-From-1,unit_32,"Sat, 06 Jun 2020 15:13:12 GMT",2020-06-06 15:13:12.528000115+00:00,1,It is interesting
+worker_204,True,Roitero et al,MedicalTask-Set-2-From-1,unit_60,"Sat, 06 Jun 2020 09:28:35 GMT",2020-06-06 09:28:35.953000069+00:00,1,no comments
+worker_205,True,Roitero et al,MedicalTask-Set-2-From-1,unit_64,"Sun, 07 Jun 2020 14:28:13 GMT",2020-06-07 14:28:13.078000069+00:00,1,it has the quality task
+worker_206,True,Roitero et al,MedicalTask-Set-2-From-1,unit_74,"Fri, 05 Jun 2020 19:23:37 GMT",2020-06-05 19:23:37.345000029+00:00,1,nice
+worker_55,True,Roitero et al,MedicalTask-Set-2-From-1,unit_85,"Sat, 06 Jun 2020 20:26:47 GMT",2020-06-06 20:26:47.056999922+00:00,1,There were several questions where it was hard to know which part of it we were supposed to be judging the truth of
+worker_207,True,Roitero et al,MedicalTask-Set-2-From-1,unit_99,"Fri, 05 Jun 2020 18:21:35 GMT",2020-06-05 18:21:35.647000074+00:00,1,good
+worker_209,True,Roitero et al,MedicalTask-Set-3,unit_1,"Wed, 01 Jul 2020 10:17:45 GMT",2020-07-01 10:17:45.167000055+00:00,1,GOOD
+worker_211,True,Roitero et al,MedicalTask-Set-3,unit_3,"Wed, 01 Jul 2020 15:52:22 GMT",2020-07-01 15:52:22.463999987+00:00,2,Very interesting
+worker_212,True,Roitero et al,MedicalTask-Set-3,unit_4,"Wed, 01 Jul 2020 21:12:42 GMT",2020-07-01 21:12:42.131000042+00:00,1,This is very low pay task as per the time applied to complete study
+worker_213,True,Roitero et al,MedicalTask-Set-3,unit_5,"Wed, 01 Jul 2020 16:05:53 GMT",2020-07-01 16:05:53.176000118+00:00,1,No
+worker_218,True,Roitero et al,MedicalTask-Set-3,unit_11,"Thu, 02 Jul 2020 13:30:17 GMT",2020-07-02 13:30:17.490999937+00:00,1,good
+worker_219,True,Roitero et al,MedicalTask-Set-3,unit_13,"Wed, 01 Jul 2020 09:37:50 GMT",2020-07-01 09:37:50.598999977+00:00,1,good
+worker_220,True,Roitero et al,MedicalTask-Set-3,unit_14,"Wed, 01 Jul 2020 10:29:49 GMT",2020-07-01 10:29:49.500999928+00:00,1,good
+worker_221,True,Roitero et al,MedicalTask-Set-3,unit_15,"Wed, 01 Jul 2020 16:48:05 GMT",2020-07-01 16:48:05.417000055+00:00,1,No comments
+worker_226,True,Roitero et al,MedicalTask-Set-3,unit_22,"Wed, 01 Jul 2020 09:12:33 GMT",2020-07-01 09:12:33.891000032+00:00,2,IT IS VERY INTRESTING TO DONE
+worker_228,True,Roitero et al,MedicalTask-Set-3,unit_25,"Wed, 01 Jul 2020 12:14:59 GMT",2020-07-01 12:14:59.730000019+00:00,1,I WAS FELT VERY HAPPY
+worker_229,True,Roitero et al,MedicalTask-Set-3,unit_26,"Wed, 01 Jul 2020 10:44:36 GMT",2020-07-01 10:44:36.332000017+00:00,1,it is very useful
+worker_230,True,Roitero et al,MedicalTask-Set-3,unit_27,"Fri, 03 Jul 2020 05:36:17 GMT",2020-07-03 05:36:17.555000067+00:00,3,nice
+worker_232,True,Roitero et al,MedicalTask-Set-3,unit_29,"Wed, 01 Jul 2020 19:21:15 GMT",2020-07-01 19:21:15.105999947+00:00,1,Nice Survey
+worker_233,True,Roitero et al,MedicalTask-Set-3,unit_30,"Wed, 01 Jul 2020 16:50:34 GMT",2020-07-01 16:50:34.413000107+00:00,1,very good
+worker_234,True,Roitero et al,MedicalTask-Set-3,unit_32,"Thu, 02 Jul 2020 03:28:05 GMT",2020-07-02 03:28:05.036000013+00:00,1,useful survey for corona situation
+worker_237,True,Roitero et al,MedicalTask-Set-3,unit_35,"Wed, 01 Jul 2020 14:23:18 GMT",2020-07-01 14:23:18.286999941+00:00,2,THANK YOU
+worker_238,True,Roitero et al,MedicalTask-Set-3,unit_37,"Wed, 01 Jul 2020 23:08:45 GMT",2020-07-01 23:08:45.749000072+00:00,1,Good
+worker_239,True,Roitero et al,MedicalTask-Set-3,unit_38,"Wed, 01 Jul 2020 11:37:51 GMT",2020-07-01 11:37:51.269000053+00:00,1,Interesting to refer new pages and websites
+worker_242,True,Roitero et al,MedicalTask-Set-3,unit_41,"Wed, 01 Jul 2020 16:04:31 GMT",2020-07-01 16:04:31.102999926+00:00,1,good i learn more information in this survey
+worker_244,True,Roitero et al,MedicalTask-Set-3,unit_43,"Wed, 01 Jul 2020 10:16:21 GMT",2020-07-01 10:16:21.109999895+00:00,1,Good And Interesting Survey
+worker_245,True,Roitero et al,MedicalTask-Set-3,unit_46,"Wed, 01 Jul 2020 13:51:15 GMT",2020-07-01 13:51:15.897000074+00:00,1,I enjoyed the survey
+worker_246,True,Roitero et al,MedicalTask-Set-3,unit_48,"Wed, 01 Jul 2020 15:50:48 GMT",2020-07-01 15:50:48.338999987+00:00,1,NO COMMENTS
+worker_247,True,Roitero et al,MedicalTask-Set-3,unit_49,"Wed, 01 Jul 2020 11:00:52 GMT",2020-07-01 11:00:52.999000072+00:00,1,i like this study very much
+worker_248,True,Roitero et al,MedicalTask-Set-3,unit_50,"Wed, 01 Jul 2020 23:47:15 GMT",2020-07-01 23:47:15.361000061+00:00,1,ITS VERY HELPFUL TO US
+worker_251,True,Roitero et al,MedicalTask-Set-3,unit_53,"Wed, 01 Jul 2020 11:36:03 GMT",2020-07-01 11:36:03.964999914+00:00,1,ThanksWorker IDA1PTH9KTRO06EG
+worker_253,True,Roitero et al,MedicalTask-Set-3,unit_55,"Wed, 01 Jul 2020 09:17:40 GMT",2020-07-01 09:17:40.473999977+00:00,1,JTOGECJYWOS
+worker_254,True,Roitero et al,MedicalTask-Set-3,unit_57,"Wed, 01 Jul 2020 17:10:52 GMT",2020-07-01 17:10:52.576999903+00:00,1,nice one
+worker_257,True,Roitero et al,MedicalTask-Set-3,unit_62,"Wed, 01 Jul 2020 15:03:38 GMT",2020-07-01 15:03:38.028000116+00:00,1,I like this
+worker_260,True,Roitero et al,MedicalTask-Set-3,unit_65,"Thu, 02 Jul 2020 06:50:40 GMT",2020-07-02 06:50:40.280999899+00:00,1,in the survey we should write correct answer
+worker_261,True,Roitero et al,MedicalTask-Set-3,unit_67,"Wed, 01 Jul 2020 15:07:54 GMT",2020-07-01 15:07:54.647000074+00:00,1,nice
+worker_264,True,Roitero et al,MedicalTask-Set-3,unit_70,"Thu, 02 Jul 2020 02:21:31 GMT",2020-07-02 02:21:31.451999903+00:00,1,I AM INTERESTED AND KNOWLEDGE GAIN
+worker_265,True,Roitero et al,MedicalTask-Set-3,unit_71,"Wed, 01 Jul 2020 18:34:02 GMT",2020-07-01 18:34:02.029000044+00:00,1,very interesting
+worker_266,True,Roitero et al,MedicalTask-Set-3,unit_72,"Wed, 01 Jul 2020 09:17:23 GMT",2020-07-01 09:17:23.512000083+00:00,1,good
+worker_268,True,Roitero et al,MedicalTask-Set-3,unit_76,"Wed, 01 Jul 2020 13:26:37 GMT",2020-07-01 13:26:37.190999985+00:00,1,Good Task
+worker_269,True,Roitero et al,MedicalTask-Set-3,unit_77,"Wed, 01 Jul 2020 13:28:02 GMT",2020-07-01 13:28:02.822000027+00:00,1,nice
+worker_270,True,Roitero et al,MedicalTask-Set-3,unit_80,"Wed, 01 Jul 2020 09:05:28 GMT",2020-07-01 09:05:28.405999899+00:00,1,awesome
+worker_272,True,Roitero et al,MedicalTask-Set-3,unit_83,"Wed, 01 Jul 2020 10:59:58 GMT",2020-07-01 10:59:58.717000008+00:00,1,it is really interesting to know about the facts
+worker_273,True,Roitero et al,MedicalTask-Set-3,unit_85,"Wed, 01 Jul 2020 13:11:18 GMT",2020-07-01 13:11:18.509999989+00:00,1,Thanks
+worker_275,True,Roitero et al,MedicalTask-Set-3,unit_88,"Wed, 01 Jul 2020 11:50:16 GMT",2020-07-01 11:50:16.026999950+00:00,1,Nice job
+worker_279,True,Roitero et al,MedicalTask-Set-3,unit_92,"Wed, 01 Jul 2020 09:08:10 GMT",2020-07-01 09:08:10.006999969+00:00,1,SOIVNQEJQLC
+worker_280,True,Roitero et al,MedicalTask-Set-3,unit_93,"Wed, 01 Jul 2020 16:52:43 GMT",2020-07-01 16:52:43.989000082+00:00,1,very interesting
+worker_282,True,Roitero et al,MedicalTask-Set-3,unit_95,"Wed, 01 Jul 2020 10:26:44 GMT",2020-07-01 10:26:44.266000032+00:00,1,Interesting survey
+worker_283,True,Roitero et al,MedicalTask-Set-3,unit_96,"Wed, 01 Jul 2020 17:25:14 GMT",2020-07-01 17:25:14.980999947+00:00,1,Thanks for the opportunity
+worker_286,True,Roitero et al,MedicalTask-Set-3,unit_12,"Tue, 07 Jul 2020 21:26:48 GMT",2020-07-07 21:26:48.578000069+00:00,1,good
+worker_287,True,Roitero et al,MedicalTask-Set-3,unit_20,"Wed, 08 Jul 2020 17:00:59 GMT",2020-07-08 17:00:59.732000113+00:00,1,It was good to work on it
+worker_288,True,Roitero et al,MedicalTask-Set-3,unit_21,"Wed, 08 Jul 2020 11:54:29 GMT",2020-07-08 11:54:29.474999905+00:00,1,good
+worker_290,True,Roitero et al,MedicalTask-Set-3,unit_10,"Thu, 09 Jul 2020 16:36:56 GMT",2020-07-09 16:36:56.298000097+00:00,1,good knowledgable about the current issue
+worker_291,True,Roitero et al,MedicalTask-Set-3,unit_23,"Sun, 12 Jul 2020 11:15:23 GMT",2020-07-12 11:15:23.532000064+00:00,1,good
+worker_292,True,Roitero et al,MedicalTask-Set-3,unit_31,"Thu, 09 Jul 2020 14:15:23 GMT",2020-07-09 14:15:23.947999954+00:00,1,good
+worker_293,True,Roitero et al,MedicalTask-Set-3,unit_44,"Thu, 09 Jul 2020 14:01:36 GMT",2020-07-09 14:01:36.960000038+00:00,3,GOOD
+worker_295,True,Roitero et al,MedicalTask-Set-3,unit_47,"Thu, 09 Jul 2020 21:40:43 GMT",2020-07-09 21:40:43.538000107+00:00,1,it is really informative
+worker_297,True,Roitero et al,MedicalTask-Set-3,unit_60,"Thu, 09 Jul 2020 11:39:20 GMT",2020-07-09 11:39:20.821000099+00:00,1,good survey
+worker_298,True,Roitero et al,MedicalTask-Set-3,unit_73,"Thu, 09 Jul 2020 11:51:27 GMT",2020-07-09 11:51:27.571000099+00:00,1,good
+worker_301,True,Roitero et al,MedicalTask-Set-3,unit_79,"Thu, 09 Jul 2020 17:21:23 GMT",2020-07-09 17:21:23.813999891+00:00,2,Very useful
+worker_302,True,Roitero et al,MedicalTask-Set-3,unit_81,"Thu, 09 Jul 2020 13:37:04 GMT",2020-07-09 13:37:04.476999998+00:00,3,good
+worker_303,True,Roitero et al,MedicalTask-Set-3,unit_84,"Thu, 09 Jul 2020 16:14:23 GMT",2020-07-09 16:14:23.252000092+00:00,1,good
+worker_304,True,Roitero et al,MedicalTask-Set-3,unit_87,"Thu, 09 Jul 2020 11:46:38 GMT",2020-07-09 11:46:38.880000114+00:00,3,good
+worker_305,True,Roitero et al,MedicalTask-Set-3,unit_97,"Thu, 09 Jul 2020 14:08:14 GMT",2020-07-09 14:08:14.344000101+00:00,4,good
+worker_306,True,Roitero et al,MedicalTask-Set-3,unit_56,"Thu, 23 Jul 2020 11:18:24 GMT",2020-07-23 11:18:24.845000029+00:00,1,Good
+worker_307,True,Roitero et al,MedicalTask-Set-3,unit_66,"Thu, 23 Jul 2020 15:44:28 GMT",2020-07-23 15:44:28.523000001+00:00,1,BYGWSTOCOJK
+worker_91,True,Roitero et al,MedicalTask-Set-3-From-1,unit_0,"Thu, 02 Jul 2020 07:07:11 GMT",2020-07-02 07:07:11.857999802+00:00,1,Thank you for having me
+worker_10,True,Roitero et al,MedicalTask-Set-3-From-1,unit_37,"Tue, 07 Jul 2020 07:36:24 GMT",2020-07-07 07:36:24.904999971+00:00,1,NIL
+worker_74,True,Roitero et al,MedicalTask-Set-3-From-1,unit_43,"Wed, 01 Jul 2020 13:26:50 GMT",2020-07-01 13:26:50.916000128+00:00,1,So good
+worker_4,True,Roitero et al,MedicalTask-Set-3-From-1,unit_56,"Wed, 01 Jul 2020 12:38:53 GMT",2020-07-01 12:38:53.442999840+00:00,1,Stay safe and thanks for trying to correct misinformation around the world
+worker_55,True,Roitero et al,MedicalTask-Set-3-From-1,unit_59,"Tue, 07 Jul 2020 22:38:23 GMT",2020-07-07 22:38:23.583999872+00:00,1,Instructions were not given for when the statement was not judgeable such as Yes we can which is a statement without a verb There were also statements with more than one verb which made it unclear what to judge such as the one that was something like We need to give the American people some estimate of whether A or B I judged the validity of whether the American people needed an estimate And too often the search results were a bunch of biased sources
+worker_96,True,Roitero et al,MedicalTask-Set-3-From-1,unit_60,"Fri, 10 Jul 2020 18:04:05 GMT",2020-07-10 18:04:05.177000046+00:00,1,Really cool survey
+worker_95,True,Roitero et al,MedicalTask-Set-3-From-1,unit_75,"Tue, 07 Jul 2020 23:51:04 GMT",2020-07-07 23:51:04.345999956+00:00,1,Interesting
+worker_41,True,Roitero et al,MedicalTask-Set-3-From-1,unit_77,"Wed, 01 Jul 2020 14:49:11 GMT",2020-07-01 14:49:11.542999983+00:00,1,Thank you this was interesting
+worker_109,True,Roitero et al,MedicalTask-Set-3-From-2,unit_30,"Tue, 07 Jul 2020 16:30:21 GMT",2020-07-07 16:30:21.522000074+00:00,1,This is my second take as requested
+worker_169,True,Roitero et al,MedicalTask-Set-3-From-2,unit_66,"Thu, 09 Jul 2020 15:20:30 GMT",2020-07-09 15:20:30.467000008+00:00,3,In the claim rating section the word ridiculous is misspelled but outside of that great study
+worker_101,True,Roitero et al,MedicalTask-Set-3-From-2,unit_72,"Thu, 09 Jul 2020 16:41:29 GMT",2020-07-09 16:41:29.884999990+00:00,1,enjoyed this activity a very relevant topicstudy given the present climate and politicization of the coronavirus response
+worker_156,True,Roitero et al,MedicalTask-Set-3-From-2,unit_73,"Thu, 09 Jul 2020 14:12:53 GMT",2020-07-09 14:12:53.347000122+00:00,1,I was not sure in some cases if I was supposed to tell whether it was true the person said that or if what the person said was true For instance Barack Obama did say Yes we can in a speech That is true Is it true that we can Donald Trump did not say that injecting bleach would cure covid19 What he did say sort of suggested that and was ridiculous But he didnt actually say that So it is false that he said it And it is also false and very dangerous to suggest that injecting bleach is a cure
+worker_128,True,Roitero et al,MedicalTask-Set-3-From-2,unit_80,"Thu, 09 Jul 2020 15:20:24 GMT",2020-07-09 15:20:24.987000227+00:00,1,Thank you It was interesting experience
+worker_91,True,Roitero et al,MedicalTask-Set-3-From-1-Or-2,unit_0,"Thu, 02 Jul 2020 07:07:11 GMT",2020-07-02 07:07:11.858000040+00:00,1,Thank you for having me
+worker_109,True,Roitero et al,MedicalTask-Set-3-From-1-Or-2,unit_30,"Tue, 07 Jul 2020 16:30:21 GMT",2020-07-07 16:30:21.522000074+00:00,1,This is my second take as requested
+worker_10,True,Roitero et al,MedicalTask-Set-3-From-1-Or-2,unit_37,"Tue, 07 Jul 2020 07:36:24 GMT",2020-07-07 07:36:24.904999971+00:00,1,NIL
+worker_74,True,Roitero et al,MedicalTask-Set-3-From-1-Or-2,unit_43,"Wed, 01 Jul 2020 13:26:50 GMT",2020-07-01 13:26:50.915999889+00:00,1,So good
+worker_4,True,Roitero et al,MedicalTask-Set-3-From-1-Or-2,unit_56,"Wed, 01 Jul 2020 12:38:53 GMT",2020-07-01 12:38:53.443000078+00:00,1,Stay safe and thanks for trying to correct misinformation around the world
+worker_55,True,Roitero et al,MedicalTask-Set-3-From-1-Or-2,unit_59,"Tue, 07 Jul 2020 22:38:23 GMT",2020-07-07 22:38:23.584000111+00:00,1,Instructions were not given for when the statement was not judgeable such as Yes we can which is a statement without a verb There were also statements with more than one verb which made it unclear what to judge such as the one that was something like We need to give the American people some estimate of whether A or B I judged the validity of whether the American people needed an estimate And too often the search results were a bunch of biased sources
+worker_96,True,Roitero et al,MedicalTask-Set-3-From-1-Or-2,unit_60,"Fri, 10 Jul 2020 18:04:05 GMT",2020-07-10 18:04:05.177000046+00:00,1,Really cool survey
+worker_169,True,Roitero et al,MedicalTask-Set-3-From-1-Or-2,unit_66,"Thu, 09 Jul 2020 15:20:30 GMT",2020-07-09 15:20:30.467000008+00:00,3,In the claim rating section the word ridiculous is misspelled but outside of that great study
+worker_101,True,Roitero et al,MedicalTask-Set-3-From-1-Or-2,unit_72,"Thu, 09 Jul 2020 16:41:29 GMT",2020-07-09 16:41:29.884999990+00:00,1,enjoyed this activity a very relevant topicstudy given the present climate and politicization of the coronavirus response
+worker_156,True,Roitero et al,MedicalTask-Set-3-From-1-Or-2,unit_73,"Thu, 09 Jul 2020 14:12:53 GMT",2020-07-09 14:12:53.346999884+00:00,1,I was not sure in some cases if I was supposed to tell whether it was true the person said that or if what the person said was true For instance Barack Obama did say Yes we can in a speech That is true Is it true that we can Donald Trump did not say that injecting bleach would cure covid19 What he did say sort of suggested that and was ridiculous But he didnt actually say that So it is false that he said it And it is also false and very dangerous to suggest that injecting bleach is a cure
+worker_95,True,Roitero et al,MedicalTask-Set-3-From-1-Or-2,unit_75,"Tue, 07 Jul 2020 23:51:04 GMT",2020-07-07 23:51:04.345999956+00:00,1,Interesting
+worker_41,True,Roitero et al,MedicalTask-Set-3-From-1-Or-2,unit_77,"Wed, 01 Jul 2020 14:49:11 GMT",2020-07-01 14:49:11.542999983+00:00,1,Thank you this was interesting
+worker_128,True,Roitero et al,MedicalTask-Set-3-From-1-Or-2,unit_80,"Thu, 09 Jul 2020 15:20:24 GMT",2020-07-09 15:20:24.986999989+00:00,1,Thank you It was interesting experience
+worker_309,True,Roitero et al,MedicalTask-Set-4,unit_1,"Tue, 04 Aug 2020 14:40:23 GMT",2020-08-04 14:40:23.726000071+00:00,1,good
+worker_310,True,Roitero et al,MedicalTask-Set-4,unit_2,"Tue, 04 Aug 2020 10:59:12 GMT",2020-08-04 10:59:12.992000103+00:00,1,good
+worker_314,True,Roitero et al,MedicalTask-Set-4,unit_6,"Tue, 04 Aug 2020 08:30:52 GMT",2020-08-04 08:30:52.605999947+00:00,1,Nothing
+worker_315,True,Roitero et al,MedicalTask-Set-4,unit_7,"Wed, 05 Aug 2020 08:18:44 GMT",2020-08-05 08:18:44.414999962+00:00,1,good
+worker_317,True,Roitero et al,MedicalTask-Set-4,unit_9,"Tue, 04 Aug 2020 08:57:04 GMT",2020-08-04 08:57:04.118000031+00:00,3,good one
+worker_318,True,Roitero et al,MedicalTask-Set-4,unit_10,"Tue, 04 Aug 2020 09:03:53 GMT",2020-08-04 09:03:53.930999994+00:00,1,this survey is very nice
+worker_320,True,Roitero et al,MedicalTask-Set-4,unit_12,"Wed, 05 Aug 2020 05:17:10 GMT",2020-08-05 05:17:10.196000099+00:00,4,good
+worker_321,True,Roitero et al,MedicalTask-Set-4,unit_14,"Tue, 04 Aug 2020 09:46:57 GMT",2020-08-04 09:46:57.184000015+00:00,1,Nothing thank you
+worker_322,True,Roitero et al,MedicalTask-Set-4,unit_15,"Tue, 04 Aug 2020 14:04:32 GMT",2020-08-04 14:04:32.982000113+00:00,2,GOOD
+worker_325,True,Roitero et al,MedicalTask-Set-4,unit_19,"Tue, 04 Aug 2020 14:19:39 GMT",2020-08-04 14:19:39.703000069+00:00,1,very use and very well work on the study
+worker_326,True,Roitero et al,MedicalTask-Set-4,unit_21,"Tue, 04 Aug 2020 09:21:18 GMT",2020-08-04 09:21:18.954999924+00:00,5,good
+worker_327,True,Roitero et al,MedicalTask-Set-4,unit_22,"Tue, 04 Aug 2020 11:42:13 GMT",2020-08-04 11:42:13.224999905+00:00,1,very well
+worker_328,True,Roitero et al,MedicalTask-Set-4,unit_23,"Tue, 04 Aug 2020 13:00:04 GMT",2020-08-04 13:00:04.161000013+00:00,1,good
+worker_329,True,Roitero et al,MedicalTask-Set-4,unit_24,"Tue, 04 Aug 2020 11:30:55 GMT",2020-08-04 11:30:55.493999958+00:00,1,THIS SURVEY IS AWESOME
+worker_330,True,Roitero et al,MedicalTask-Set-4,unit_25,"Tue, 04 Aug 2020 20:09:08 GMT",2020-08-04 20:09:08.388999939+00:00,1,great survey
+worker_331,True,Roitero et al,MedicalTask-Set-4,unit_26,"Tue, 04 Aug 2020 13:06:40 GMT",2020-08-04 13:06:40.693000078+00:00,1,good
+worker_332,True,Roitero et al,MedicalTask-Set-4,unit_28,"Tue, 04 Aug 2020 09:24:46 GMT",2020-08-04 09:24:46.315000057+00:00,1,good
+worker_333,True,Roitero et al,MedicalTask-Set-4,unit_29,"Tue, 04 Aug 2020 11:09:56 GMT",2020-08-04 11:09:56.361999989+00:00,1,good survey
+worker_334,True,Roitero et al,MedicalTask-Set-4,unit_31,"Tue, 04 Aug 2020 11:55:55 GMT",2020-08-04 11:55:55.056999922+00:00,5,I like to participate
+worker_338,True,Roitero et al,MedicalTask-Set-4,unit_35,"Tue, 04 Aug 2020 21:49:19 GMT",2020-08-04 21:49:19.765000105+00:00,1,no comments
+worker_339,True,Roitero et al,MedicalTask-Set-4,unit_36,"Tue, 04 Aug 2020 12:41:17 GMT",2020-08-04 12:41:17.296000004+00:00,1,GoodToday is new dayBecause I will learn something newIt gives lot of informationIn this study gives more knowledge power and learning powerThank You so much
+worker_340,True,Roitero et al,MedicalTask-Set-4,unit_37,"Tue, 04 Aug 2020 13:08:27 GMT",2020-08-04 13:08:27.819000006+00:00,6,good survey
+worker_341,True,Roitero et al,MedicalTask-Set-4,unit_38,"Tue, 04 Aug 2020 15:19:02 GMT",2020-08-04 15:19:02.480000019+00:00,1,a good survey
+worker_342,True,Roitero et al,MedicalTask-Set-4,unit_39,"Tue, 04 Aug 2020 11:42:12 GMT",2020-08-04 11:42:12.329999924+00:00,6,comment
+worker_343,True,Roitero et al,MedicalTask-Set-4,unit_41,"Tue, 04 Aug 2020 10:34:52 GMT",2020-08-04 10:34:52.026000023+00:00,1,good
+worker_344,True,Roitero et al,MedicalTask-Set-4,unit_42,"Tue, 04 Aug 2020 10:30:04 GMT",2020-08-04 10:30:04.719000101+00:00,1,good
+worker_345,True,Roitero et al,MedicalTask-Set-4,unit_43,"Tue, 04 Aug 2020 08:35:42 GMT",2020-08-04 08:35:42.964999914+00:00,1,Really it more valuable to work and able to know some pointsThank you
+worker_346,True,Roitero et al,MedicalTask-Set-4,unit_46,"Wed, 05 Aug 2020 00:06:07 GMT",2020-08-05 00:06:07.107000113+00:00,1,interesting
+worker_348,True,Roitero et al,MedicalTask-Set-4,unit_48,"Tue, 04 Aug 2020 12:23:12 GMT",2020-08-04 12:23:12.556999922+00:00,1,good
+worker_349,True,Roitero et al,MedicalTask-Set-4,unit_49,"Tue, 04 Aug 2020 08:44:02 GMT",2020-08-04 08:44:02.078000069+00:00,1,good survey
+worker_350,True,Roitero et al,MedicalTask-Set-4,unit_50,"Tue, 04 Aug 2020 11:50:52 GMT",2020-08-04 11:50:52.730000019+00:00,1,good
+worker_351,True,Roitero et al,MedicalTask-Set-4,unit_51,"Tue, 04 Aug 2020 10:54:19 GMT",2020-08-04 10:54:19.657999992+00:00,1,good
+worker_352,True,Roitero et al,MedicalTask-Set-4,unit_53,"Tue, 04 Aug 2020 10:51:41 GMT",2020-08-04 10:51:41.592000008+00:00,1,thans for this survey
+worker_353,True,Roitero et al,MedicalTask-Set-4,unit_54,"Tue, 04 Aug 2020 10:37:12 GMT",2020-08-04 10:37:12.782999992+00:00,1,good
+worker_354,True,Roitero et al,MedicalTask-Set-4,unit_55,"Tue, 04 Aug 2020 10:02:32 GMT",2020-08-04 10:02:32.793999910+00:00,2,GOOD
+worker_355,True,Roitero et al,MedicalTask-Set-4,unit_56,"Tue, 04 Aug 2020 12:03:17 GMT",2020-08-04 12:03:17.005000114+00:00,3,good
+worker_356,True,Roitero et al,MedicalTask-Set-4,unit_57,"Tue, 04 Aug 2020 17:06:17 GMT",2020-08-04 17:06:17.657000065+00:00,1,Good and new method of survey It should new and not see the another survey
+worker_357,True,Roitero et al,MedicalTask-Set-4,unit_58,"Tue, 04 Aug 2020 10:41:49 GMT",2020-08-04 10:41:49.526999950+00:00,1,good
+worker_359,True,Roitero et al,MedicalTask-Set-4,unit_60,"Tue, 04 Aug 2020 10:19:41 GMT",2020-08-04 10:19:41.917000055+00:00,3,good
+worker_360,True,Roitero et al,MedicalTask-Set-4,unit_61,"Tue, 04 Aug 2020 17:35:16 GMT",2020-08-04 17:35:16.336999893+00:00,1,no
+worker_361,True,Roitero et al,MedicalTask-Set-4,unit_62,"Tue, 04 Aug 2020 09:44:41 GMT",2020-08-04 09:44:41.568000078+00:00,2,good
+worker_364,True,Roitero et al,MedicalTask-Set-4,unit_65,"Tue, 04 Aug 2020 18:34:13 GMT",2020-08-04 18:34:13.907999992+00:00,2,nice
+worker_366,True,Roitero et al,MedicalTask-Set-4,unit_67,"Tue, 04 Aug 2020 11:41:43 GMT",2020-08-04 11:41:43.829999924+00:00,1,good
+worker_368,True,Roitero et al,MedicalTask-Set-4,unit_69,"Tue, 04 Aug 2020 11:15:54 GMT",2020-08-04 11:15:54.529999970+00:00,1,nice
+worker_369,True,Roitero et al,MedicalTask-Set-4,unit_70,"Tue, 04 Aug 2020 21:45:35 GMT",2020-08-04 21:45:35.061000109+00:00,1,VERY GOOD
+worker_371,True,Roitero et al,MedicalTask-Set-4,unit_72,"Tue, 04 Aug 2020 08:35:20 GMT",2020-08-04 08:35:20.677000046+00:00,1,This is nice and neatThanks
+worker_373,True,Roitero et al,MedicalTask-Set-4,unit_74,"Tue, 04 Aug 2020 11:02:50 GMT",2020-08-04 11:02:50.798000097+00:00,10,good
+worker_374,True,Roitero et al,MedicalTask-Set-4,unit_75,"Tue, 04 Aug 2020 09:17:43 GMT",2020-08-04 09:17:43.700999975+00:00,3,This survey is very nice to answer
+worker_375,True,Roitero et al,MedicalTask-Set-4,unit_77,"Tue, 04 Aug 2020 10:55:37 GMT",2020-08-04 10:55:37.299999952+00:00,2,good
+worker_376,True,Roitero et al,MedicalTask-Set-4,unit_78,"Wed, 05 Aug 2020 05:49:21 GMT",2020-08-05 05:49:21.009999990+00:00,3,I Like this survey and know about the details of the corona virus speech from various persons
+worker_378,True,Roitero et al,MedicalTask-Set-4,unit_80,"Wed, 05 Aug 2020 10:41:52 GMT",2020-08-05 10:41:52.653000116+00:00,4,good
+worker_379,True,Roitero et al,MedicalTask-Set-4,unit_81,"Tue, 04 Aug 2020 08:33:28 GMT",2020-08-04 08:33:28.321000099+00:00,1,nothing
+worker_380,True,Roitero et al,MedicalTask-Set-4,unit_82,"Tue, 04 Aug 2020 12:34:22 GMT",2020-08-04 12:34:22.825000048+00:00,1,its was good
+worker_381,True,Roitero et al,MedicalTask-Set-4,unit_13,"Tue, 04 Aug 2020 09:37:31 GMT",2020-08-04 09:37:31.313999891+00:00,3,good
+worker_382,True,Roitero et al,MedicalTask-Set-4,unit_84,"Tue, 04 Aug 2020 13:15:21 GMT",2020-08-04 13:15:21.691999912+00:00,3,good
+worker_383,True,Roitero et al,MedicalTask-Set-4,unit_85,"Tue, 04 Aug 2020 17:45:32 GMT",2020-08-04 17:45:32.421999931+00:00,1,the survey in urt
+worker_385,True,Roitero et al,MedicalTask-Set-4,unit_89,"Tue, 04 Aug 2020 10:49:06 GMT",2020-08-04 10:49:06.420000076+00:00,1,good
+worker_386,True,Roitero et al,MedicalTask-Set-4,unit_90,"Tue, 04 Aug 2020 17:07:48 GMT",2020-08-04 17:07:48.742000103+00:00,1,IS GOOD I HAVE INTEREST TASK IN PARTICIPATE
+worker_387,True,Roitero et al,MedicalTask-Set-4,unit_91,"Tue, 04 Aug 2020 12:11:41 GMT",2020-08-04 12:11:41.503000020+00:00,1,good
+worker_388,True,Roitero et al,MedicalTask-Set-4,unit_92,"Tue, 04 Aug 2020 16:40:05 GMT",2020-08-04 16:40:05.664999962+00:00,1,no comments
+worker_389,True,Roitero et al,MedicalTask-Set-4,unit_93,"Wed, 05 Aug 2020 01:15:22 GMT",2020-08-05 01:15:22.098999977+00:00,1,nice
+worker_391,True,Roitero et al,MedicalTask-Set-4,unit_52,"Tue, 04 Aug 2020 12:07:36 GMT",2020-08-04 12:07:36.420000076+00:00,8,GOOD
+worker_393,True,Roitero et al,MedicalTask-Set-4,unit_98,"Tue, 04 Aug 2020 13:56:17 GMT",2020-08-04 13:56:17.134999990+00:00,2,good
+worker_394,True,Roitero et al,MedicalTask-Set-4,unit_99,"Tue, 04 Aug 2020 14:24:45 GMT",2020-08-04 14:24:45.703999996+00:00,1,Great
+worker_396,True,Roitero et al,MedicalTask-Set-4,unit_96,"Thu, 06 Aug 2020 20:46:22 GMT",2020-08-06 20:46:22.533999919+00:00,1,good experience
+worker_397,True,Roitero et al,MedicalTask-Set-4,unit_86,"Thu, 06 Aug 2020 07:59:44 GMT",2020-08-06 07:59:44.921999931+00:00,1,good survey about the news
+worker_401,True,Roitero et al,MedicalTask-Set-4,unit_76,"Thu, 27 Aug 2020 17:37:29 GMT",2020-08-27 17:37:29.506999969+00:00,1,good survey about fact checking
+worker_402,True,Roitero et al,MedicalTask-Set-4,unit_83,"Thu, 27 Aug 2020 17:34:25 GMT",2020-08-27 17:34:25.076999903+00:00,1,GOOD
+worker_403,True,Roitero et al,MedicalTask-Set-4,unit_95,"Fri, 28 Aug 2020 17:56:28 GMT",2020-08-28 17:56:28.134999990+00:00,1,Interesting job Honestly its asking alot for 150 Its considerate of Turkers by paying atleast like a dollar per 10 minutes preferably 15 or more Thanks for the HIT
+worker_75,True,Roitero et al,MedicalTask-Set-4-From-1,unit_47,"Thu, 20 Aug 2020 16:00:12 GMT",2020-08-20 16:00:12.290999889+00:00,1,Thank you
+worker_38,True,Roitero et al,MedicalTask-Set-4-From-1,unit_70,"Thu, 06 Aug 2020 17:31:33 GMT",2020-08-06 17:31:33.345999956+00:00,1,I think the pay needs to be increased for this one in the future Its very time consuming
+worker_65,True,Roitero et al,MedicalTask-Set-4-From-1,unit_78,"Fri, 07 Aug 2020 21:36:20 GMT",2020-08-07 21:36:20.395999908+00:00,1,This task is really fun to do
+worker_406,True,Roitero et al,MedicalTask-Set-4-From-1,unit_80,"Thu, 06 Aug 2020 14:13:49 GMT",2020-08-06 14:13:49.132999897+00:00,1,good
+worker_4,True,Roitero et al,MedicalTask-Set-4-From-1,unit_95,"Sat, 08 Aug 2020 12:57:22 GMT",2020-08-08 12:57:22.260999918+00:00,1,Thank you
+worker_150,True,Roitero et al,MedicalTask-Set-4-From-2,unit_16,"Fri, 07 Aug 2020 06:52:35 GMT",2020-08-07 06:52:35.875999928+00:00,1,A few of these claims were really difficult to locate
+worker_213,True,Roitero et al,MedicalTask-Set-4-From-3,unit_2,"Fri, 07 Aug 2020 19:47:41 GMT",2020-08-07 19:47:41.201999903+00:00,1,no
+worker_293,True,Roitero et al,MedicalTask-Set-4-From-3,unit_6,"Thu, 06 Aug 2020 16:37:49 GMT",2020-08-06 16:37:49.210999966+00:00,2,Good
+worker_232,True,Roitero et al,MedicalTask-Set-4-From-3,unit_23,"Fri, 07 Aug 2020 14:49:32 GMT",2020-08-07 14:49:32.561000109+00:00,1,Nice Survey
+worker_407,True,Roitero et al,MedicalTask-Set-4-From-3,unit_29,"Thu, 06 Aug 2020 13:56:05 GMT",2020-08-06 13:56:05.677999973+00:00,1,the work is very thinking work
+worker_261,True,Roitero et al,MedicalTask-Set-4-From-3,unit_30,"Fri, 07 Aug 2020 19:32:18 GMT",2020-08-07 19:32:18.855999947+00:00,1,good and nice
+worker_245,True,Roitero et al,MedicalTask-Set-4-From-3,unit_36,"Fri, 07 Aug 2020 07:23:10 GMT",2020-08-07 07:23:10.882999897+00:00,1,I enjoyed the work
+worker_260,True,Roitero et al,MedicalTask-Set-4-From-3,unit_45,"Fri, 07 Aug 2020 13:13:47 GMT",2020-08-07 13:13:47.107000113+00:00,4,easy to answer all question
+worker_298,True,Roitero et al,MedicalTask-Set-4-From-3,unit_22,"Thu, 06 Aug 2020 12:56:18 GMT",2020-08-06 12:56:18.252000092+00:00,10,GOOD
+worker_408,True,Roitero et al,MedicalTask-Set-4-From-3,unit_57,"Thu, 06 Aug 2020 17:16:21 GMT",2020-08-06 17:16:21.492000103+00:00,2,very intresting
+worker_244,True,Roitero et al,MedicalTask-Set-4-From-3,unit_81,"Fri, 07 Aug 2020 10:21:46 GMT",2020-08-07 10:21:46.743000031+00:00,1,good
+worker_213,True,Roitero et al,MedicalTask-Set-4-From-1-Or-2-Or-3,unit_2,"Fri, 07 Aug 2020 19:47:41 GMT",2020-08-07 19:47:41.201999903+00:00,1,no
+worker_293,True,Roitero et al,MedicalTask-Set-4-From-1-Or-2-Or-3,unit_6,"Thu, 06 Aug 2020 16:37:49 GMT",2020-08-06 16:37:49.210999966+00:00,2,Good
+worker_150,True,Roitero et al,MedicalTask-Set-4-From-1-Or-2-Or-3,unit_16,"Fri, 07 Aug 2020 06:52:35 GMT",2020-08-07 06:52:35.875999928+00:00,1,A few of these claims were really difficult to locate
+worker_232,True,Roitero et al,MedicalTask-Set-4-From-1-Or-2-Or-3,unit_23,"Fri, 07 Aug 2020 14:49:32 GMT",2020-08-07 14:49:32.561000109+00:00,1,Nice Survey
+worker_407,True,Roitero et al,MedicalTask-Set-4-From-1-Or-2-Or-3,unit_29,"Thu, 06 Aug 2020 13:56:05 GMT",2020-08-06 13:56:05.677999973+00:00,1,the work is very thinking work
+worker_261,True,Roitero et al,MedicalTask-Set-4-From-1-Or-2-Or-3,unit_30,"Fri, 07 Aug 2020 19:32:18 GMT",2020-08-07 19:32:18.855999947+00:00,1,good and nice
+worker_245,True,Roitero et al,MedicalTask-Set-4-From-1-Or-2-Or-3,unit_36,"Fri, 07 Aug 2020 07:23:10 GMT",2020-08-07 07:23:10.882999897+00:00,1,I enjoyed the work
+worker_260,True,Roitero et al,MedicalTask-Set-4-From-1-Or-2-Or-3,unit_45,"Fri, 07 Aug 2020 13:13:47 GMT",2020-08-07 13:13:47.107000113+00:00,4,easy to answer all question
+worker_298,True,Roitero et al,MedicalTask-Set-4-From-1-Or-2-Or-3,unit_22,"Thu, 06 Aug 2020 12:56:18 GMT",2020-08-06 12:56:18.252000092+00:00,10,GOOD
+worker_75,True,Roitero et al,MedicalTask-Set-4-From-1-Or-2-Or-3,unit_47,"Thu, 20 Aug 2020 16:00:12 GMT",2020-08-20 16:00:12.290999889+00:00,1,Thank you
+worker_408,True,Roitero et al,MedicalTask-Set-4-From-1-Or-2-Or-3,unit_57,"Thu, 06 Aug 2020 17:16:21 GMT",2020-08-06 17:16:21.492000103+00:00,2,very intresting
+worker_38,True,Roitero et al,MedicalTask-Set-4-From-1-Or-2-Or-3,unit_70,"Thu, 06 Aug 2020 17:31:33 GMT",2020-08-06 17:31:33.345999956+00:00,1,I think the pay needs to be increased for this one in the future Its very time consuming
+worker_65,True,Roitero et al,MedicalTask-Set-4-From-1-Or-2-Or-3,unit_78,"Fri, 07 Aug 2020 21:36:20 GMT",2020-08-07 21:36:20.395999908+00:00,1,This task is really fun to do
+worker_406,True,Roitero et al,MedicalTask-Set-4-From-1-Or-2-Or-3,unit_80,"Thu, 06 Aug 2020 14:13:49 GMT",2020-08-06 14:13:49.132999897+00:00,1,good
+worker_244,True,Roitero et al,MedicalTask-Set-4-From-1-Or-2-Or-3,unit_81,"Fri, 07 Aug 2020 10:21:46 GMT",2020-08-07 10:21:46.743000031+00:00,1,good
+worker_4,True,Roitero et al,MedicalTask-Set-4-From-1-Or-2-Or-3,unit_95,"Sat, 08 Aug 2020 12:57:22 GMT",2020-08-08 12:57:22.260999918+00:00,1,Thank you
