@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite the CIKM 2020 paper."
+type: dataset
+version: "1.1"
+title: "The COVID-19 Infodemic: Can the Crowd Judge Recent Misinformation Objectively? (dataset)"
+authors:
+  - family-names: Roitero
+    given-names: Kevin
+  - family-names: Soprano
+    given-names: Michael
+  - family-names: Portelli
+    given-names: Beatrice
+  - family-names: Spina
+    given-names: Damiano
+  - family-names: Della Mea
+    given-names: Vincenzo
+  - family-names: Serra
+    given-names: Giuseppe
+  - family-names: Mizzaro
+    given-names: Stefano
+  - family-names: Demartini
+    given-names: Gianluca
+preferred-citation:
+  type: conference-paper
+  title: "The COVID-19 Infodemic: Can the Crowd Judge Recent Misinformation Objectively?"
+  authors:
+    - family-names: Roitero
+      given-names: Kevin
+    - family-names: Soprano
+      given-names: Michael
+    - family-names: Portelli
+      given-names: Beatrice
+    - family-names: Spina
+      given-names: Damiano
+    - family-names: Della Mea
+      given-names: Vincenzo
+    - family-names: Serra
+      given-names: Giuseppe
+    - family-names: Mizzaro
+      given-names: Stefano
+    - family-names: Demartini
+      given-names: Gianluca
+  collection-title: Proceedings of the 29th ACM International Conference on Information and Knowledge Management
+  year: 2020
+  start: 1305
+  end: 1314
+  doi: 10.1145/3340531.3412048

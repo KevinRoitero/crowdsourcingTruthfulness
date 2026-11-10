@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "release_id": "cikm2020_paper_extended_derived",
+  "study_id": "cikm2020",
+  "version": "1.1",
+  "title": "The COVID-19 Infodemic: Can the Crowd Judge Recent Misinformation Objectively?",
+  "doi": "10.1145/3340531.3412048",
+  "source_assessment": "MedicalTask-Set-1",
+  "claims": 60,
+  "class_balance": {
+    "pants-on-fire": 10,
+    "false": 10,
+    "mostly-false": 10,
+    "half-true": 10,
+    "mostly-true": 10,
+    "true": 10
+  },
+  "historical_judgments": 800,
+  "real_judgments": 600,
+  "gold_judgments": 200,
+  "workers": 100,
+  "curated_records": {
+    "workers_answers.csv": 600,
+    "workers_comments.csv": 34,
+    "workers_questionnaires.csv": 1000,
+    "workers_urls.csv": 37838
+  },
+  "historical_source": {
+    "repository": "KevinRoitero/crowdsourcingTruthfulness",
+    "commit": "f8a4c042682ceb9e8adbd6df50ecc292364f20d3",
+    "directory": "CIKM2020",
+    "git_blob_sha1": {
+      "S6.csv": "574e94914ed7e1d5fb067bc7361235e1b9f04bae",
+      "README.md": "208645991fa45de40c76cb2f9edc1b940f8d6918"
+    }
+  },
+  "crowdsourcing_task": {
+    "units": 100,
+    "real_assignments": 600,
+    "gold_assignments": 200,
+    "files": [
+      "dimensions.json",
+      "hits.json",
+      "instructions.html",
+      "instructions.json",
+      "questionnaires.json",
+      "search_engine.json",
+      "workers.json"
+    ],
+    "original_assignment_source": "assessments/MedicalTask-Set-1/Generated_HITS/units_production.json",
+    "original_questionnaire_source": "assessments/MedicalTask-Set-1/models/Questionnaire/questionnaires.json",
+    "original_task_commit": "905f949be46643e271b0c02d8b201c759b859018",
+    "original_task_git_blob_sha1": {
+      "hits.json": "31f0ddbb48439afd6e6e0a73ff1f9905d11b309f",
+      "questionnaires.json": "51c726e6f744c3da0ec4768fcc1c515a407d5c13"
+    },
+    "supporting_interface_source": "Thesis Chapter 5 task materials",
+    "worker_control_identifiers_distributed": false
+  },
+  "data_source": "Curated MedicalTask records restricted to MedicalTask-Set-1",
+  "ground_truth_source": "assessments/MedicalTask-Set-1/ground_truth/PolitiFact-Ground_Truth.csv"
+}

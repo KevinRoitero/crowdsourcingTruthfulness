@@ -1,90 +1,73 @@
 # The COVID-19 Infodemic: Can the Crowd Judge Recent Misinformation Objectively?
 
-This repository contains the crowdsourced judgments used in the CIKM'20 full paper titled "The COVID-19 Infodemic: Can the Crowd Judge Recent Misinformation Objectively?"
+This release contains the data and supporting material for the paper published at CIKM 2020. The study examines how people assess the truthfulness of recent statements about COVID-19.
 
-## Crowdsourced Dataset 
+## Study Overview
 
-The dataset obtained from our crowdsourcing experiments is organised in one file for the scale used: [S6](./crowdsourced-data/S6.csv).
+The study uses 60 PolitiFact statements, with ten statements for each of six truthfulness levels: Pants on Fire, False, Mostly False, Half True, Mostly True, and True.
 
-The file contains the following information:
+The researchers collected data from May 1 to May 4, 2020, using Amazon Mechanical Turk. One hundred workers completed the task. Each worker assessed six real statements and two GOLD items for quality control. Workers provided a truthfulness judgment, a supporting URL and a written explanation. They also answered questions about their background and political views, and completed three cognitive reflection questions.
 
-* `unit_id`: unit number (one worker for each unit);
-* `tries_amount`: number of attempts left to finish the task (counting backwards from 10);
-* `questionnaire_amount`: number of questionnaire to be performed;
-* `dimensions_amount`: number of dimensions to be assessed;
-* `document_amount`: number of statements to be assessed;
-* `current_try`: number of the current worker try;
-* Standard questionnaire data:
-  * `q_0_age_question`
-  * `q_0_age_answer`
-  * `q_0_age_value`
-  * `q_0_school_question`
-  * `q_0_school_answer`
-  * `q_0_school_value`
-  * `q_0_taxes_question`
-  * `q_0_taxes_answer`
-  * `q_0_taxes_value`
-  * `q_0_political_views_question`
-  * `q_0_political_views_answer`
-  * `q_0_political_views_value`
-  * `q_0_consideration_question`
-  * `q_0_consideration_answer`
-  * `q_0_consideration_value`
-  * `q_0_southern_border_question`
-  * `q_0_southern_border_answer`
-  * `q_0_souther_border_value`
-  * `q_0_environment_question`
-  * `q_0_enviroment_answer`
-  * `q_0_environment_value`
-  * `q_0_time_elapsed`: number of seconds needed to finish the questionnaire;
-  * `q_0_accesses`: number of accesses to the questionnaire page;
-* First CTR questionnaire data:
-  * `q_1_farmers_question`
-  * `q_1_farmers_value`
-  * `q_1_time_elapsed`: number of seconds needed to finish the questionnaire;
-  * `q_1_accesses`: number of accesses to the questionnaire page;
-* Second CTR questionnaire data:
-  * `q_2_marks_question`
-  * `q_2_marks_value`
-  * `q_2_time_elapsed`: number of seconds needed to finish the questionnaire;
-  * `q_2_accesses`: number of accesses to the questionnaire page;
-* Third CTR questionnaire data:
-  * `q_3_athletics_question`
-  * `q_3_athletics_value`
-  * `q_3_time_elapsed`: number of seconds needed to finish the questionnaire;
-  * `q_3_accesses`: number of accesses to the questionnaire page;
-* `doc_index`: index of the statement;
-* `doc_name`: unique name for documents;
-* `doc_statement` 
-* `doc_claimant`
-* `doc_date`
-* `doc_originatedFrom`: context of the statement;
-* `doc_ground_truth_value`: ground truthfulness label expressed by the expert fact checker (in the given scale);
-* `doc_ground_truth_label`: ground truthfulness label expressed by the expert fact checker (in the given scale);
-* `doc_truthfulness_value`: truthfulness value expressed by the worker (in the given scale);
-* `doc_truthfulness_label`: truthfulness label expressed by the worker (in the given scale);
-* `doc_truthfulness_justification`: justification provided by the worker; 
-* `doc_truthfulness_url`: url selected by the worker; 
-* `doc_accesses`: number of accesses to each statement;
-* `doc_time_elapsed`: time spent by the worker on the statement (cumulative for each document);
+## Release Overview
+
+The release covers the first crowdsourcing experiment, identified as MedicalTask-Set-1 in the study workspace. It contains 600 judgments on real statements and 200 GOLD judgments in the original data. Each of the 60 real statements has ten judgments.
+
+### Historical Data
+
+`Historical Data/S6.csv` contains the original 800 judgments and 58 columns, including the GOLD judgments, questionnaires, URLs and times. The original README is included in the same folder. Both files retain their original bytes.
+
+### Crowdsourcing Task
+
+`Crowdsourcing Task/` contains the assignment design and materials that describe the task:
+
+- `hits.json` contains the original 100 units with eight statements each.
+- `questionnaires.json` contains the questionnaire from the first experiment.
+- `instructions.html`, `instructions.json`, `dimensions.json` and `search_engine.json` describe the task interface and search settings. These materials come from the task snapshot preserved with the later longitudinal study. They are provided as supporting material, not as a verified copy of the exact interface deployed in May 2020.
+- `workers.json` contains empty lists for worker access. Worker identifiers used for participation controls are not distributed.
+
+The task configuration does not include the live platform or search service.
+
+### Worker Data
+
+`DataFrame/` contains four tables:
+
+- `workers_answers.csv`: 600 judgments on real statements from 100 workers.
+- `workers_comments.csv`: 34 comments.
+- `workers_questionnaires.csv`: 1,000 responses to ten questions.
+- `workers_urls.csv`: 37,838 search and result records from 99 workers.
+
+The detailed tables contain only records from the first experiment. They retain the pseudonyms used in the study workspace. The original file also contains the GOLD judgments, which are not included in the detailed answers table.
+
+### Ground Truth and Release Metadata
+
+`PolitiFact-Ground_Truth.csv` contains 60 statements with their PolitiFact labels, original document identifiers and fact check metadata. The original scale has six levels, with values from 0 (Pants on Fire) to 5 (True).
+
+`release_manifest.json` describes the contents and sources. `checksums.csv` lists file sizes and SHA256 checksums. `CHANGELOG.md` records release changes. See `CITATION.cff`, `LICENSE.md` and `RIGHTS.md` for citation and reuse information.
+
+## Using the Release
+
+Use the original S6 file to reproduce the paper data, including GOLD judgments. Use the detailed tables for additional information about worker activity. Join judgments and ground truth using `doc_name` and `doc_id`. Use `worker_id`, `unit_id`, `batch_name` and document position to connect records where available.
+
+The task form uses values from 1 to 6. The distributed judgments and PolitiFact labels use values from 0 to 5. Subtract 1 from the raw task value when comparing it with the ground truth.
+
+The detailed answers match the original S6 judgments by unit, document position and document name. Their truthfulness values and labels agree. Some justification strings differ because the detailed tables use the curated study data; use S6.csv for the original text.
+
+## Known Data Issues
+
+Search activity is available for 99 of the 100 workers. Search logs also contain activity from earlier attempts. The search attempt counter starts at 0, whereas the answer attempt counter starts at 1. Do not assume every search record has a matching final judgment. The release preserves these records.
+
+For `pants-on-fire_doc5`, the PolitiFact rating graphic indicates Pants on Fire, while the article text also uses False. The release retains the historical Pants on Fire label.
+
+## Privacy and Responsible Reuse
+
+The data contain participant contributions, including judgments, questionnaire responses, comments and search activity. Worker identifiers are pseudonyms. Do not attempt to identify or contact participants.
+
+## Rights and Reuse
+
+See `RIGHTS.md` and `LICENSE.md`. Participant contributions and material from PolitiFact, search services and other websites retain their own rights.
 
 ## Citation
 
-If you use this resource, please cite our paper:
+Kevin Roitero, Michael Soprano, Beatrice Portelli, Damiano Spina, Vincenzo Della Mea, Giuseppe Serra, Stefano Mizzaro, and Gianluca Demartini. 2020. *The COVID-19 Infodemic: Can the Crowd Judge Recent Misinformation Objectively?* Proceedings of the 29th ACM International Conference on Information and Knowledge Management (CIKM 2020), pages 1305 to 1314.
 
-*Kevin Roitero, Michael Soprano, Beatrice Portelli, Damiano Spina, Vincenzo Della Mea, Giuseppe Serra, Stefano Mizzaro and Gianluca Demartini. 2020. The COVID-19 Infodemic: Can the Crowd Judge Recent Misinformation Objectively?. In CIKM ’20: 29th ACM International Conference on Information and Knowledge Management (CIKM2020), Online. October 19-23, 2020.*
-
-### BibTeX
-
-```bibtex
-@InProceedings{roitero2020infodemic,
-author = {Roitero, kevin and Soprano, Michael and  Portelli, Beatrice and  Spina, Damiano and Della Mea, Vincenzo and   Serra, Giuseppe and   Mizzaro, Stefano and Demartini, Gianluca},
-title = {The COVID-19 Infodemic: Can the Crowd Judge Recent Misinformation Objectively?},
-booktitle = {Proceedings of CIKM'20},
-year={2020}
-}
-```
-
-## Disclaimer Notice
-
-The information included in this repository is for research purposes only.
+DOI: [10.1145/3340531.3412048](https://doi.org/10.1145/3340531.3412048)
