@@ -3,8 +3,8 @@
   "release_id": "pauc2021_paper_extended_derived",
   "study_id": "pauc2021",
   "title": "Can the Crowd Judge Truthfulness? A Longitudinal Study on Recent Misinformation about COVID-19",
-  "release_name": "pauc2021_paper_extended_release_v1.2",
-  "version": "1.2",
+  "release_name": "pauc2021_paper_extended_release_v1.3",
+  "version": "1.3",
   "historical_reference_repository": "KevinRoitero/crowdsourcingTruthfulness/PAUC2021",
   "historical_reference_commit": "b2c2102a0dcaa240edc3f51a382eac63e1acf278",
   "historical_git_blob_sha1": {
@@ -53,22 +53,12 @@
       "task.json",
       "workers.json"
     ],
-    "provenance": "Historical OSF JR6VC Chapter 5 task snapshot (source archive kept unchanged)",
-    "source_archive_sha256": "62a319333c299b9c101fdbf30ddce643129837cc320a56e28e9315e7fcebc372",
-    "task_units": 99,
-    "real_statement_assignments": 594,
-    "gold_assignments": 198,
-    "original_blacklist_entries_not_redistributed": 572,
-    "workers_json_projection": "Empty blacklist/whitelist; the historical source is preserved in OSF",
-    "source_file_sha256": {
-      "dimensions.json": "168c2ec7ea0a88f0f81b693c3e2548deb8cc76262a6cc58e8a18f88524ff9253",
-      "hits.json": "aece7adced602bcf07ad4e6613f3fce59b8b23e5488c657d2bc1847f5ca71ed6",
-      "instructions.html": "07abf592ffb4aa6ad328b29e661a47d7ec8e5f6a3bbfc79206c50fd14cbc78b7",
-      "instructions.json": "7e6d2b7598ff58bdd4ad338d2c3a667b9146af2deaed1d46e1fea79e10941c67",
-      "questionnaires.json": "43d2499114775c0e738fed713e0100983de9dec32fd8cffa76095c7e0e5ef368",
-      "search_engine.json": "e7205fc633f4ddc5724085f9f1d3039e99970e8ae16f9a4e3ee5e7015ff33d3c",
-      "task.json": "29f8fd3f6866c0288c82dbea792e1b5608ab8188600108294002b47090ffc86c",
-      "workers.json": "d30d55152c405050b7ffad8b4095d78c3842d38f9c9bf1cbe24fe6e736e5c466"
-    }
+    "provenance": "Thesis Chapter 5 task materials and original MedicalTask-Set-1 assignment configuration",
+    "source_assignment_file": "assessments/MedicalTask-Set-1/Generated_HITS/units_production.json",
+    "source_assignment_git_blob_sha1": "31f0ddbb48439afd6e6e0a73ff1f9905d11b309f",
+    "task_units": 100,
+    "real_statement_assignments": 600,
+    "gold_assignments": 200,
+    "worker_control_identifiers_distributed": false
   }
 }

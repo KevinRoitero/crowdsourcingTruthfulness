@@ -2520,6 +2520,69 @@
     ]
   },
   {
+    "unit_id": "unit_40",
+    "token_input": "GJEJATVJGYP",
+    "token_output": "QODNURKIRTM",
+    "documents": [
+      {
+        "name": "pants-on-fire_doc10",
+        "statement": "Italy arrested a doctor \u201cfor intentionally killing over 3,000 coronavirus patients.\u201d",
+        "claimant": "Bloggers",
+        "date": "2020-31-03",
+        "originated-from": "Blog Post"
+      },
+      {
+        "name": "mostly-false_doc3",
+        "statement": "COVID-19 started because we eat animals.",
+        "claimant": "Image",
+        "date": "2020-15-03",
+        "originated-from": "Instagram Posts"
+      },
+      {
+        "name": "LOW",
+        "statement": "Injecting Bleach Could Be a Cure for COVID-19.",
+        "claimant": "Donald Trump",
+        "date": "2020-04-23",
+        "originated-from": "Press Conference"
+      },
+      {
+        "name": "mostly-true_doc6",
+        "statement": "The United States is \u201cactually screening fewer people (for the coronavirus than other countries) because we don\u2019t have appropriate testing.",
+        "claimant": "Lou Dobbs",
+        "date": "2020-02-03",
+        "originated-from": "TV Interview"
+      },
+      {
+        "name": "half-true_doc9",
+        "statement": "Says Donald Trump \"himself has a financial stake in the French company that makes the brand-name version of hydroxychloroquine.",
+        "claimant": "Facebook Post",
+        "date": "2020-07-04",
+        "originated-from": "Facebook posts"
+      },
+      {
+        "name": "true_doc2",
+        "statement": "My mask will keep someone else safe and their mask will keep me safe.",
+        "claimant": "Pat Toomey",
+        "date": "2020-28-03",
+        "originated-from": "Video On Twitter"
+      },
+      {
+        "name": "false_doc6",
+        "statement": "Says \u201cspecial military helicopters will spray pesticide against the Corona virus in the skies all over the country.\u201d",
+        "claimant": "Snapchat",
+        "date": "2020-23-03",
+        "originated-from": "Chain Message"
+      },
+      {
+        "name": "HIGH",
+        "statement": "Yes, We can!",
+        "claimant": "Barack Obama",
+        "date": "2008-01-08",
+        "originated-from": "Facebook Post"
+      }
+    ]
+  },
+  {
     "unit_id": "unit_41",
     "token_input": "XYLJIVFHTAI",
     "token_output": "YDKURKGXCBC",

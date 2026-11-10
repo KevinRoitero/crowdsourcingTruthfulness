@@ -31,19 +31,19 @@ These counts describe the data included in this release. They should not be conf
 
 ### Crowdsourcing Task
 
-`Crowdsourcing Task/` contains eight files describing the original task configuration, following the same organization used in the IPM2021 release:
+`Crowdsourcing Task/` contains eight files describing the task configuration:
 
 - `instructions.html` and `instructions.json` contain the instructions shown to workers and the evidence search, labeling, and justification steps.
-- `dimensions.json` defines the truthfulness question, the six response labels, the supporting URL, and the minimum 15-word explanation.
+- `dimensions.json` defines the truthfulness question, the six response labels, the supporting URL, and the requirement for an explanation of at least 15 words.
 - `questionnaires.json` defines the demographic, political background, and cognitive reflection questions.
-- `hits.json` contains 99 task units with eight statements each. These include six real statements and two GOLD items per unit.
+- `hits.json` contains 100 task units with eight statements each. These include six real statements and two GOLD items per unit.
 - `task.json` defines participation checks, allowed attempts, and references to related batches.
-- `search_engine.json` records the Bing search interface and excluded fact-checking domains.
-- `workers.json` preserves the task configuration keys with empty lists. The original historical file contains a blacklist of 572 Mechanical Turk identifiers; these identifiers are intentionally excluded from this public release and remain in the preserved OSF Chapter 5 source snapshot.
+- `search_engine.json` records the Bing search interface and domains of fact checking websites that were excluded.
+- `workers.json` contains empty lists for worker access. Identifiers used for worker blacklisting or whitelisting are not distributed.
 
-The 99 units comprise **594 real statement assignments** and **198 GOLD assignments**. They cover all 60 real statements, of which 54 appear ten times and six appear nine times. These files represent the surviving task configuration snapshot, not a complete export of all seven crowdsourcing tasks reported in the paper.
+The 100 units contain **600 real statement assignments** and **200 GOLD assignments**. All 60 real statements appear ten times. These assignments describe the first crowdsourcing task, not all seven tasks reported in the longitudinal paper.
 
-The task form records its six truthfulness options with values **1–6** (`Lie` through `True`), while `PolitiFact-Ground_Truth.csv` retains the **0–5** PolitiFact scale. Account for this one-point offset when comparing raw task responses with ground truth values. The task's label `Lie` corresponds to the lowest truthfulness level (`Pants on Fire`) in the ground truth.
+The task form records its six truthfulness options with values **1 to 6** (`Lie` through `True`), while `PolitiFact-Ground_Truth.csv` retains the **0 to 5** PolitiFact scale. Subtract 1 from the raw task values when comparing them with the ground truth. The task's label `Lie` corresponds to the lowest truthfulness level (`Pants on Fire`) in the ground truth.
 
 The task configuration is provided for understanding and reproducing the questionnaire and assignment design. It does not include the live crowdsourcing platform or search service.
 
@@ -75,7 +75,7 @@ Use `workers_answers.csv` to analyze the crowd judgments. The other tables provi
 
 The `worker_id` field contains stable pseudonyms and can be used to follow the same participant across collection rounds. To connect individual records, also use the relevant fields such as `batch_name`, `unit_id`, and statement identifiers.
 
-The original six level PolitiFact scale is preserved, with values from 0 (Pants on Fire) to 5 (True).
+The original PolitiFact scale with six levels is preserved, with values from 0 (Pants on Fire) to 5 (True).
 
 ## Known Data Issues
 

@@ -1,5 +1,11 @@
 # Changelog
 
+## Version 1.3
+
+- Restored missing `unit_40` to `Crowdsourcing Task/hits.json` from the original `MedicalTask-Set-1/Generated_HITS/units_production.json` (100 units, 600 real assignments, 200 GOLD assignments).
+- Verified that the existing 99 units are unchanged and that all 60 real statements now appear ten times. Preserved the original 99-unit Chapter 5 snapshot and the immutable v1.2 publication as provenance.
+- Updated the manifest, README, source audit and SHA256 checksums. All crowd judgments, worker tables, ground truth, historic batch CSVs and other task files remain unchanged.
+
 ## Version 1.2
 
 - Added eight files in `Crowdsourcing Task/` from the historical thesis Chapter 5 task configuration, following the IPM2021 release organization.
