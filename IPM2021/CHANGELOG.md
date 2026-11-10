@@ -1,14 +1,15 @@
 # Changelog
 
-## Version 1.5 (planned)
+## Version 1.5
 
-- Extend the standalone paper release with 14 useful official Chapter 7 files: eight task files and six detailed DataFrame tables.
-- Omit the two redundant thesis ground truth files (121 PolitiFact and 59 RMIT ABC records) from the public package while preserving them unchanged in the immutable thesis source archive; use the corrected ground truths at the package root.
-- Preserve the original paper `multidimensional.csv` and all previously verified scientific package members.
+- Extended the standalone paper release with 14 useful official Chapter 7 files: eight task files and six detailed DataFrame tables.
+- Omitted the two redundant thesis ground truth files (121 PolitiFact and 59 RMIT ABC records) from the public package while preserving them unchanged in the immutable thesis source archive; use the corrected ground truths at the package root.
+- Preserved the original paper `multidimensional.csv` and all previously verified scientific package members.
 - A read only comparison matched all 2,200 records between `multidimensional.csv` and `DataFrame/workers_answers.csv` by unique task and statement keys. The same ten rows from one statement differ in `doc_statement` and `doc_ground_truth_politifact_label`; the other shared values match and no source values are silently rewritten.
-- Omit `AssignmentId` and `HITId` from the public `DataFrame/workers_mturk_data.csv` while retaining all 200 rows, `worker_id`, and 22 other columns. Verify the original 24-column file and record source/package hashes and field changes in the release manifest.
-- Document the expanded source coverage and known irregularities. Complete privacy review, dry run, build, and package checks before public publication.
-- Preserve v1.4 and all source archives unchanged.
+- Removed `AssignmentId` and `HITId` from the public `DataFrame/workers_mturk_data.csv`, retaining all 200 rows and 22 columns in total, including `worker_id`. The release manifest records the verified 24-to-22 column projection and source and package hashes.
+- Documented the expanded source coverage, assignment discrepancies, known data issues and responsible reuse. Completed the dry run, build and package integrity checks.
+- Preserved v1.4 and all source archives unchanged.
+- Refined the public documentation after publication without changing the scientific files or the frozen v1.5 archive.
 
 ## Version 1.4
 

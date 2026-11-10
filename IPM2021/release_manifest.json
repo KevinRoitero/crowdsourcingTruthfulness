@@ -511,14 +511,14 @@
       "package_path": "README.md",
       "file_role": "release_documentation",
       "source_repository_artifact": "release_documentation/ipm2021_paper_extended/README.md",
-      "source_sha256": "92460c9f20c44ce570faaba40b512c7060753902b9abfa515e33198e57d41a3a",
+      "source_sha256": "6dddf724756cc0ac9815092cc132dd983d30dab4498bd9178c02f563fb4d4fbd",
       "content_modified": false
     },
     {
       "package_path": "CHANGELOG.md",
       "file_role": "release_changelog",
       "source_repository_artifact": "release_documentation/ipm2021_paper_extended/CHANGELOG.md",
-      "source_sha256": "053cea4ed2577d2e329e02e9de28ed809bdce89c20cfec95e287a1628ad53898",
+      "source_sha256": "bfad93f5dc12966a01c39292837ab6f207f05f58b277027dbc9c08ee890e20e5",
       "content_modified": false
     },
     {
@@ -589,6 +589,12 @@
     "Version 1.5 combines the publication-era multidimensional.csv with 14 later official Crowdsourcing Task and DataFrame files from the same IPM 2021 study; original sources and release 1.4 remain unchanged.",
     "Later official thesis ground truth CSVs are intentionally excluded as redundant historical copies; immutable originals remain in the thesis source bundle. Corrected canonical ground truth is supplied at the package root, retaining the native PolitiFact six-level and RMIT ABC three-level target semantics.",
     "Version 1.5 omits external Mechanical Turk AssignmentId and HITId from the distributed worker metadata while retaining all rows and internal worker linkage.",
-    "Privacy and full archive validation are required before public publication."
-  ]
+    "The frozen v1.5 archive passed package integrity and MTurk projection checks. The public distribution omits the two external identifier fields; the remaining records contain pseudonymous participant data and external search content requiring responsible reuse."
+  ],
+  "distribution": {
+    "form": "individual_files",
+    "documentation_revision": "2026-11-10",
+    "base_archive_sha256": "ba7c1180deee6977ae998f2557adaca71acefdcb694f62934361f4ebdaded5e0",
+    "note": "The individual-file distribution retains the scientific content of the verified v1.5 archive. README, CHANGELOG, manifest and checksums were revised after publication; the frozen ZIP remains unchanged."
+  }
 }

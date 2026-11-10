@@ -1,6 +1,6 @@
 # The Many Dimensions of Truthfulness: Crowdsourcing Misinformation Assessments on a Multidimensional Scale
 
-This release contains the data and supporting material associated with the paper **“The Many Dimensions of Truthfulness: Crowdsourcing Misinformation Assessments on a Multidimensional Scale”**, published in *Information Processing & Management* in 2021.
+Version 1.5 contains the data and supporting material associated with the paper **“The Many Dimensions of Truthfulness: Crowdsourcing Misinformation Assessments on a Multidimensional Scale”**, published in *Information Processing & Management* in 2021.
 
 The study asks crowd workers to assess political statements using several dimensions of truthfulness rather than a single overall scale.
 
@@ -35,7 +35,7 @@ This release combines material from two official sources associated with the sam
 
 ### Detailed task and worker data
 
-The public v1.5 copy of `DataFrame/workers_mturk_data.csv` retains all 200 rows and its pseudonymous `worker_id` links, but omits the external Mechanical Turk `AssignmentId` and `HITId` fields. Those two fields do not occur elsewhere in the historical thesis source archive or in the original paper dataset. The immutable original source file is retained separately, with the release-only projection recorded in `release_manifest.json`.
+The public v1.5 copy of `DataFrame/workers_mturk_data.csv` retains all 200 rows and 22 columns, including its pseudonymous `worker_id` links, but omits the external Mechanical Turk `AssignmentId` and `HITId` fields. Those two fields do not occur elsewhere in the historical thesis source archive or in the original paper dataset. The immutable original source file is retained separately, with the release-only projection recorded in `release_manifest.json`.
 
 The later official study material adds:
 
@@ -44,7 +44,14 @@ The later official study material adds:
 
 `DataFrame/workers_answers.csv` contains 2,200 rows from 200 workers. Its records match the 2,200 rows in `multidimensional.csv` using the combination of `unit_id`, `doc_index`, and `doc_name`. This combination identifies every row uniquely in both tables, without missing or extra keys. Of the 37 columns shared by the tables, only `doc_statement` and `doc_ground_truth_politifact_label` differ. Both fields differ in the same ten rows, all belonging to one statement. The other shared field values, including the workers' judgments, match. Both historical files are preserved unchanged.
 
-The task data contain 1,800 judgments on 180 real statements and 400 judgments on two GOLD items. Of the real statements, 174 have ten judgments, three have nine, and three have eleven. The search records cover 198 of the 200 workers; two workers have answer records but no search records.
+The task data contain 1,800 judgments on 180 real statements and 400 judgments on two GOLD items. Of the real statements, 174 have ten judgments, three have nine, and three have eleven.
+
+### Known data issues
+
+- `Crowdsourcing Task/hits.json` contains 150 distinct real statement identifiers, whereas `DataFrame/workers_answers.csv` contains all 180. The PolitiFact and GOLD assignments agree with the performed answers, but the RMIT ABC assignments differ in 99 of the 200 worker units. Use the answer table as the record of the assignments actually performed.
+- One real PolitiFact answer is tagged `gold_question` in the recorded data. The tag is preserved; the corrected statement identity identifies it as a real statement.
+- The search records cover 198 of the 200 workers; two workers have answer records but no search records.
+- One worker and unit pair has different attempt numbers in the answer, dimension selection and questionnaire logs. Do not assume that those attempts should be merged.
 
 Use `multidimensional.csv` to work with the dataset distributed with the paper. Use `DataFrame/` and `Crowdsourcing Task/` to inspect the detailed task and worker activity. The two sources serve different purposes and should not be silently substituted for one another.
 
@@ -213,9 +220,9 @@ Machine readable citation metadata are available in `CITATION.cff`.
 
 ## Privacy and Responsible Reuse
 
-The release contains human research data, including internal worker identifiers, demographic information, judgments, task records, search activity, and questionnaire responses. Later official material also includes Mechanical Turk task identifiers, comments, and text from search results.
+The release contains human research data, including internal worker identifiers, demographic information, judgments, task records, search activity, and questionnaire responses. The detailed tables also contain comments, task records and text from search results. External Mechanical Turk `AssignmentId` and `HITId` have been removed from the distributed worker metadata table; internal identifiers used for linking study records remain.
 
-Before distributing this expanded release, review the fields that contain task identifiers or free text. A preliminary screening found no email patterns in the comments, questionnaire answers, or search queries checked, but some search result titles and snippets contain email patterns. These may come from external web pages. The screening does not establish that the material is free of personal information.
+A preliminary screening found no email patterns in the comments, questionnaire answers, or search queries checked, but some search result titles and snippets contain email patterns. These may come from external web pages. This screening is not a guarantee that the material is free of personal information. Exercise care when reusing free text and search results.
 
 Do not attempt to identify or contact participants. Do not combine participant records with external information for the purpose of identifying participants.
 
