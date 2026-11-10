@@ -16,7 +16,7 @@ This repository collects datasets and supporting material for studies on crowdso
 
 ### ECIR2020
 
-[ECIR2020](./ECIR2020/) contains crowd assessments collected using [six-level](./ECIR2020/S6_Data.csv) and [100-level](./ECIR2020/S100_Data.csv) judgment scales, including assessor background information.
+[ECIR2020](./ECIR2020/) contains crowd assessments collected using judgment scales with [six](./ECIR2020/S6_Data.csv) and [100](./ECIR2020/S100_Data.csv) levels, including assessor background information.
 
 The paper received the **Best Short Paper Award at ECIR 2020**. [Watch the presentation](https://www.youtube.com/watch?v=9wFFMcplvjk).
 
@@ -39,7 +39,11 @@ This work was partially supported by an Australian Research Council Discovery Pr
 
 ### SIGIR2020
 
-[SIGIR2020](./SIGIR2020/) contains PolitiFact and RMIT ABC Fact Check statements and crowd judgments collected using different truthfulness scales. See the [SIGIR2020 README](./SIGIR2020/README.md) for the datasets and field definitions.
+[SIGIR2020](./SIGIR2020/) examines how judgment scales and assessor background affect crowd assessments of political statements. The study uses 180 statements from PolitiFact and RMIT ABC Fact Check and three task modalities: S3, S6, and S100.
+
+Version 1.0 includes the original publication data, ground truth tables, task configuration, and detailed records of judgments and worker activity.
+
+See the [SIGIR2020 README](./SIGIR2020/README.md) for the data and instructions for use.
 
 [Watch the SIGIR 2020 talk](https://www.youtube.com/watch?v=D10EtrThvbc).
 
@@ -64,7 +68,11 @@ We thank Devi Mallal from RMIT ABC Fact Check for facilitating access to the ABC
 
 ### CIKM2020
 
-[CIKM2020](./CIKM2020/) contains the crowd judgments for *The COVID-19 Infodemic: Can the Crowd Judge Recent Misinformation Objectively?*. See the [CIKM2020 README](./CIKM2020/README.md) for the dataset and its assessment fields.
+[CIKM2020](./CIKM2020/) examines how the crowd assesses the truthfulness of recent statements about COVID-19. The study uses 60 PolitiFact statements and covers the first experiment conducted in May 2020.
+
+Version 1.1 includes the original study data with 800 judgments (600 on real statements and 200 on GOLD items), the ground truth table, task materials, and detailed records of judgments and worker activity.
+
+See the [CIKM2020 README](./CIKM2020/README.md) for the data and instructions for use.
 
 ### BibTeX
 
@@ -81,11 +89,11 @@ We thank Devi Mallal from RMIT ABC Fact Check for facilitating access to the ABC
 
 ### IPM2021
 
-[IPM2021](./IPM2021/) contains the original multidimensional truthfulness judgments and the expanded **version 1.5** release. It includes the original paper dataset, eight crowdsourcing task files, six detailed tables of worker judgments and activity, PolitiFact and RMIT ABC Fact Check ground truth, and a reconstructed evidence corpus.
+[IPM2021](./IPM2021/) examines how the crowd assesses political statements using several dimensions of truthfulness. The study uses 180 statements from PolitiFact and RMIT ABC Fact Check.
 
-The study covers **180 real statements** (120 PolitiFact and 60 RMIT ABC Fact Check) and preserves the native truthfulness scales. The original study data and historical source materials remain preserved.
+Version 1.5 includes the original paper dataset, ground truth tables, crowdsourcing task materials, detailed records of judgments and worker activity, and a reconstructed evidence corpus.
 
-See the [IPM2021 README](./IPM2021/README.md) for file descriptions, provenance, corrections, privacy and reuse information. Machine-readable citation metadata are available in [CITATION.cff](./IPM2021/CITATION.cff).
+See the [IPM2021 README](./IPM2021/README.md) for the data and instructions for use.
 
 ### BibTeX
 
@@ -104,16 +112,11 @@ See the [IPM2021 README](./IPM2021/README.md) for file descriptions, provenance,
 
 ### PAUC2021
 
-[PAUC2021](./PAUC2021/) contains the longitudinal COVID-19 truthfulness study data. The study used **60 PolitiFact statements**, with ten statements per truthfulness level, and collected judgments across four monthly rounds between May and August 2020.
+[PAUC2021](./PAUC2021/) examines how crowd assessments of statements about COVID-19 change over time. The study uses 60 PolitiFact statements and covers four monthly rounds between May and August 2020.
 
-The directory provides two complementary resources:
+Version 1.3 includes the original batch data, the ground truth table, task configuration, and detailed records of judgments and worker activity. The detailed data contain 3,606 judgments on real statements from 410 pseudonymous workers and cover 12 sets and subsets of the study tasks.
 
-- The **12 original batch CSVs**, preserved unchanged, including the study's historical tasks and returning-worker subsets.
-- The [**extended dataset, version 1.1**](./PAUC2021/pauc2021_paper_extended_release_v1.1.zip), containing five curated tables of judgments and worker activity, the 60-statement ground truth, and release documentation and checksums.
-
-The extended tables contain **3,606 judgments** on real statements by **410 pseudonymous workers**, along with dimension selections, questionnaires, comments, and search activity. The original batch files are not duplicated in the ZIP; they remain available separately in the same directory.
-
-See the [PAUC2021 README](./PAUC2021/README.md) for the original and extended data, known irregularities, provenance, and reuse conditions.
+See the [PAUC2021 README](./PAUC2021/README.md) for the data and instructions for use.
 
 ### BibTeX
 
@@ -131,6 +134,6 @@ See the [PAUC2021 README](./PAUC2021/README.md) for the original and extended da
 
 ## Access and reuse
 
-Some large IPM2021 files are managed with [Git LFS](https://git-lfs.com/), as specified in [`.gitattributes`](./.gitattributes). Install Git LFS before cloning the repository if you need those files.
+Some large files in SIGIR2020, IPM2021, and PAUC2021 are managed with [Git LFS](https://git-lfs.com/). See [`.gitattributes`](./.gitattributes) for the list of files. Install Git LFS before cloning the repository if you need the full data. If you already have a clone, run `git lfs pull` to retrieve the LFS files.
 
 Please cite the corresponding paper when using a dataset. Consult the README and, where available, the license and rights documentation in each study directory for provenance, limitations, and reuse conditions.
