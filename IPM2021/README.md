@@ -1,109 +1,77 @@
 # The Many Dimensions of Truthfulness: Crowdsourcing Misinformation Assessments on a Multidimensional Scale
 
-Version 1.5 contains the data and supporting material associated with the paper **“The Many Dimensions of Truthfulness: Crowdsourcing Misinformation Assessments on a Multidimensional Scale”**, published in *Information Processing & Management* in 2021.
+This release contains the data and supporting material associated with the paper **“The Many Dimensions of Truthfulness: Crowdsourcing Misinformation Assessments on a Multidimensional Scale”**, published in *Information Processing & Management* in 2021.
 
-The study asks crowd workers to assess political statements using several dimensions of truthfulness rather than a single overall scale.
+The study examines how crowd workers assess political statements using several dimensions of truthfulness rather than a single overall scale.
 
 ## Study Overview
 
-The study contains **180 real statements**:
+The study uses 180 real statements:
 
-- 120 PolitiFact statements
-- 60 RMIT ABC Fact Check statements
+- 120 PolitiFact statements, with 20 statements for each of its six truthfulness levels.
+- 60 RMIT ABC Fact Check statements, with 20 statements for each of its three target levels.
 
-The PolitiFact set contains 20 statements for each of its six truthfulness levels. The RMIT ABC set contains 20 statements for each of its three target levels.
-
-The task was conducted on Amazon Mechanical Turk with 200 workers based in the United States.
-
-Each worker assessed nine real statements and two GOLD items. The study therefore collected:
-
-- 1,800 real statement judgments
-- 400 GOLD judgments
-- 2,200 answer rows in total
+The crowdsourcing task involved 200 workers based in the United States on Amazon Mechanical Turk. Each worker assessed nine real statements and two GOLD items used for quality control. The available answer records contain 2,200 judgments: 1,800 on real statements and 400 on GOLD items.
 
 For each statement, workers assessed Overall Truthfulness and reported their Confidence. They then searched for evidence, submitted a supporting URL, and assessed seven additional dimensions: Correctness, Neutrality, Comprehensibility, Precision, Completeness, Speaker's Trustworthiness, and Informativeness.
 
-The historical file includes the GOLD items and is preserved unchanged.
+## Dataset Structure
 
-## Release Overview
+`multidimensional.csv` contains the 2,200 judgments distributed with the original paper, including GOLD items, in a single table.
 
-This release combines material from two official sources associated with the same study.
+`Crowdsourcing Task/` contains eight configuration files describing the instructions, questionnaires, dimensions, assignments, and search interface.
 
-### Original paper data
+`DataFrame/` contains six tables:
 
-`multidimensional.csv` is the original dataset distributed with the 2021 paper. It contains 2,200 judgments, including GOLD items, in a single table.
+- `workers_answers.csv`: individual judgments and supporting URLs for the real statements and GOLD items.
+- `workers_comments.csv`: worker comments.
+- `workers_dimensions_selection.csv`: records of dimension selections.
+- `workers_mturk_data.csv`: task metadata for 200 workers, with 22 columns including the internal `worker_id`. External Mechanical Turk `AssignmentId` and `HITId` are not distributed.
+- `workers_questionnaires.csv`: questionnaire responses.
+- `workers_urls.csv`: recorded search activity and result metadata.
 
-### Detailed task and worker data
+`PolitiFact-Ground_Truth.csv` and `RMIT_ABC_Fact_Check-Ground_Truth.csv` contain the corrected metadata and native truthfulness labels for the 180 real statements.
 
-The public v1.5 copy of `DataFrame/workers_mturk_data.csv` retains all 200 rows and 22 columns, including its pseudonymous `worker_id` links, but omits the external Mechanical Turk `AssignmentId` and `HITId` fields. Those two fields do not occur elsewhere in the historical thesis source archive or in the original paper dataset. The immutable original source file is retained separately, with the release-only projection recorded in `release_manifest.json`.
-
-The later official study material adds:
-
-- `Crowdsourcing Task/`: eight files describing the task, its instructions, questionnaires, dimensions, assignments, and search interface
-- `DataFrame/`: six tables with the original worker answers, comments, dimension selections, task records, questionnaires, and search activity
-
-`DataFrame/workers_answers.csv` contains 2,200 rows from 200 workers. Its records match the 2,200 rows in `multidimensional.csv` using the combination of `unit_id`, `doc_index`, and `doc_name`. This combination identifies every row uniquely in both tables, without missing or extra keys. Of the 37 columns shared by the tables, only `doc_statement` and `doc_ground_truth_politifact_label` differ. Both fields differ in the same ten rows, all belonging to one statement. The other shared field values, including the workers' judgments, match. Both historical files are preserved unchanged.
-
-The task data contain 1,800 judgments on 180 real statements and 400 judgments on two GOLD items. Of the real statements, 174 have ten judgments, three have nine, and three have eleven.
-
-### Known data issues
-
-- `Crowdsourcing Task/hits.json` contains 150 distinct real statement identifiers, whereas `DataFrame/workers_answers.csv` contains all 180. The PolitiFact and GOLD assignments agree with the performed answers, but the RMIT ABC assignments differ in 99 of the 200 worker units. Use the answer table as the record of the assignments actually performed.
-- One real PolitiFact answer is tagged `gold_question` in the recorded data. The tag is preserved; the corrected statement identity identifies it as a real statement.
-- The search records cover 198 of the 200 workers; two workers have answer records but no search records.
-- One worker and unit pair has different attempt numbers in the answer, dimension selection and questionnaire logs. Do not assume that those attempts should be merged.
-
-Use `multidimensional.csv` to work with the dataset distributed with the paper. Use `DataFrame/` and `Crowdsourcing Task/` to inspect the detailed task and worker activity. The two sources serve different purposes and should not be silently substituted for one another.
-
-## Historical Data
-
-The historical source is the `IPM2021/` directory from the public `crowdsourcingTruthfulness` repository at commit:
-
-`7fbe9e7b399b34e3166018a7b190978ff5739428`
-
-The publication era source archive remains preserved unchanged.
+`Evidence Corpus/` contains the web evidence, crawl metadata, corpus summary, and statement identifier crosswalk.
 
 ## Ground Truth
 
-The package contains:
+PolitiFact uses its native six-level truthfulness scale. RMIT ABC Fact Check uses its native three-level target semantics. The scales have not been harmonized.
 
-- `PolitiFact-Ground_Truth.csv`
-- `RMIT_ABC_Fact_Check-Ground_Truth.csv`
+The corrected statement metadata resolve 16 PolitiFact metadata crossovers and a separate RMIT ABC source error, `Liberal_Negative_doc9`.
 
-These files provide the corrected statement metadata in the common dataset format: 120 PolitiFact statements and 60 RMIT ABC Fact Check statements.
-
-The two older thesis ground truth files (121 PolitiFact rows and 59 RMIT ABC rows) are intentionally not duplicated in this package. They remain preserved in the immutable thesis source archive; the release uses the corrected root ground truths and historical identifier crosswalk.
-
-The native target semantics are preserved. PolitiFact keeps its six level scale and RMIT ABC keeps its three level scale.
-
-## Historical Metadata Corrections
-
-A complete comparison of the historical task identities found **16 PolitiFact metadata crossovers** and one separate RMIT ABC source error, `Liberal_Negative_doc9`.
-
-The current ground truth, evidence metadata, and identifier crosswalk correct these mappings.
-
-The historical `multidimensional.csv` is not rewritten. Historical identifiers remain available as provenance.
-
-`Evidence Corpus/historical_claim_id_crosswalk.csv` connects the historical task identifiers with the corrected current fact check identifiers.
+`Evidence Corpus/historical_claim_id_crosswalk.csv` connects recorded task identifiers to the corrected fact-check identifiers. Use this mapping to join task records, ground truth, and evidence rather than assuming that historical document names alone identify the correct statements.
 
 ## Evidence Corpus
 
-`Evidence Corpus/` contains the web evidence associated with the study.
+The corpus contains 57,237 evidence records covering all 180 real statements.
 
-The corpus contains **57,237 evidence records** covering all 180 real statements.
+- `evidence_corpus.jsonl.gz`: text extracted from web pages associated with the study.
+- `crawl_metadata.csv`: metadata connecting recorded search activity to page content.
+- `evidence_corpus.summary.json`: corpus counts and validation information.
+- `historical_claim_id_crosswalk.csv`: the statement identifier mapping.
 
-The main files are:
+The same web page can be associated with more than one statement. Extracted content originates from external websites, which may have changed or become unavailable since collection.
 
-- `evidence_corpus.jsonl.gz`
-- `crawl_metadata.csv`
-- `evidence_corpus.summary.json`
-- `historical_claim_id_crosswalk.csv`
+## Known Data Issues
 
-The same web page can be associated with more than one statement. The historical crosswalk should be used when joining old task identifiers to the current evidence data.
+- `Crowdsourcing Task/hits.json` contains 150 distinct real statement identifiers, whereas `DataFrame/workers_answers.csv` contains all 180. The PolitiFact and GOLD assignments agree with the performed answers, but the RMIT ABC assignments differ in 99 of the 200 worker units. Use the answer table as the record of the assignments actually performed.
+- Of the 180 real statements, 174 have ten judgments, three have nine, and three have eleven.
+- One real PolitiFact answer is tagged `gold_question` in the recorded data. The tag is preserved; the corrected statement identity identifies it as a real statement.
+- The search records cover 198 of the 200 workers. Two workers have answers but no recorded search activity.
+- One worker and unit pair has different attempt numbers in the answer, dimension selection, and questionnaire logs. Do not assume those attempts should be merged.
+
+The records in `multidimensional.csv` and `DataFrame/workers_answers.csv` match using the combination of `unit_id`, `doc_index`, and `doc_name`. These keys identify all 2,200 rows uniquely in both tables. Of the 37 shared columns, only `doc_statement` and `doc_ground_truth_politifact_label` differ, in the same ten rows belonging to one statement. All other shared values, including the workers' judgments, agree. The recorded values in both tables are preserved.
+
+## Using the Dataset
+
+Use `multidimensional.csv` to reproduce the analyses based on the dataset distributed with the paper. Use `DataFrame/` and `Crowdsourcing Task/` to investigate the detailed task and worker activity. The two answer tables describe the same judgments but should not be silently substituted for one another.
+
+Use the corrected ground truth and identifier crosswalk when joining judgments to fact-check labels or evidence. Keep GOLD items separate from real statements when reproducing the main analyses.
 
 ## Supervised Learning Parameters
 
-The publication era source included the classifier configurations used for the supervised learning experiments. They are reproduced here so that the release has one reader facing documentation file.
+The following classifier configurations were used in the supervised learning experiments reported in the paper.
 
 ### Random Forest
 
@@ -200,44 +168,24 @@ These settings are preserved as reported with the original study and are not upd
 
 ## Provenance and Integrity
 
-Historical publication data are preserved byte for byte in the source snapshot.
+The original paper dataset comes from the [IPM2021 collection](https://github.com/KevinRoitero/crowdsourcingTruthfulness/tree/7fbe9e7b399b34e3166018a7b190978ff5739428/IPM2021). The detailed task and worker records come from the same study. The evidence and corrected statement identities are documented in the release metadata.
 
-Corrections are applied only to current derived ground truth, evidence metadata, identifier mappings, and documentation.
-
-`release_manifest.json` records the historical source paths, checksums, current package paths, omissions, and added files.
-
-`checksums.csv` can be used to verify the package contents.
-
-## Citation
-
-If you use these data, please cite:
-
-Michael Soprano, Kevin Roitero, David La Barbera, Davide Ceolin, Damiano Spina, Stefano Mizzaro, and Gianluca Demartini. 2021. *The Many Dimensions of Truthfulness: Crowdsourcing Misinformation Assessments on a Multidimensional Scale*. *Information Processing & Management*, 58(6), 102710.
-
-DOI: `10.1016/j.ipm.2021.102710`
-
-Machine readable citation metadata are available in `CITATION.cff`.
+`release_manifest.json` records file sources, documented transformations, and checksums. `checksums.csv` provides file sizes and SHA256 hashes.
 
 ## Privacy and Responsible Reuse
 
-The release contains human research data, including internal worker identifiers, demographic information, judgments, task records, search activity, and questionnaire responses. The detailed tables also contain comments, task records and text from search results. External Mechanical Turk `AssignmentId` and `HITId` have been removed from the distributed worker metadata table; internal identifiers used for linking study records remain.
+The release contains human research data, including pseudonymous internal worker identifiers, demographic information, judgments, task records, comments, search activity, and questionnaire responses. Internal identifiers link records within the study. External Mechanical Turk assignment and HIT identifiers are not distributed in the worker metadata table.
 
 A preliminary screening found no email patterns in the comments, questionnaire answers, or search queries checked, but some search result titles and snippets contain email patterns. These may come from external web pages. This screening is not a guarantee that the material is free of personal information. Exercise care when reusing free text and search results.
 
-Do not attempt to identify or contact participants. Do not combine participant records with external information for the purpose of identifying participants.
+Do not attempt to identify or contact participants. Do not combine participant records with external information for the purpose of identifying participants. Report participant characteristics at an appropriate level of aggregation.
 
-Keep GOLD items separate from real statements when reproducing the main study analyses.
+## Rights and Reuse
 
-## Rights and External Content
+Different types of material have different rights status. The data associated with the paper were originally made available for research purposes. See `LICENSE.md` and `RIGHTS.md` for the scope of permissions and responsibilities. External website content, search results, fact-check source material, participant contributions, and other third-party material are not automatically covered by the license for author-created material.
 
-This release contains material with different rights status.
+## Citation
 
-The presence of a file in the package does not mean that every part of that file is covered by the same license.
+Michael Soprano, Kevin Roitero, David La Barbera, Davide Ceolin, Damiano Spina, Stefano Mizzaro, and Gianluca Demartini. 2021. *The Many Dimensions of Truthfulness: Crowdsourcing Misinformation Assessments on a Multidimensional Scale*. **Information Processing & Management**, 58(6), Article 102710. DOI: [10.1016/j.ipm.2021.102710](https://doi.org/10.1016/j.ipm.2021.102710).
 
-External website content, fact check source material, participant contributions, and other third party material retain their original rights status.
-
-See `LICENSE.md` and `RIGHTS.md` for details.
-
-## Historical Notice
-
-The publication era README stated that the information in the repository was provided for research purposes only. This notice is retained here as part of the historical documentation.
+Machine readable citation metadata are available in `CITATION.cff`.
