@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: Please cite the associated paper.
+title: "Can The Crowd Identify Misinformation Objectively? The Effects of Judgment Scale and Assessor's Background"
+type: dataset
+version: "1.0"
+authors:
+  - family-names: Roitero
+    given-names: Kevin
+  - family-names: Soprano
+    given-names: Michael
+  - family-names: Fan
+    given-names: Shaoyang
+  - family-names: Spina
+    given-names: Damiano
+  - family-names: Mizzaro
+    given-names: Stefano
+  - family-names: Demartini
+    given-names: Gianluca
+preferred-citation:
+  type: conference-paper
+  title: "Can The Crowd Identify Misinformation Objectively? The Effects of Judgment Scale and Assessor's Background"
+  authors:
+    - family-names: Roitero
+      given-names: Kevin
+    - family-names: Soprano
+      given-names: Michael
+    - family-names: Fan
+      given-names: Shaoyang
+    - family-names: Spina
+      given-names: Damiano
+    - family-names: Mizzaro
+      given-names: Stefano
+    - family-names: Demartini
+      given-names: Gianluca
+  year: 2020
+  collection-title: Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval
+  start: 439
+  end: 448
+  doi: 10.1145/3397271.3401112

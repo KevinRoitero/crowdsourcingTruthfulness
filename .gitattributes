@@ -16,3 +16,6 @@ PAUC2021/Crowdsourcing[[:space:]]Task/search_engine.json -text
 PAUC2021/Crowdsourcing[[:space:]]Task/task.json -text
 PAUC2021/Crowdsourcing[[:space:]]Task/workers.json -text
 CIKM2020/** -text
+
+SIGIR2020/** -text
+SIGIR2020/DataFrame/workers_urls.csv filter=lfs diff=lfs merge=lfs -text

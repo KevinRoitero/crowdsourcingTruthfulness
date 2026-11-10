@@ -1,0 +1,137 @@
+{
+  "study": "SIGIR2020",
+  "version": "1.0",
+  "paper_doi": "10.1145/3397271.3401112",
+  "sources": {
+    "original_publication": {
+      "repository": "https://github.com/KevinRoitero/crowdsourcingTruthfulness",
+      "commit": "8d3fb4b5aab7cbbec4e92b8b66eb015767ad9e0d",
+      "path": "SIGIR2020/"
+    },
+    "detailed_data": {
+      "repository": "https://github.com/Miccighel/FakeNewsABCPolitifact",
+      "source_commit": "f4a8a3d7e5aaa1317ea20aded2c7542fc5d263f4",
+      "curation_reference_commit": "7d30467cb2b7ed39b7d1a0b7b996737de508b79e"
+    },
+    "task_configuration": {
+      "source": "https://osf.io/jr6vc/",
+      "chapter": 4,
+      "repository_commit": "9453dc7d1ea8eb5184a099defc3354bd2e570fec"
+    }
+  },
+  "counts": {
+    "politifact_statements": 120,
+    "abc_statements": 60,
+    "judgments": 7733,
+    "real_judgments": 6327,
+    "gold_judgments": 1406,
+    "judgments_by_modality": {
+      "S3": 2222,
+      "S6": 2200,
+      "S100": 3311
+    },
+    "workers": 695,
+    "completions": 703,
+    "comments": 359,
+    "questionnaire_responses": 7030,
+    "search_records": 347503,
+    "original_public_judgments": 6556
+  },
+  "files": {
+    "CHANGELOG.md": {
+      "source": "releases/sources/CHANGELOG.md",
+      "bytes": 703,
+      "sha256": "95d30c9f84ed948e23fac36f78db613ea0fac0d27d9d291b04d59e4059b9358f"
+    },
+    "CITATION.cff": {
+      "source": "releases/sources/CITATION.cff",
+      "bytes": 1257,
+      "sha256": "312f079369e65baebae44e6f85a50477bf1e6c81a8b2b84ef8367234ba096250"
+    },
+    "Crowdsourcing Task/hits.json": {
+      "source": "releases/sources/Crowdsourcing Task/hits.json (original JR6VC OSF task member)",
+      "bytes": 950530,
+      "sha256": "4498d50f404cdc845b419e23fc1824ad119a8a2bb36f6b542c7750ff85ef9e60"
+    },
+    "Crowdsourcing Task/questionnaire_mapping.json": {
+      "source": "releases/sources/Crowdsourcing Task/questionnaire_mapping.json (original JR6VC OSF task member)",
+      "bytes": 1477,
+      "sha256": "ae2aa30aaa753a42e68c4f7b6d2cf43545cd9e0f57320cd2e503cd5e6063930a"
+    },
+    "DataFrame/workers_answers.csv": {
+      "source": "build/candidate/Dataframe/workers_answers.csv",
+      "bytes": 5233335,
+      "sha256": "7b959758594d295006310c1ba8c7aa4953b7c31cd910324ff4bee6b8e019ad44"
+    },
+    "DataFrame/workers_comments.csv": {
+      "source": "build/candidate/Dataframe/workers_comments.csv",
+      "bytes": 77132,
+      "sha256": "602410f9377c1b1d7c7391882d053bc990be2027cedab09c9a47e6a09568a8c2"
+    },
+    "DataFrame/workers_questionnaires.csv": {
+      "source": "build/candidate/Dataframe/workers_questionnaires.csv",
+      "bytes": 1913990,
+      "sha256": "ca143bf41c88935da006e4c94885afe4fdba4fc1340d056d860112ca53aba6d2"
+    },
+    "DataFrame/workers_urls.csv": {
+      "source": "build/candidate/Dataframe/workers_urls.csv",
+      "bytes": 233646826,
+      "sha256": "c23b5ead16a4e317c02f06a5bdfc5834767216d650152e90deba71cc4ace1312"
+    },
+    "Historical Data/ABC.csv": {
+      "source": "KevinRoitero/crowdsourcingTruthfulness@8d3fb4b5aab7cbbec4e92b8b66eb015767ad9e0d:SIGIR2020/ABC.csv",
+      "bytes": 15714,
+      "sha256": "7749ff967fe53db211160207dcf546616a39e69db83035b596caa45b948737bd"
+    },
+    "Historical Data/Politifact.csv": {
+      "source": "KevinRoitero/crowdsourcingTruthfulness@8d3fb4b5aab7cbbec4e92b8b66eb015767ad9e0d:SIGIR2020/Politifact.csv",
+      "bytes": 19120,
+      "sha256": "db3d11a0518ada68cf1849e4efe57fb08051d43fad440bb3e2b201926c2d303c"
+    },
+    "Historical Data/README.md": {
+      "source": "KevinRoitero/crowdsourcingTruthfulness@8d3fb4b5aab7cbbec4e92b8b66eb015767ad9e0d:SIGIR2020/README.md",
+      "bytes": 4344,
+      "sha256": "9364a44af5469d93a14f89c0a87f261cc623fd385b564619ea349ef7a0a9251b"
+    },
+    "Historical Data/crowdsourced-data/S100.csv": {
+      "source": "KevinRoitero/crowdsourcingTruthfulness@8d3fb4b5aab7cbbec4e92b8b66eb015767ad9e0d:SIGIR2020/crowdsourced-data/S100.csv",
+      "bytes": 1163728,
+      "sha256": "7859961297273d0b507c9b134489421f1a0f5a255c4cfde39f0f887bca041f65"
+    },
+    "Historical Data/crowdsourced-data/S3.csv": {
+      "source": "KevinRoitero/crowdsourcingTruthfulness@8d3fb4b5aab7cbbec4e92b8b66eb015767ad9e0d:SIGIR2020/crowdsourced-data/S3.csv",
+      "bytes": 1170415,
+      "sha256": "5de56a98e8c2823222a88ac92cf89deb81e84a4708f2c36f2a8b74968280d754"
+    },
+    "Historical Data/crowdsourced-data/S6.csv": {
+      "source": "KevinRoitero/crowdsourcingTruthfulness@8d3fb4b5aab7cbbec4e92b8b66eb015767ad9e0d:SIGIR2020/crowdsourced-data/S6.csv",
+      "bytes": 1169084,
+      "sha256": "4c6db8dd43a525d36b803e0da7a00485acaff33cdf0eb9b932460357f855dd51"
+    },
+    "LICENSE.md": {
+      "source": "releases/sources/LICENSE.md",
+      "bytes": 143,
+      "sha256": "6631e356807554cebc9eebcce2eb7709e0f221dd00f5e55c142aff4658c48f4c"
+    },
+    "PolitiFact-Ground_Truth.csv": {
+      "source": "build/candidate/Ground Truth/PolitiFact-Ground_Truth.csv",
+      "bytes": 130096,
+      "sha256": "309a6924be3e6b8e13c212a74adbc21024a8d3a76cea40a0f10f19e417731940"
+    },
+    "README.md": {
+      "source": "releases/sources/README.md",
+      "bytes": 8950,
+      "sha256": "bd4005baa807418cf9e742155dee766789245db55c64fdbe971534653c30c6cd"
+    },
+    "RIGHTS.md": {
+      "source": "releases/sources/RIGHTS.md",
+      "bytes": 355,
+      "sha256": "d5256683c92bc157c67a674445c62c9dc90d0a5c2b4f5122308fe279875040bb"
+    },
+    "RMIT_ABC_Fact_Check-Ground_Truth.csv": {
+      "source": "build/candidate/Ground Truth/RMIT_ABC_Fact_Check-Ground_Truth.csv",
+      "bytes": 42427,
+      "sha256": "ef1996c4eb7487e9656660809e8dde018e1df5b5bacb205be89f2d24c84ebf47"
+    }
+  }
+}
