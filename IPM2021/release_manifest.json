@@ -3,8 +3,8 @@
   "release_id": "ipm2021_paper_extended",
   "study_id": "ipm2021",
   "title": "The Many Dimensions of Truthfulness: Crowdsourcing Misinformation Assessments on a Multidimensional Scale",
-  "release_version": "1.5",
-  "archive_name": "ipm2021_paper_extended_release_v1.5.zip",
+  "release_version": "1.6",
+  "archive_name": "ipm2021_paper_extended_release_v1.6.zip",
   "documentation_status": {
     "historical_readme_in_source": true,
     "curated_documentation_used": true,
@@ -262,7 +262,7 @@
       "content_modification": null
     },
     {
-      "package_path": "multidimensional.csv",
+      "package_path": "Historical/multidimensional.csv",
       "archive_release_id": "ipm2021_paper",
       "archive_name": "ipm2021_paper_git_snapshot_7fbe9e7b.zip",
       "archive_sha256": "dcafba62d017b0a01dadd21da9abf17c73505dd4599a0cee06beb582ddde7b74",
@@ -270,8 +270,8 @@
       "source_role": "historical_core",
       "source_size_bytes": 3427048,
       "source_sha256": "9d35af0c6252aa02ecf8a8c421bc10e4d316973cda0e086b2aea4312c3139ce6",
-      "path_standardized": false,
-      "packaging_note": "",
+      "path_standardized": true,
+      "packaging_note": "Original paper table preserved byte-identically in Historical/.",
       "content_modified": false,
       "package_sha256": "9d35af0c6252aa02ecf8a8c421bc10e4d316973cda0e086b2aea4312c3139ce6",
       "content_modification": null
@@ -289,14 +289,14 @@
       "path_standardized": true
     },
     {
-      "package_path": "multidimensional.csv",
+      "package_path": "Historical/multidimensional.csv",
       "archive_release_id": "ipm2021_paper",
       "source_member_path": "IPM2021/multidimensional.csv",
       "source_role": "historical_core",
       "source_sha256": "9d35af0c6252aa02ecf8a8c421bc10e4d316973cda0e086b2aea4312c3139ce6",
       "selected_for_package": true,
       "omission_reason": "",
-      "path_standardized": false
+      "path_standardized": true
     },
     {
       "package_path": "parameters/parameters.md",
@@ -510,35 +510,35 @@
     {
       "package_path": "README.md",
       "file_role": "release_documentation",
-      "source_repository_artifact": "release_documentation/ipm2021_paper_extended/README.md",
-      "source_sha256": "1446eec56ed01b0b137f4463325fb90898c0c8e1e79c0db9e2ef5975a212b1e6",
+      "source_repository_artifact": "release_documentation/ipm2021_paper_extended/v1.6/README.md",
+      "source_sha256": "95651095346c70d8d9d2c8ab778bab0ce313d644cf56a0fc46e625be963205ed",
       "content_modified": false
     },
     {
       "package_path": "CHANGELOG.md",
       "file_role": "release_changelog",
-      "source_repository_artifact": "release_documentation/ipm2021_paper_extended/CHANGELOG.md",
-      "source_sha256": "bfad93f5dc12966a01c39292837ab6f207f05f58b277027dbc9c08ee890e20e5",
+      "source_repository_artifact": "release_documentation/ipm2021_paper_extended/v1.6/CHANGELOG.md",
+      "source_sha256": "94b4a84d97919a88742b5ddec46dbae73b2e867b7e95b9cfac9c3be513c59291",
       "content_modified": false
     },
     {
       "package_path": "CITATION.cff",
       "file_role": "release_citation",
-      "source_repository_artifact": "release_documentation/ipm2021_paper_extended/CITATION.cff",
-      "source_sha256": "6613589400f174d8152ad45de54f8f75d824464f71396ba7da083a506e69307c",
+      "source_repository_artifact": "release_documentation/ipm2021_paper_extended/v1.6/CITATION.cff",
+      "source_sha256": "011ff15ecd1569a7aa80bf28f05480a82e905176de2b7f4f9a9d6ce19a8b6de3",
       "content_modified": false
     },
     {
       "package_path": "LICENSE.md",
       "file_role": "release_license",
-      "source_repository_artifact": "release_documentation/ipm2021_paper_extended/LICENSE.md",
+      "source_repository_artifact": "release_documentation/ipm2021_paper_extended/v1.6/LICENSE.md",
       "source_sha256": "9e8d4939287b2577dae8090d05c57ea502a1acc75c60dd9805f51b7734a08beb",
       "content_modified": false
     },
     {
       "package_path": "RIGHTS.md",
       "file_role": "release_rights",
-      "source_repository_artifact": "release_documentation/ipm2021_paper_extended/RIGHTS.md",
+      "source_repository_artifact": "release_documentation/ipm2021_paper_extended/v1.6/RIGHTS.md",
       "source_sha256": "66c3d4bfa33e6d19f6186476575679fe19716c3479dedeb8783887498c642484",
       "content_modified": false
     }
@@ -586,15 +586,15 @@
     "self_checksum_omitted": true
   },
   "notes": [
-    "Version 1.5 combines the publication-era multidimensional.csv with 14 later official Crowdsourcing Task and DataFrame files from the same IPM 2021 study; original sources and release 1.4 remain unchanged.",
+    "Version 1.6 preserves the publication-era multidimensional.csv byte-identically under Historical/ and provides the detailed DataFrame and task materials as the principal study tables. The frozen v1.5 archive and historical sources are unchanged.",
     "Later official thesis ground truth CSVs are intentionally excluded as redundant historical copies; immutable originals remain in the thesis source bundle. Corrected canonical ground truth is supplied at the package root, retaining the native PolitiFact six-level and RMIT ABC three-level target semantics.",
     "Version 1.5 omits external Mechanical Turk AssignmentId and HITId from the distributed worker metadata while retaining all rows and internal worker linkage.",
     "The frozen v1.5 archive passed package integrity and MTurk projection checks. The public distribution omits the two external identifier fields; the remaining records contain pseudonymous participant data and external search content requiring responsible reuse."
   ],
   "distribution": {
     "form": "individual_files",
-    "documentation_revision": "2026-11-10",
+    "documentation_revision": "2026-11-17",
     "base_archive_sha256": "ba7c1180deee6977ae998f2557adaca71acefdcb694f62934361f4ebdaded5e0",
-    "note": "The individual-file distribution retains the scientific content of the verified v1.5 archive. README, CHANGELOG, manifest and checksums were revised after publication; the frozen ZIP remains unchanged."
+    "note": "Paper individual-file v1.6: the original table moves to Historical/ without changes to its bytes. base_archive_sha256 identifies the frozen v1.5 reference archive."
   }
 }

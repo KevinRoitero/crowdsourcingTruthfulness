@@ -17,8 +17,6 @@ For each statement, workers assessed Overall Truthfulness and reported their Con
 
 ## Dataset Structure
 
-`multidimensional.csv` contains the 2,200 judgments distributed with the original paper, including GOLD items, in a single table.
-
 `Crowdsourcing Task/` contains eight configuration files describing the instructions, questionnaires, dimensions, assignments, and search interface.
 
 `DataFrame/` contains six tables:
@@ -33,6 +31,8 @@ For each statement, workers assessed Overall Truthfulness and reported their Con
 `PolitiFact-Ground_Truth.csv` and `RMIT_ABC_Fact_Check-Ground_Truth.csv` contain the corrected metadata and native truthfulness labels for the 180 real statements.
 
 `Evidence Corpus/` contains the web evidence, crawl metadata, corpus summary, and statement identifier crosswalk.
+
+`Historical/multidimensional.csv` preserves the original table distributed with the 2021 paper for reproducing the published analyses.
 
 ## Ground Truth
 
@@ -61,13 +61,19 @@ The same web page can be associated with more than one statement. Extracted cont
 - The search records cover 198 of the 200 workers. Two workers have answers but no recorded search activity.
 - One worker and unit pair has different attempt numbers in the answer, dimension selection, and questionnaire logs. Do not assume those attempts should be merged.
 
-The records in `multidimensional.csv` and `DataFrame/workers_answers.csv` match using the combination of `unit_id`, `doc_index`, and `doc_name`. These keys identify all 2,200 rows uniquely in both tables. Of the 37 shared columns, only `doc_statement` and `doc_ground_truth_politifact_label` differ, in the same ten rows belonging to one statement. All other shared values, including the workers' judgments, agree. The recorded values in both tables are preserved.
-
 ## Using the Dataset
 
-Use `multidimensional.csv` to reproduce the analyses based on the dataset distributed with the paper. Use `DataFrame/` and `Crowdsourcing Task/` to investigate the detailed task and worker activity. The two answer tables describe the same judgments but should not be silently substituted for one another.
+Start with `DataFrame/workers_answers.csv` to study individual judgments and use the other `DataFrame/` tables to inspect worker activity. `Crowdsourcing Task/` contains the original task configuration, while the corrected ground truth and identifier crosswalk help link statements to their fact checks and supporting evidence.
 
-Use the corrected ground truth and identifier crosswalk when joining judgments to fact-check labels or evidence. Keep GOLD items separate from real statements when reproducing the main analyses.
+Keep GOLD items separate from real statements when analyzing truthfulness judgments.
+
+## Reproducing the Published Analyses
+
+For analyses based on the dataset distributed with the 2021 paper, use `Historical/multidimensional.csv`. It preserves the original table of 2,200 assessments, including GOLD items. The `DataFrame/workers_answers.csv` table contains the same worker judgments together with the more detailed task records.
+
+You can match the two tables using `unit_id`, `doc_index`, and `doc_name`. Recorded judgments agree, while the statement text and PolitiFact label differ for ten rows referring to one statement. Use the historical table for comparisons with the original analyses and the corrected statement metadata for new analyses.
+
+The supervised learning configurations reported in the paper are listed below. Reproducing the results also requires the corresponding study data and compatible software versions.
 
 ## Supervised Learning Parameters
 

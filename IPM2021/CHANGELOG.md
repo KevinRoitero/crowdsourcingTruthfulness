@@ -1,5 +1,13 @@
 # Changelog
 
+## Version 1.6
+
+- Moved the publication-era `multidimensional.csv` into `Historical/` without changing its contents.
+- Kept the detailed `DataFrame/` records as the main starting point for new analyses. The same original 2,200 judgments remain available for reproducing the published analyses.
+- Preserved the v1.5 public MTurk metadata projection: 200 rows, 22 columns, with external `AssignmentId` and `HITId` excluded.
+- Updated the release documentation to reflect the new path. The build generates a new manifest and checksum table for this version.
+- Preserved the v1.5 archive and historical source bundles unchanged.
+
 ## Version 1.5
 
 - Extended the standalone paper release with 14 useful official Chapter 7 files: eight task files and six detailed DataFrame tables.
