@@ -91,7 +91,7 @@ See the [CIKM2020 README](./CIKM2020/README.md) for the data and instructions fo
 
 [IPM2021](./IPM2021/) examines how the crowd assesses political statements using several dimensions of truthfulness. The study uses 180 statements from PolitiFact and RMIT ABC Fact Check.
 
-Version 1.5 includes the original paper dataset, ground truth tables, crowdsourcing task materials, detailed records of judgments and worker activity, and a reconstructed evidence corpus.
+Version 1.6 includes detailed crowdsourcing task materials, worker-level data, native ground truth tables, and a reconstructed evidence corpus. The original paper dataset is preserved unchanged in [`Historical/multidimensional.csv`](./IPM2021/Historical/multidimensional.csv), while [`DataFrame/workers_answers.csv`](./IPM2021/DataFrame/workers_answers.csv) provides the main detailed judgment records for new analyses.
 
 See the [IPM2021 README](./IPM2021/README.md) for the data and instructions for use.
 
