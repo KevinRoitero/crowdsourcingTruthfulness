@@ -109,9 +109,9 @@
       "sha256": "4c6db8dd43a525d36b803e0da7a00485acaff33cdf0eb9b932460357f855dd51"
     },
     "LICENSE.md": {
-      "source": "releases/sources/LICENSE.md",
-      "bytes": 143,
-      "sha256": "6631e356807554cebc9eebcce2eb7709e0f221dd00f5e55c142aff4658c48f4c"
+      "source": "SIGIR2020/LICENSE.md (documentation clarified in v1.0)",
+      "bytes": 853,
+      "sha256": "d2079bd31e681a38d6c8c0188ebc89d7e9da04bbabf2110867ca8993264a913b"
     },
     "PolitiFact-Ground_Truth.csv": {
       "source": "build/candidate/Ground Truth/PolitiFact-Ground_Truth.csv",
@@ -124,9 +124,9 @@
       "sha256": "bd4005baa807418cf9e742155dee766789245db55c64fdbe971534653c30c6cd"
     },
     "RIGHTS.md": {
-      "source": "releases/sources/RIGHTS.md",
-      "bytes": 355,
-      "sha256": "d5256683c92bc157c67a674445c62c9dc90d0a5c2b4f5122308fe279875040bb"
+      "source": "SIGIR2020/RIGHTS.md (documentation clarified in v1.0)",
+      "bytes": 2948,
+      "sha256": "c876b534556c13e260c86cd2380b12972cffabdee2a9148ddd27c0c986f952f9"
     },
     "RMIT_ABC_Fact_Check-Ground_Truth.csv": {
       "source": "build/candidate/Ground Truth/RMIT_ABC_Fact_Check-Ground_Truth.csv",
